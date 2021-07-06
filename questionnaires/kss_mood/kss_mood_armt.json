@@ -21,7 +21,7 @@
             {
                 "code": "4",
                 "label": "ziemlich wach"
-            }
+            },
             {
                 "code": "5",
                 "label": "weder wach noch schläfrig"
@@ -37,8 +37,8 @@
             {
                 "code": "8",
                 "label": "schläfrig, etwas Mühe wach zu bleiben"
-            }
-    {
+            },
+            {
                 "code": "9",
                 "label": "sehr schläfrig, grosse Mühe wach zu bleiben"
             },
