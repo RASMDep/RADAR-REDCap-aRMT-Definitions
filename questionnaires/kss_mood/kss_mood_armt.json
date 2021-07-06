@@ -8,7 +8,7 @@
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "äusserst wach"
+                "label": "ausserst wach"
             },
             {
                 "code": "2",
@@ -21,30 +21,6 @@
             {
                 "code": "4",
                 "label": "ziemlich wach"
-            },
-            {
-                "code": "5",
-                "label": "weder wach noch schläfrig"
-            },
-            {
-                "code": "6",
-                "label": "etwas schläfrig"
-            },
-            {
-                "code": "7",
-                "label": "schläfrig, ohne Mühe wach zu bleiben"
-            },
-            {
-                "code": "8",
-                "label": "schläfrig, etwas Mühe wach zu bleiben"
-            },
-            {
-                "code": "9",
-                "label": "sehr schläfrig, grosse Mühe wach zu bleiben"
-            },
-            {
-                "code": "10",
-                "label": "äusserst schläfrig, kann nicht wach bleiben"
             }
         ],
         "field_note": "Diese Frage erfasst, wie munter Sie sich fühlen. Bitte schätzen Sie ein, wie Sie sich im Moment fühlen, indem Sie die entsprechende, passende Beschreibung auswählen (es ist nur eine Antwort möglich).",
