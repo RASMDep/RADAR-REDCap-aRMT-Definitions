@@ -4,12 +4,8 @@
         "form_name": "kss_mood",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "<div class=\"rich-text-field-label\"><p> </p> <p> </p></div>",
-        "select_choices_or_calculations": [
-            {},
-            {},
-            {}
-        ],
+        "field_label": "In diesem Moment fühle ich mich...",
+        "select_choices_or_calculations": [],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "number",
         "text_validation_min": "",
@@ -29,7 +25,7 @@
         "form_name": "kss_mood",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "<div class=\"rich-text-field-label\"><p> </p> <p> </p></div>",
+        "field_label": "In diesem Moment fühle ich mich...",
         "select_choices_or_calculations": [
             {},
             {},
