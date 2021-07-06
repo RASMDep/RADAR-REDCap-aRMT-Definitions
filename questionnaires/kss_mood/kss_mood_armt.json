@@ -1,26 +1,5 @@
 [
     {
-        "field_name": "info_6imq",
-        "form_name": "kss_mood",
-        "section_header": "Befindlichkeit\n",
-        "field_type": "descriptive",
-        "field_label": "<div class=\"rich-text-field-label\"><p><span style=\"font-weight: normal;\">Nachfolgend sehen Sie 6 Aussagen zu Ihrer Befindlichkeit. Platzieren sie den Schieber an die Stelle, die Ihren momentanen Zustand am besten beschreibt.</span><br /><br /><span style=\"font-weight: normal;\">Bitte beachten Sie folgende Punkte:</span><br /><br /><span style=\"font-weight: normal;\">Beurteilen Sie nur, wie Sie sich augenblicklich fühlen.</span><br /><span style=\"font-weight: normal;\">Wenn Ihnen die Antwort einmal schwerfallen sollte, wählen Sie die am ehesten zutreffende Antwort.</span></p> <p>In diesem Moment fühle ich mich...</p></div>",
-        "select_choices_or_calculations": "",
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
         "field_name": "imq_1",
         "form_name": "kss_mood",
         "section_header": "",
@@ -40,7 +19,7 @@
         "required_field": "y",
         "custom_alignment": "RH",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "kss_mood",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
