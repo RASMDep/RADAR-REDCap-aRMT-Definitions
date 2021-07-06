@@ -1,33 +1,15 @@
 [
     {
-        "field_name": "sss_mittags_info",
-        "form_name": "kss_mood",
-        "section_header": "Schläfrigkeit\n",
-        "field_type": "descriptive",
-        "field_label": "Bitte füllen Sie diesen Fagebogen immer zwischen 13:00 und 14:00 oder vor einem eventuellen Mittagsschlaf aus",
-        "select_choices_or_calculations": "",
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
         "field_name": "sss_mittags",
         "form_name": "kss_mood",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Auf einer Skala von 1-10, wie schläfrig fühlen Sie sich im Moment?",
         "select_choices_or_calculations": [
-            {},
+            {    
+                "code": "0",
+                "label": "Strongly disagree "
+            },
             {},
             {},
             {},
