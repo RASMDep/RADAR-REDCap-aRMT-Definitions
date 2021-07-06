@@ -1,35 +1,5 @@
 [
     {
-        "field_name": "sss_mittags",
-        "form_name": "kss_mood",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "Auf einer Skala von 1-10, wie schläfrig fühlen Sie sich im Moment?",
-        "select_choices_or_calculations": [
-            {    
-                "code": "0",
-                "label": "Strongly disagree "
-            },
-            {
-                "code": "1",
-                "label": "Strongly disagree "
-            }
-        ],
-        "field_note": "Diese Frage erfasst, wie munter Sie sich fühlen. Bitte schätzen Sie ein, wie Sie sich im Moment fühlen, indem Sie die entsprechende, passende Beschreibung auswählen (es ist nur eine Antwort möglich).",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "kss_mood",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
         "field_name": "info_6imq",
         "form_name": "kss_mood",
         "section_header": "Befindlichkeit\n",
