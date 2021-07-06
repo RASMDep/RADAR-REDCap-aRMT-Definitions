@@ -1,0 +1,21 @@
+[
+  { 
+      "field_name": "imq_5"
+      "form_name": "kss_mood",
+      "section_header": "",
+      "field_type": "slider",
+      "field_label": "<div class=\"rich-text-field-label\"></div>",
+      "select_choices_or_calculations": "sehr entspannt |  | sehr angespannt",
+      "field_note": "",
+      "text_validation_type_or_show_slider_number": "number",
+      "text_validation_min": null,
+      "text_validation_max": 6,
+      "identifier": "",
+      "branching_logic": "",
+      "required_field": "y",
+      "custom_alignment": "RH",
+      "matrix_group_name": "",
+      "matrix_ranking": "",
+      "field_annotation": ""
+   }
+]
