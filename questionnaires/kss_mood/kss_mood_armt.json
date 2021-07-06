@@ -7,31 +7,31 @@
         "field_label": "In diesem Moment fühle ich mich...",
         "select_choices_or_calculations": [
            {
-                "code": "1",
+                "code": "0",
                 "label": "1 "
             },
             {
-                "code": "2",
+                "code": "1",
                 "label": "2 "
             },
             {
-                "code": "3",
+                "code": "2",
                 "label": "3 "
             },
             {
-                "code": "4",
+                "code": "3",
                 "label": "4 "
             },
             {
-                "code": "5",
+                "code": "4",
                 "label": "5 "
             },
             {
-                "code": "6",
+                "code": "5",
                 "label": "6 "
             },
             {
-                "code": "7",
+                "code": "6",
                 "label": "7"
             }
         ],
@@ -47,56 +47,6 @@
         "matrix_group_name": "kss_mood",
         "matrix_ranking": "",
         "field_annotation": "slider-type",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "imq_2",
-        "form_name": "kss_mood",
-        "section_header": "",
-        "field_type": "slider",
-        "field_label": "In diesem Moment fühle ich mich...",
-        "select_choices_or_calculations": [
-            {},
-            {},
-            {}
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "number",
-        "text_validation_min": "",
-        "text_validation_max": "6",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "RH",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "imq_3",
-        "form_name": "kss_mood",
-        "section_header": "",
-        "field_type": "slider",
-        "field_label": "",
-        "select_choices_or_calculations": [
-            {},
-            {},
-            {}
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "6",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "RH",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
         "evaluated_logic": ""
     }
 ]
