@@ -10,15 +10,10 @@
                 "code": "0",
                 "label": "Strongly disagree "
             },
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {}
+            {
+                "code": "1",
+                "label": "Strongly disagree "
+            }
         ],
         "field_note": "Diese Frage erfasst, wie munter Sie sich fühlen. Bitte schätzen Sie ein, wie Sie sich im Moment fühlen, indem Sie die entsprechende, passende Beschreibung auswählen (es ist nur eine Antwort möglich).",
         "text_validation_type_or_show_slider_number": "",
@@ -29,7 +24,7 @@
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
-        "matrix_group_name": "",
+        "matrix_group_name": "kss_mood",
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
