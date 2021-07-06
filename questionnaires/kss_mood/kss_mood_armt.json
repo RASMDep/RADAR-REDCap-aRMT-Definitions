@@ -7,20 +7,8 @@
         "field_label": "Auf einer Skala von 1-10, wie schläfrig fühlen Sie sich im Moment?",
         "select_choices_or_calculations": [
             {
-                "code": "1",
-                "label": "ausserst wach"
-            },
-            {
-                "code": "2",
-                "label": "sehr wach "
-            },
-            {
-                "code": "3",
-                "label": "normal wach"
-            },
-            {
-                "code": "4",
-                "label": "ziemlich wach"
+                code = 1,
+                label = "try"
             }
         ],
         "field_note": "Diese Frage erfasst, wie munter Sie sich fühlen. Bitte schätzen Sie ein, wie Sie sich im Moment fühlen, indem Sie die entsprechende, passende Beschreibung auswählen (es ist nur eine Antwort möglich).",
