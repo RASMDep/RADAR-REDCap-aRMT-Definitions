@@ -2,14 +2,26 @@
     {
         "field_name": "beck_1",
         "form_name": "bdi_ii",
-        "section_header": "<div class=\"rich-text-field-label\"><p><span style=\"font-weight: normal;\">Dieser Fragebogen enthält 21 Gruppen von Aussagen. Suchen Sie </span>eine<span style=\"font-weight: normal;\"> Aussage in jeder Gruppe heraus, die am besten beschreibt, wie Sie sich</span> in den letzten zwei Wochen einschliesslich heute gefühlt <span style=\"font-weight: normal;\">haben und kreuzen Sie die entsprechende Aussage an. Falls mehrere Aussagen einer Gruppe gleichermassen zutreffen, kreuzen Sie die Aussage mit der höheren Zahl in der Klammer an. Achten Sie bitte darauf, dass Sie in jeder Gruppe nicht mehr als eine Antwort ankreuzen; das gilt auch für Gruppe 16 und 18. </span>Lesen Sie auf jeden Fall alle Aussagen in jeder Gruppe, bevor Sie Ihre Wahl treffen.</p></div>",
+        "section_header": "",
         "field_type": "radio",
         "field_label": "1. Traurigkeit",
         "select_choices_or_calculations": [
-            {},
-            {},
-            {},
-            {}
+            {
+                "code": "0",
+                "label": "Ich bin nicht traurig. (0)"
+            },
+            {
+                "code": "1",
+                "label": "Ich bin oft traurig. (1)"
+            },
+            {
+                "code": "2",
+                "label": "Ich bin ständig traurig. (2)"
+            },
+            {
+                "code": "3",
+                "label": "Ich bin so traurig oder unglücklich, dass ich es nicht aushalten kann. (3)"
+            }
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
