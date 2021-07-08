@@ -44,10 +44,22 @@
         "field_type": "radio",
         "field_label": "2. Pessimismus",
         "select_choices_or_calculations": [
-            {},
-            {},
-            {},
-            {}
+            {
+                "code": "0",
+                "label": "Ich bin nicht traurig. (0)"
+            },
+            {
+                "code": "1",
+                "label": "Ich bin oft traurig. (1)"
+            },
+            {
+                "code": "2",
+                "label": "Ich bin ständig traurig. (2)"
+            },
+            {
+                "code": "3",
+                "label": "Ich bin so traurig oder unglücklich, dass ich es nicht aushalten kann. (3)"
+            }
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -70,10 +82,22 @@
         "field_type": "radio",
         "field_label": "3. Frühere Misserfolge",
         "select_choices_or_calculations": [
-            {},
-            {},
-            {},
-            {}
+            {
+                "code": "0",
+                "label": "Ich bin nicht traurig. (0)"
+            },
+            {
+                "code": "1",
+                "label": "Ich bin oft traurig. (1)"
+            },
+            {
+                "code": "2",
+                "label": "Ich bin ständig traurig. (2)"
+            },
+            {
+                "code": "3",
+                "label": "Ich bin so traurig oder unglücklich, dass ich es nicht aushalten kann. (3)"
+            }
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -96,10 +120,22 @@
         "field_type": "radio",
         "field_label": "4. Verlust von Freude",
         "select_choices_or_calculations": [
-            {},
-            {},
-            {},
-            {}
+            {
+                "code": "0",
+                "label": "Ich bin nicht traurig. (0)"
+            },
+            {
+                "code": "1",
+                "label": "Ich bin oft traurig. (1)"
+            },
+            {
+                "code": "2",
+                "label": "Ich bin ständig traurig. (2)"
+            },
+            {
+                "code": "3",
+                "label": "Ich bin so traurig oder unglücklich, dass ich es nicht aushalten kann. (3)"
+            }
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -122,10 +158,22 @@
         "field_type": "radio",
         "field_label": "5. Schuldgefühle",
         "select_choices_or_calculations": [
-            {},
-            {},
-            {},
-            {}
+            {
+                "code": "0",
+                "label": "Ich bin nicht traurig. (0)"
+            },
+            {
+                "code": "1",
+                "label": "Ich bin oft traurig. (1)"
+            },
+            {
+                "code": "2",
+                "label": "Ich bin ständig traurig. (2)"
+            },
+            {
+                "code": "3",
+                "label": "Ich bin so traurig oder unglücklich, dass ich es nicht aushalten kann. (3)"
+            }
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -148,10 +196,22 @@
         "field_type": "radio",
         "field_label": "6. Gefühle, bestraft zu werden",
         "select_choices_or_calculations": [
-            {},
-            {},
-            {},
-            {}
+            {
+                "code": "0",
+                "label": "Ich bin nicht traurig. (0)"
+            },
+            {
+                "code": "1",
+                "label": "Ich bin oft traurig. (1)"
+            },
+            {
+                "code": "2",
+                "label": "Ich bin ständig traurig. (2)"
+            },
+            {
+                "code": "3",
+                "label": "Ich bin so traurig oder unglücklich, dass ich es nicht aushalten kann. (3)"
+            }
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -174,10 +234,22 @@
         "field_type": "radio",
         "field_label": "7. Abneigung gegen sich selbst",
         "select_choices_or_calculations": [
-            {},
-            {},
-            {},
-            {}
+            {
+                "code": "0",
+                "label": "Ich bin nicht traurig. (0)"
+            },
+            {
+                "code": "1",
+                "label": "Ich bin oft traurig. (1)"
+            },
+            {
+                "code": "2",
+                "label": "Ich bin ständig traurig. (2)"
+            },
+            {
+                "code": "3",
+                "label": "Ich bin so traurig oder unglücklich, dass ich es nicht aushalten kann. (3)"
+            }
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -200,10 +272,22 @@
         "field_type": "radio",
         "field_label": "8. Selbstvorwürfe",
         "select_choices_or_calculations": [
-            {},
-            {},
-            {},
-            {}
+            {
+                "code": "0",
+                "label": "Ich bin nicht traurig. (0)"
+            },
+            {
+                "code": "1",
+                "label": "Ich bin oft traurig. (1)"
+            },
+            {
+                "code": "2",
+                "label": "Ich bin ständig traurig. (2)"
+            },
+            {
+                "code": "3",
+                "label": "Ich bin so traurig oder unglücklich, dass ich es nicht aushalten kann. (3)"
+            }
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -226,10 +310,22 @@
         "field_type": "radio",
         "field_label": "9. Selbstmordgedanken oder -wünsche",
         "select_choices_or_calculations": [
-            {},
-            {},
-            {},
-            {}
+              {
+                "code": "0",
+                "label": "Ich bin nicht traurig. (0)"
+            },
+            {
+                "code": "1",
+                "label": "Ich bin oft traurig. (1)"
+            },
+            {
+                "code": "2",
+                "label": "Ich bin ständig traurig. (2)"
+            },
+            {
+                "code": "3",
+                "label": "Ich bin so traurig oder unglücklich, dass ich es nicht aushalten kann. (3)"
+            }
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -252,10 +348,22 @@
         "field_type": "radio",
         "field_label": "10. Weinen",
         "select_choices_or_calculations": [
-            {},
-            {},
-            {},
-            {}
+            {
+                "code": "0",
+                "label": "Ich bin nicht traurig. (0)"
+            },
+            {
+                "code": "1",
+                "label": "Ich bin oft traurig. (1)"
+            },
+            {
+                "code": "2",
+                "label": "Ich bin ständig traurig. (2)"
+            },
+            {
+                "code": "3",
+                "label": "Ich bin so traurig oder unglücklich, dass ich es nicht aushalten kann. (3)"
+            }
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -278,10 +386,22 @@
         "field_type": "radio",
         "field_label": "11. Reizbarkeit",
         "select_choices_or_calculations": [
-            {},
-            {},
-            {},
-            {}
+            {
+                "code": "0",
+                "label": "Ich bin nicht traurig. (0)"
+            },
+            {
+                "code": "1",
+                "label": "Ich bin oft traurig. (1)"
+            },
+            {
+                "code": "2",
+                "label": "Ich bin ständig traurig. (2)"
+            },
+            {
+                "code": "3",
+                "label": "Ich bin so traurig oder unglücklich, dass ich es nicht aushalten kann. (3)"
+            }
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -304,10 +424,22 @@
         "field_type": "radio",
         "field_label": "12. Interessenlosigkeit\n\n",
         "select_choices_or_calculations": [
-            {},
-            {},
-            {},
-            {}
+             {
+                "code": "0",
+                "label": "Ich bin nicht traurig. (0)"
+            },
+            {
+                "code": "1",
+                "label": "Ich bin oft traurig. (1)"
+            },
+            {
+                "code": "2",
+                "label": "Ich bin ständig traurig. (2)"
+            },
+            {
+                "code": "3",
+                "label": "Ich bin so traurig oder unglücklich, dass ich es nicht aushalten kann. (3)"
+            }
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -330,10 +462,22 @@
         "field_type": "radio",
         "field_label": "13. Entschlussunfähigkeit\n",
         "select_choices_or_calculations": [
-            {},
-            {},
-            {},
-            {}
+            {
+                "code": "0",
+                "label": "Ich bin nicht traurig. (0)"
+            },
+            {
+                "code": "1",
+                "label": "Ich bin oft traurig. (1)"
+            },
+            {
+                "code": "2",
+                "label": "Ich bin ständig traurig. (2)"
+            },
+            {
+                "code": "3",
+                "label": "Ich bin so traurig oder unglücklich, dass ich es nicht aushalten kann. (3)"
+            }
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -356,10 +500,22 @@
         "field_type": "radio",
         "field_label": "14. Wertlosigkeit\n",
         "select_choices_or_calculations": [
-            {},
-            {},
-            {},
-            {}
+            {
+                "code": "0",
+                "label": "Ich bin nicht traurig. (0)"
+            },
+            {
+                "code": "1",
+                "label": "Ich bin oft traurig. (1)"
+            },
+            {
+                "code": "2",
+                "label": "Ich bin ständig traurig. (2)"
+            },
+            {
+                "code": "3",
+                "label": "Ich bin so traurig oder unglücklich, dass ich es nicht aushalten kann. (3)"
+            }
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -382,10 +538,22 @@
         "field_type": "radio",
         "field_label": "15. Verlust an Energie\n",
         "select_choices_or_calculations": [
-            {},
-            {},
-            {},
-            {}
+            {
+                "code": "0",
+                "label": "Ich bin nicht traurig. (0)"
+            },
+            {
+                "code": "1",
+                "label": "Ich bin oft traurig. (1)"
+            },
+            {
+                "code": "2",
+                "label": "Ich bin ständig traurig. (2)"
+            },
+            {
+                "code": "3",
+                "label": "Ich bin so traurig oder unglücklich, dass ich es nicht aushalten kann. (3)"
+            }
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -408,13 +576,22 @@
         "field_type": "radio",
         "field_label": "16. Veränderungen der Schlafgewohnheiten\n",
         "select_choices_or_calculations": [
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {}
+            {
+                "code": "0",
+                "label": "Ich bin nicht traurig. (0)"
+            },
+            {
+                "code": "1",
+                "label": "Ich bin oft traurig. (1)"
+            },
+            {
+                "code": "2",
+                "label": "Ich bin ständig traurig. (2)"
+            },
+            {
+                "code": "3",
+                "label": "Ich bin so traurig oder unglücklich, dass ich es nicht aushalten kann. (3)"
+            }
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -437,10 +614,22 @@
         "field_type": "radio",
         "field_label": "17. Reizbarkeit",
         "select_choices_or_calculations": [
-            {},
-            {},
-            {},
-            {}
+             {
+                "code": "0",
+                "label": "Ich bin nicht traurig. (0)"
+            },
+            {
+                "code": "1",
+                "label": "Ich bin oft traurig. (1)"
+            },
+            {
+                "code": "2",
+                "label": "Ich bin ständig traurig. (2)"
+            },
+            {
+                "code": "3",
+                "label": "Ich bin so traurig oder unglücklich, dass ich es nicht aushalten kann. (3)"
+            }
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -463,13 +652,22 @@
         "field_type": "radio",
         "field_label": "18. Veränderungen des Appetits\n",
         "select_choices_or_calculations": [
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {}
+            {
+                "code": "0",
+                "label": "Ich bin nicht traurig. (0)"
+            },
+            {
+                "code": "1",
+                "label": "Ich bin oft traurig. (1)"
+            },
+            {
+                "code": "2",
+                "label": "Ich bin ständig traurig. (2)"
+            },
+            {
+                "code": "3",
+                "label": "Ich bin so traurig oder unglücklich, dass ich es nicht aushalten kann. (3)"
+            }
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -492,10 +690,22 @@
         "field_type": "radio",
         "field_label": "19. Konzentrationsschwierigkeiten\n",
         "select_choices_or_calculations": [
-            {},
-            {},
-            {},
-            {}
+            {
+                "code": "0",
+                "label": "Ich bin nicht traurig. (0)"
+            },
+            {
+                "code": "1",
+                "label": "Ich bin oft traurig. (1)"
+            },
+            {
+                "code": "2",
+                "label": "Ich bin ständig traurig. (2)"
+            },
+            {
+                "code": "3",
+                "label": "Ich bin so traurig oder unglücklich, dass ich es nicht aushalten kann. (3)"
+            }
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -518,10 +728,22 @@
         "field_type": "radio",
         "field_label": "20. Müdigkeit",
         "select_choices_or_calculations": [
-            {},
-            {},
-            {},
-            {}
+            {
+                "code": "0",
+                "label": "Ich bin nicht traurig. (0)"
+            },
+            {
+                "code": "1",
+                "label": "Ich bin oft traurig. (1)"
+            },
+            {
+                "code": "2",
+                "label": "Ich bin ständig traurig. (2)"
+            },
+            {
+                "code": "3",
+                "label": "Ich bin so traurig oder unglücklich, dass ich es nicht aushalten kann. (3)"
+            }
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -544,10 +766,22 @@
         "field_type": "radio",
         "field_label": "21. Verlust des Interesses an Geschlechtsverkehr\n",
         "select_choices_or_calculations": [
-            {},
-            {},
-            {},
-            {}
+            {
+                "code": "0",
+                "label": "Ich bin nicht traurig. (0)"
+            },
+            {
+                "code": "1",
+                "label": "Ich bin oft traurig. (1)"
+            },
+            {
+                "code": "2",
+                "label": "Ich bin ständig traurig. (2)"
+            },
+            {
+                "code": "3",
+                "label": "Ich bin so traurig oder unglücklich, dass ich es nicht aushalten kann. (3)"
+            }
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
