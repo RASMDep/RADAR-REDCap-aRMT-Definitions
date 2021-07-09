@@ -4,14 +4,14 @@
         "form_name": "fragebogen_morgens",
         "section_header": "Schlafengehen",
         "field_type": "radio",
-        "field_label": "Ich ging zur üblichen Zeit ins Bett",
+        "field_label": "Ich ging zur üblichen Zeit ins Bett (plus/minus 15 Minuten)",
         "select_choices_or_calculations": [
             {
                 "code": "0",
                 "label": "Ja"
             },
             {
-                "code": "0",
+                "code": "1",
                 "label": "Nein"
             }
         ],
@@ -34,14 +34,32 @@
         "form_name": "fragebogen_morgens",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Was war der Grund für die geänderte Bettzeit?",
+        "field_label": "Was war der Grund für die geänderte Bettzeit? (Bitte wählen Sie den Wichtigsten.)",
         "select_choices_or_calculations": [
-            {},
-            {},
-            {},
-            {},
-            {},
-            {}
+            {
+                "code": "0",
+                "label": "Früher/später müde als sonst"
+            },
+            {
+                "code": "1",
+                "label": "Aufgrund eines Anlasses (z.B. Party, Hochzeit, Abendessen mit Freunden)"
+            },
+            {
+                "code": "2",
+                "label": "Längeres Arbeiten, das mich vom Schlafen abgehalten hat"
+            },
+            {
+                "code": "3",
+                "label": "Fernsehen/Lesen/Hobbies, die mich vom Schlafen abgehalten haben"
+            },
+            {
+                "code": "4",
+                "label": "Unklar"
+            },
+            {
+                "code": "5",
+                "label": "Anderer Grund"
+            }   
         ],
         "field_note": "Bitte wählen Sie den Wichtigsten.",
         "text_validation_type_or_show_slider_number": "",
