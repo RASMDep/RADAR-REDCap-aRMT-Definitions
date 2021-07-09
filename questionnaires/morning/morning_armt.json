@@ -15,7 +15,7 @@
                 "label": "Nein"
             }
         ],
-        "field_note": "plus/minus 15 Minuten",
+        "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
         "text_validation_max": "",
@@ -61,7 +61,7 @@
                 "label": "Anderer Grund"
             }   
         ],
-        "field_note": "Bitte wählen Sie den Wichtigsten.",
+        "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
         "text_validation_max": "",
