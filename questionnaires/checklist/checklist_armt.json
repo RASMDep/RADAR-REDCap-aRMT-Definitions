@@ -101,9 +101,12 @@
         "field_name": "cl_q2",
         "form_name": "checkliste_abends",
         "section_header": "",
-        "field_type": "yesno",
+        "field_type": "radio",
         "field_label": "Ich habe die Gesichtsreinigungs-Routine gemäss Instruktion durchgeführt (auch hinter den Ohren).",
-        "select_choices_or_calculations": "",
+        "select_choices_or_calculations": [
+            {},
+            {}
+        ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -122,9 +125,12 @@
         "field_name": "cl_q5",
         "form_name": "checkliste_abends",
         "section_header": "",
-        "field_type": "yesno",
+        "field_type": "radio",
         "field_label": "Ich habe die Abmessung für die Stirnelektrode durchgeführt.",
-        "select_choices_or_calculations": "",
+        "select_choices_or_calculations": [
+            {},
+            {}
+        ],
         "field_note": "Massband bei Nasenfurche ansetzten und bei Pfeil Stelle markieren",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -172,9 +178,12 @@
         "field_name": "cl_q7",
         "form_name": "checkliste_abends",
         "section_header": "",
-        "field_type": "yesno",
+        "field_type": "radio",
         "field_label": "Ich habe das Stirnband korrekt angezogen.",
-        "select_choices_or_calculations": "",
+        "select_choices_or_calculations": [
+            {},
+            {}
+        ],
         "field_note": "Es liegt eng an und verrutscht nicht.",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
