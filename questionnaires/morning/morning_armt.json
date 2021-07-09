@@ -1,55 +1,19 @@
 [
     {
-        "field_name": "participant_id",
-        "form_name": "fragebogen_morgens",
-        "section_header": "",
-        "field_type": "text",
-        "field_label": "Participant ID",
-        "select_choices_or_calculations": "",
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "sfm_info",
-        "form_name": "fragebogen_morgens",
-        "section_header": "Guten Morgen!",
-        "field_type": "descriptive",
-        "field_label": "Der Fragebogen am Morgen hilft uns, die Qualität Ihres Schlafes zu beurteilen. Er beinhaltet Fragen zum Schlafengehen, der Schlafqualität und zu Ihrem jetzigen Befinden. Bitte füllen Sie den Fragebogen innerhalb von 30 Minuten nach dem Aufwachen aus, nachdem Sie das Schlafgerät ausgezogen haben.\r\n",
-        "select_choices_or_calculations": "",
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
         "field_name": "sfm_q1",
         "form_name": "fragebogen_morgens",
         "section_header": "Schlafengehen",
         "field_type": "radio",
         "field_label": "Ich ging zur üblichen Zeit ins Bett",
         "select_choices_or_calculations": [
-            {},
-            {}
+            {
+                "code": "0",
+                "label": "Ja"
+            },
+            {
+                "code": "0",
+                "label": "Nein"
+            }
         ],
         "field_note": "plus/minus 15 Minuten",
         "text_validation_type_or_show_slider_number": "",
