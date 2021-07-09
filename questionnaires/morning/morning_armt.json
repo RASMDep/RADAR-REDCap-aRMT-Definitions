@@ -1,7 +1,7 @@
 [
     {
         "field_name": "sfm_q1",
-        "form_name": "fragebogen_morgens",
+        "form_name": "morning",
         "section_header": "Schlafengehen",
         "field_type": "radio",
         "field_label": "Ich ging zur üblichen Zeit ins Bett (plus/minus 15 Minuten)",
@@ -31,7 +31,7 @@
     },
     {
         "field_name": "sfm_q1a",
-        "form_name": "fragebogen_morgens",
+        "form_name": "morning",
         "section_header": "",
         "field_type": "radio",
         "field_label": "Was war der Grund für die geänderte Bettzeit? (Bitte wählen Sie den Wichtigsten.)",
