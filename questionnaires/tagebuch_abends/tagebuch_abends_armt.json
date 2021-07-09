@@ -4,7 +4,7 @@
         "form_name": "tagebuch_abends",
         "section_header": "Tagebuch Abends",
         "field_type": "descriptive",
-        "field_label": "Der Fragebogen am Abend hilft uns Ihre Aktivitäten am Tag zu erfassen welche einen Einfluss auf Ihren Schlaf haben. Bitte füllen Sie alle Fragen mit einem * aus.",
+        "field_label": "Der Fragebogen am Abend hilft uns, Ihre Aktivitäten am Tag zu erfassen. Diese können einen Einfluss auf ihren Schlaf haben.",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -67,7 +67,7 @@
         "form_name": "tagebuch_abends",
         "section_header": "",
         "field_type": "text",
-        "field_label": "Wie viele Einheiten Schokolade, Schwarztee, Grüntee, Eistee, Coca Cola oder ähnlich haben Sie heute zu sich genommen?",
+        "field_label": "Wie viele Einheiten Schokolade, Schwarztee, Grüntee, Eistee, Coca Cola oder Ähnliches haben Sie heute zu sich genommen?",
         "select_choices_or_calculations": "",
         "field_note": "1 Einheit = 1 Reihe/Riegel Schokolade, 1 Tasse oder 2.5dl Glas der Getränke",
         "text_validation_type_or_show_slider_number": "integer",
@@ -130,7 +130,7 @@
         "form_name": "tagebuch_abends",
         "section_header": "",
         "field_type": "text",
-        "field_label": "Zu welcher Uhrzeit konsumierten Sie ihr letztes alkoholische Getränke?",
+        "field_label": "Zu welcher Uhrzeit konsumierten Sie ihr letztes alkoholisches Getränk?",
         "select_choices_or_calculations": "",
         "field_note": "HH:MM",
         "text_validation_type_or_show_slider_number": "time",
@@ -151,7 +151,7 @@
         "form_name": "tagebuch_abends",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Haben Sie heute andere Medikamente zu sich genommen ausser diejenigen  welche mit dem Studienarzt besprochen wurden?",
+        "field_label": "Haben Sie heute andere Medikamente eingenommen als diejenigen, welche mit dem Studienarzt besprochen wurden?",
         "select_choices_or_calculations": [
             {},
             {}
@@ -175,7 +175,7 @@
         "form_name": "tagebuch_abends",
         "section_header": "",
         "field_type": "descriptive",
-        "field_label": "Bitte kontaktieren Sie Ihre Kontakperson und informieren ihn/sie über das Medikament!",
+        "field_label": "Bitte kontaktieren Sie Ihre Kontakperson und informieren Sie ihn/sie über das Medikament!",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -196,7 +196,7 @@
         "form_name": "tagebuch_abends",
         "section_header": "Bewegung und Sport",
         "field_type": "radio",
-        "field_label": "Haben Sie heute anstrengende körperliche Aktivität (erhöhte Anstrengung und Schwitzen) z.B.  Schwimmen, Jogging, Fußballspielen oder Radsport gemacht?",
+        "field_label": "o\tHaben Sie heute Sport oder sonstige körperlich anstrengenden Tätigkeiten betrieben (mit erhöhter Anstrengung/Schwitzen, z.B. Schwimmen, Jogging, Fussball spielen, Velo fahren)?",
         "select_choices_or_calculations": [
             {},
             {}
@@ -220,7 +220,7 @@
         "form_name": "tagebuch_abends",
         "section_header": "",
         "field_type": "text",
-        "field_label": "Wie lange haben Sie anstrengende körperliche Aktivität gemacht?",
+        "field_label": "Wie lange haben Sie sich sportlich betätigt/eine körperlich anstrengende Tätigkeit betrieben?",
         "select_choices_or_calculations": "",
         "field_note": "MINUTEN",
         "text_validation_type_or_show_slider_number": "integer",
@@ -268,7 +268,7 @@
         "form_name": "tagebuch_abends",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Haben Sie heute leichte körperliche Aktivität (keine erhöhte Anstrengung und kein Schwitzen) z.B. Golf, leichtes Gehen, Angeln gemacht?",
+        "field_label": "Haben Sie heute leichte körpertliche Aktivitäten ohne erhöhte Anstrengung/Schwitzen betrieben (z.B. Golf, gemütliches Gehen, Angeln)?",
         "select_choices_or_calculations": [
             {},
             {}
@@ -292,7 +292,7 @@
         "form_name": "tagebuch_abends",
         "section_header": "",
         "field_type": "text",
-        "field_label": "Wie lange haben Sie leichte körperliche Aktivität gemacht?",
+        "field_label": "Wie lange haben Sie eine leichte körperliche Aktivität ausgeführt?",
         "select_choices_or_calculations": "",
         "field_note": "MINUTEN",
         "text_validation_type_or_show_slider_number": "integer",
@@ -313,7 +313,7 @@
         "form_name": "tagebuch_abends",
         "section_header": "",
         "field_type": "radio",
-        "field_label": " Wie stark PHYSISCH belastend war Ihr Tag heute? ",
+        "field_label": "Wie stark PHYSISCH, also körperlich belastend war Ihr Tag heute?",
         "select_choices_or_calculations": [
             {},
             {},
@@ -342,7 +342,7 @@
         "form_name": "tagebuch_abends",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Wie stark PSYCHISCH belastend/stressig war Ihr Tag heute?",
+        "field_label": "Wie stark PSYCHISCH, also mental belastend/stressig war Ihr Tag heute?",
         "select_choices_or_calculations": [
             {},
             {},
@@ -371,7 +371,7 @@
         "form_name": "tagebuch_abends",
         "section_header": "<div class=\"rich-text-field-label\"><p>Tagesschlaf</p></div>",
         "field_type": "radio",
-        "field_label": "Haben Sie heute während dem Tag geschlafen?",
+        "field_label": "Haben Sie heute tagsüber geschlafen?",
         "select_choices_or_calculations": [
             {},
             {}
@@ -437,7 +437,7 @@
         "form_name": "tagebuch_abends",
         "section_header": "Befindlichkeit\n",
         "field_type": "descriptive",
-        "field_label": "<div class=\"rich-text-field-label\"><p><span style=\"font-weight: normal;\">Nachfolgend sehen Sie 6 Aussagen zu Ihrer Befindlichkeit. Platzieren sie den Schieber an die Stelle, die Ihren momentanen Zustand am besten beschreibt.</span><br /><br /><span style=\"font-weight: normal;\">Bitte beachten Sie folgende Punkte:</span><br /><br /><span style=\"font-weight: normal;\">Beurteilen Sie nur, wie Sie sich augenblicklich fühlen.</span><br /><span style=\"font-weight: normal;\">Wenn Ihnen die Antwort einmal schwerfallen sollte, wählen Sie die am ehesten zutreffende Antwort.</span></p> <p>In diesem Moment fühle ich mich...</p></div>",
+        "field_label": "<div class=\"rich-text-field-label\"><p><span style=\"font-weight: normal;\">Nachfolgend sehen Sie 6 Aussagen zu Ihrer Befindlichkeit. Platzieren sie den Schieber an die Stelle, die Ihren momentanen Zustand am besten beschreibt.</span><br /><br /><span style=\"font-weight: normal;\">Bitte beachten Sie folgende Punkte:</span><br /><br /><span style=\"font-weight: normal;\">Beurteilen Sie nur, wie Sie sich augenblicklich fühlen.</span><br /><span style=\"font-weight: normal;\">Wenn Ihnen die Antwort einmal schwerfallen sollte, wählen Sie die am ehesten zutreffende Antwort.</span></p> <p> </p></div>",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -458,7 +458,7 @@
         "form_name": "tagebuch_abends",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "<div class=\"rich-text-field-label\"><p> </p> <p> </p></div>",
+        "field_label": "<div class=\"rich-text-field-label\"><p>In diesem Moment fühle ich mich...</p> <p> </p></div>",
         "select_choices_or_calculations": [
             {},
             {},
@@ -483,7 +483,7 @@
         "form_name": "tagebuch_abends",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "<div class=\"rich-text-field-label\"><p> </p> <p> </p></div>",
+        "field_label": "<div class=\"rich-text-field-label\"><p>In diesem Moment fühle ich mich...</p> <p> </p></div>",
         "select_choices_or_calculations": [
             {},
             {},
@@ -508,7 +508,7 @@
         "form_name": "tagebuch_abends",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "",
+        "field_label": "In diesem Moment fühle ich mich...",
         "select_choices_or_calculations": [
             {},
             {},
@@ -533,7 +533,7 @@
         "form_name": "tagebuch_abends",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "<div class=\"rich-text-field-label\"><p> </p> <p> </p></div>",
+        "field_label": "<div class=\"rich-text-field-label\"><p>In diesem Moment fühle ich mich...</p> <p> </p></div>",
         "select_choices_or_calculations": [
             {},
             {},
@@ -558,7 +558,7 @@
         "form_name": "tagebuch_abends",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "<div class=\"rich-text-field-label\"><p> </p> <p> </p></div>",
+        "field_label": "<div class=\"rich-text-field-label\"><p>In diesem Moment fühle ich mich...</p> <p> </p></div>",
         "select_choices_or_calculations": [
             {},
             {},
@@ -583,7 +583,7 @@
         "form_name": "tagebuch_abends",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "<div class=\"rich-text-field-label\"></div>",
+        "field_label": "<div class=\"rich-text-field-label\"><p>In diesem Moment fühle ich mich...</p></div>",
         "select_choices_or_calculations": [
             {},
             {},
@@ -663,7 +663,7 @@
             {},
             {}
         ],
-        "field_note": "Stellen Sie immer sicher dass bis zum Schlafengehen das Schlafgerät gut auf dem Ladestation aufliegt und das rote Licht blinkt.  Wenn das Schlafgerät voll geladen ist, bleibt das rote Licht an. Nehmen Sie das Schlafgerät erst von der Ladestation wenn Sie sich für das Schlafengehn vorbereiten.",
+        "field_note": "Stellen Sie sicher, dass das Schlafgerät bis zum Schlafengehen gut auf der Ladestation aufliegt und das rote Licht blinkt. Wenn das Schlafgerät voll geladen ist, leuchtet das rote Licht durchgehend. Nehmen Sie das Schlafgerät erst von der Ladestation, wenn Sie sich für das Schlafengehen vorbereiten",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
         "text_validation_max": "",
@@ -682,7 +682,7 @@
         "form_name": "tagebuch_abends",
         "section_header": "",
         "field_type": "descriptive",
-        "field_label": "Vielen Dank!\nVor dem Schlafengehn geht es dann weiter mit der Checkliste.",
+        "field_label": "Vielen Dank!\r\nVor dem Schlafengehen geht es dann weiter mit der Checkliste.",
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
