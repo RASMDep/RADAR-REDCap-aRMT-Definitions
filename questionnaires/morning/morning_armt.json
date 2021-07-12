@@ -170,5 +170,35 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": "responses['sfm_q5']=='0' || responses['sfm_q5']=='1' || responses['sfm_q5']=='4' || responses['sfm_q5']=='3'"
-    }
+    },
+    {
+        "field_name": "sfm_q2",
+        "form_name": "fragebogen_morgens",
+        "section_header": "Aufstehen",
+        "field_type": "radio",
+        "field_label": "Ich bin zur üblichen Zeit aufgestanden (plus/minus 15 Minuten)",
+        "select_choices_or_calculations": [
+            { 
+                "code": "0",
+                "label": "Ja"
+            },
+            {
+                "code": "1",
+                "label": "Nein"
+            }
+        ],
+        "field_note": "plus/minus 15 Minuten",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
 ]
