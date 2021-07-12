@@ -208,7 +208,7 @@
         "field_type": "radio",
         "field_label": "Was war der Grund für die geänderte Aufstehzeit? (Bitte wählen Sie das Wahrscheinlichste.)",
         "select_choices_or_calculations": [
-             { 
+            { 
                 "code": "0",
                 "label": "Aufgrund der geänderten Bettzeit wurde die Aufstehzeit angepasst"
             },
@@ -216,7 +216,7 @@
                 "code": "1",
                 "label": "Aufgrund eines externen Events (z.B. Treffen, Meeting)"
             },
-             { 
+            { 
                 "code": "2",
                 "label": "Mehr/weniger müde am Morgen"
             },
@@ -224,7 +224,7 @@
                 "code": "3",
                 "label": "Wecker hat nicht geklingelt/verschlafen"
             },
-             { 
+            { 
                 "code": "4",
                 "label": "Störende Geräusche (z.B. Baulärm, Bettpartner) haben mich geweckt und Schlafen war nicht mehr möglich"
             },
@@ -232,7 +232,7 @@
                 "code": "5",
                 "label": "Unklar"
             },
-             { 
+            { 
                 "code": "6",
                 "label": "Anderer Grund"
             }
@@ -266,7 +266,7 @@
                 "code": "1",
                 "label": "1 mal"
             },
-             { 
+            { 
                 "code": "2",
                 "label": "2 mal"
             },
@@ -369,7 +369,7 @@
             {
                 "code": "3",
                 "label": "Eher tief"              
-            }
+            },
             {
                 "code": "4",
                 "label": "Sehr tief"  
