@@ -1,0 +1,204 @@
+[
+    {
+        "field_name": "sfm_q1",
+        "form_name": "morning",
+        "section_header": "Schlafengehen",
+        "field_type": "radio",
+        "field_label": "Ich ging zur üblichen Zeit ins Bett (plus/minus 15 Minuten)",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Ja"
+            },
+            {
+                "code": "1",
+                "label": "Nein"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "sfm_q1a",
+        "form_name": "morning",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Was war der Grund für die geänderte Bettzeit? (Bitte wählen Sie den Wichtigsten.)",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Früher/später müde als sonst"
+            },
+            {
+                "code": "1",
+                "label": "Aufgrund eines Anlasses (z.B. Party, Hochzeit, Abendessen mit Freunden)"
+            },
+            {
+                "code": "2",
+                "label": "Längeres Arbeiten, das mich vom Schlafen abgehalten hat"
+            },
+            {
+                "code": "3",
+                "label": "Fernsehen/Lesen/Hobbies, die mich vom Schlafen abgehalten haben"
+            },
+            {
+                "code": "4",
+                "label": "Unklar"
+            },
+            {
+                "code": "5",
+                "label": "Anderer Grund"
+            }   
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[sfm_q1]='1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['sfm_q1']='1'"
+    },
+    {
+        "field_name": "sfm_q5",
+        "form_name": "fragebogen_morgens",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Im Vergleich zu meiner üblichen Einschlafdauer war meine Einschlafdauer gestern Abend ...(Die Einschlafdauer ist die Zeit vom Zubettgehen bis zum Einschlafen.)",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Viel länger"
+            },
+            {
+                "code": "1",
+                "label": "Etwas länger"
+            },
+            {
+                "code": "2",
+                "label": "Etwa gleich"
+            },
+            {
+                "code": "3",
+                "label": "Etwas kürzer"
+            },
+            {
+                "code": "4",
+                "label": "Viel kürzer"
+            }
+        ],
+        "field_note": "Die Einschlafdauer ist die Zeit vom Zubettgehen bis zum Einschlafen.",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "sfm_q5b",
+        "form_name": "fragebogen_morgens",
+        "section_header": "",
+        "field_type": "checkbox",
+        "field_label": "Was war der Grund für die geänderte Einschlafdauer? (Mehrere Antworten möglich)",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Mehr/weniger müde als sonst"
+            },
+            {
+                "code": "1",
+                "label": "Gedanken / Sorgen / Nervosität hielten mich wach"
+            },
+            {
+                "code": "2",
+                "label": "Schmerzen hielten mich wach"
+            },
+            {
+                "code": "3",
+                "label": "Störende Geräusche (z.B. Baulärm, Bettpartner) hielten mich wach"
+            },
+            {
+                "code": "4",
+                "label": "Schlafgerät war unbequem und machte das Einschlafen schwierig"
+            },
+            {
+                "code": "5",
+                "label": "Bestimmte Speisen / Getränke vor dem Schlafengehen hielten mich wach"
+            },
+            {
+                "code": "6",
+                "label": "Unklar"
+            },
+            {
+                "code": "7",
+                "label": "Anderer Grund"
+            }
+        ],
+        "field_note": "mehrere Antworten möglich",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[sfm_q5]='0' or [sfm_q5]='1' or [sfm_q5]='4' or [sfm_q5]='3'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['sfm_q5']=='0' || responses['sfm_q5']=='1' || responses['sfm_q5']=='4' || responses['sfm_q5']=='3'"
+    },
+    {
+        "field_name": "sfm_q2",
+        "form_name": "fragebogen_morgens",
+        "section_header": "Aufstehen",
+        "field_type": "radio",
+        "field_label": "Ich bin zur üblichen Zeit aufgestanden (plus/minus 15 Minuten)",
+        "select_choices_or_calculations": [
+            { 
+                "code": "0",
+                "label": "Ja"
+            },
+            {
+                "code": "1",
+                "label": "Nein"
+            }
+        ],
+        "field_note": "plus/minus 15 Minuten",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+]
