@@ -3,9 +3,54 @@
         "field_name": "diary_q1",
         "form_name": "tagebuch_abends",
         "section_header": "Nahrungsaufnahme",
-        "field_type": "text",
-        "field_label": "Wie viele Tassen/Drinks mit Koffein haben Sie heute zu sich genommen in Form von Kaffee oder Energy Drinks?",
-        "select_choices_or_calculations": "",
+        "field_type": "range",
+        "field_label": "Wie viele Tassen/Drinks mit Koffein haben Sie heute zu sich genommen in Form von Kaffee oder Energy Drinks? (ANZAHL TASSEN/2.5dl DRINKS)",
+        "select_choices_or_calculations": "
+           {
+                "code": "0",
+                "label": "1 "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 "
+            },
+            {
+                "code": "6",
+                "label": "6 "
+            },
+            {
+                "code": "7",
+                "label": "7"
+            },
+            {
+                "code": "8",
+                "label": "8 "
+            },
+            {
+                "code": "9",
+                "label": "9 "
+            },
+            {
+                "code": "10",
+                "label": "10"
+            }  
+        ",
         "field_note": "ANZAHL TASSEN/2.5dl DRINKS",
         "text_validation_type_or_show_slider_number": "integer",
         "text_validation_min": "0",
