@@ -54,7 +54,7 @@
         "field_note": "ANZAHL TASSEN/2.5dl DRINKS",
         "text_validation_type_or_show_slider_number": "integer",
         "text_validation_min": "0",
-        "text_validation_max": "20",
+        "text_validation_max": "10",
         "identifier": "",
         "branching_logic": "",
         "required_field": "y",
@@ -77,22 +77,67 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[diary_q1] > 0",
+        "branching_logic": "[diary_q1]>0",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['diary_q1']"
+        "evaluated_logic": "responses['diary_q1']>0"
     },
     {
         "field_name": "diary_q2",
         "form_name": "tagebuch_abends",
         "section_header": "",
-        "field_type": "text",
-        "field_label": "Wie viele Einheiten Schokolade, Schwarztee, Grüntee, Eistee, Coca Cola oder Ähnliches haben Sie heute zu sich genommen?",
-        "select_choices_or_calculations": "",
+        "field_type": "range",
+        "field_label": "Wie viele Einheiten Schokolade, Schwarztee, Grüntee, Eistee, Coca Cola oder Ähnliches haben Sie heute zu sich genommen?(1 Einheit = 1 Reihe/Riegel Schokolade, 1 Tasse oder 2.5dl Glas der Getränke)",
+        "select_choices_or_calculations":  [
+           {
+                "code": "0",
+                "label": "1 "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 "
+            },
+            {
+                "code": "6",
+                "label": "6 "
+            },
+            {
+                "code": "7",
+                "label": "7"
+            },
+            {
+                "code": "8",
+                "label": "8 "
+            },
+            {
+                "code": "9",
+                "label": "9 "
+            },
+            {
+                "code": "10",
+                "label": "10"
+            }  
+        ],
         "field_note": "1 Einheit = 1 Reihe/Riegel Schokolade, 1 Tasse oder 2.5dl Glas der Getränke",
         "text_validation_type_or_show_slider_number": "integer",
         "text_validation_min": "0",
@@ -112,29 +157,74 @@
         "form_name": "tagebuch_abends",
         "section_header": "",
         "field_type": "text",
-        "field_label": "Zu welcher Uhrzeit konsumierten Sie ihr letzte Einheit Schokolade, Schwarztee...?",
+        "field_label": "Zu welcher Uhrzeit konsumierten Sie ihr letzte Einheit Schokolade, Schwarztee...? ()",
         "select_choices_or_calculations": "",
         "field_note": "HH:MM",
         "text_validation_type_or_show_slider_number": "time",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[diary_q2] > 0",
+        "branching_logic": "[diary_q2]>0",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['diary_q2']"
+        "evaluated_logic": "responses['diary_q2']>0"
     },
     {
         "field_name": "diary_q3",
         "form_name": "tagebuch_abends",
         "section_header": "",
-        "field_type": "text",
-        "field_label": "Wie viele alkoholische Getränke haben Sie heute getrunken? ",
-        "select_choices_or_calculations": "",
+        "field_type": "range",
+        "field_label": "Wie viele alkoholische Getränke haben Sie heute getrunken?(Ein Getränk entspricht: 1dL Wein, 3dL Bier, 2cL Schnaps.)",
+        "select_choices_or_calculations": " [
+           {
+                "code": "0",
+                "label": "1 "
+            },
+            {
+                "code": "1",
+                "label": "1 "
+            },
+            {
+                "code": "2",
+                "label": "2 "
+            },
+            {
+                "code": "3",
+                "label": "3 "
+            },
+            {
+                "code": "4",
+                "label": "4 "
+            },
+            {
+                "code": "5",
+                "label": "5 "
+            },
+            {
+                "code": "6",
+                "label": "6 "
+            },
+            {
+                "code": "7",
+                "label": "7"
+            },
+            {
+                "code": "8",
+                "label": "8 "
+            },
+            {
+                "code": "9",
+                "label": "9 "
+            },
+            {
+                "code": "10",
+                "label": "10"
+            }  
+        ],
         "field_note": "Ein Getränk entspricht: 1dL Wein, 3dL Bier, 2cL Schnaps",
         "text_validation_type_or_show_slider_number": "integer",
         "text_validation_min": "0",
@@ -161,14 +251,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[diary_q3] > 0",
+        "branching_logic": "[diary_q3]>0",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['diary_q3']"
+        "evaluated_logic": "responses['diary_q3']>0"
     },
     {
         "field_name": "diary_q4",
@@ -177,8 +267,14 @@
         "field_type": "radio",
         "field_label": "Haben Sie heute andere Medikamente eingenommen als diejenigen, welche mit dem Studienarzt besprochen wurden?",
         "select_choices_or_calculations": [
-            {},
-            {}
+            {
+                "code": "0",
+                "label": "Ja"
+            },
+            {
+                "code": "1",
+                "label": "Nein"
+            }
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -206,24 +302,30 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[diary_q4] = '1'",
+        "branching_logic": "[diary_q4]='1'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['diary_q4'] ==  '1'"
+        "evaluated_logic": "responses['diary_q4']=='1'"
     },
     {
         "field_name": "diary_q5",
         "form_name": "tagebuch_abends",
         "section_header": "Bewegung und Sport",
         "field_type": "radio",
-        "field_label": "o\tHaben Sie heute Sport oder sonstige körperlich anstrengenden Tätigkeiten betrieben (mit erhöhter Anstrengung/Schwitzen, z.B. Schwimmen, Jogging, Fussball spielen, Velo fahren)?",
+        "field_label": "Haben Sie heute Sport oder sonstige körperlich anstrengenden Tätigkeiten betrieben (mit erhöhter Anstrengung/Schwitzen, z.B. Schwimmen, Jogging, Fussball spielen, Velo fahren)?",
         "select_choices_or_calculations": [
-            {},
-            {}
+            {
+                "code": "0",
+                "label": "Ja"
+            },
+            {
+                "code": "1",
+                "label": "Nein"
+            }
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
