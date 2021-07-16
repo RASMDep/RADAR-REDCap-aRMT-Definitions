@@ -1,26 +1,5 @@
 [
     {
-        "field_name": "diary_info",
-        "form_name": "tagebuch_abends",
-        "section_header": "Tagebuch Abends",
-        "field_type": "descriptive",
-        "field_label": "Der Fragebogen am Abend hilft uns, Ihre Aktivitäten am Tag zu erfassen. Diese können einen Einfluss auf ihren Schlaf haben.",
-        "select_choices_or_calculations": "",
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
         "field_name": "diary_q1",
         "form_name": "tagebuch_abends",
         "section_header": "Nahrungsaufnahme",
