@@ -556,5 +556,200 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": "responses['sfm_q9']=='0' || responses['sfm_q9']=='1'"
+    } ,
+    {
+        "field_name": "sfm_q10",
+        "form_name": "fragebogen_morgens",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Das Schlafgerät hat meine Schlafqualität...",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Eindeutig verbessert"
+            },
+            {
+                "code": "1",
+                "label": "Eher verbessert"
+            },
+            {
+                "code": "2",
+                "label": "Nicht verändert"
+            },
+            {
+                "code": "3",
+                "label": "Eher verschlechtert"
+            },
+            {
+                "code": "4",
+                "label": "Eindeutig verschlechtert"
+            },
+            {
+                "code": "5",
+                "label": "Vielleicht verändert, aber unsicher ob dies wegen dem Schlafgerät ist"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "sfm_q11",
+        "form_name": "fragebogen_morgens",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Ich habe letzte Nacht gehört, wie das Gerät Töne gespielt hat: (nach dem Einschlafen)”,
+        "select_choices_or_calculations": [
+          {
+                "code": "0",
+                "label": "Ja"
+            },
+            {
+                "code": "1",
+                "label": "Nein"
+            },
+            {
+                "code": "2",
+                "label": "Ich habe Töne gehört, stammen möglicherweise nicht vom Schlafgerät"
+            }
+        ],
+        "field_note": "nach dem Einschlafen",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "sss_morgens",
+        "form_name": "fragebogen_morgens",
+        "section_header": "Schläftrigkeit\n",
+        "field_type": "radio",
+        "field_label": "Auf einer Skala von 1-10, wie schläfrig fühlen Sie sich im Moment? (Diese Frage erfasst, wie munter Sie sich fühlen. Bitte schätzen Sie ein, wie Sie sich im Moment fühlen, indem Sie die entsprechende, passende Beschreibung auswählen (es ist nur eine Antwort möglich))”,
+        "select_choices_or_calculations": [
+           {
+                "code": "0",
+                "label": "1 - äusserst wach"
+            },
+            {
+                "code": "1",
+                "label": "2 - sehr wach"
+            },
+            {
+                "code": "2",
+                "label": "3 - normal wach"
+            },
+            {
+                "code": "3",
+                "label": "4 - ziemlich wach"
+            },
+            {
+                "code": "4",
+                "label": "5 - weder wach noch schläfrig 6 - etwas schläfrig"
+            },
+            {
+                "code": "5",
+                "label": "6 - etwas schläfrig"
+            },
+            {
+                "code": "6",
+                "label": "7 - schläfrig, ohne Mühe wach zu bleiben "
+            },
+            {
+                "code": "7",
+                "label": "8 - schläfrig, etwas Mühe wach zu bleiben"
+            },
+            {
+                "code": "8",
+                "label": "9 - sehr schläfrig, grosse Mühe wach zu bleiben 10 - äusserst schläfrig, kann nicht wach bleiben"
+            },
+            {
+                "code": "9",
+                "label": "Ich habe Töne gehört, stammen möglicherweise nicht vom Schlafgerät"
+            }
+        ],
+        "field_note": "Diese Frage erfasst, wie munter Sie sich fühlen. Bitte schätzen Sie ein, wie Sie sich im Moment fühlen, indem Sie die entsprechende, passende Beschreibung auswählen (es ist nur eine Antwort möglich)",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "info_6imq_1",
+        "form_name": "fragebogen_morgens",
+        "section_header": "Befindlichkeit\n",
+        "field_type": "descriptive",
+        "field_label": "Nachfolgend sehen Sie 6 Aussagen zu Ihrer Befindlichkeit. Platzieren sie den Schieber an die Stelle, die Ihren momentanen Zustand am besten beschreibt.Bitte beachten Sie folgende Punkte:Beurteilen Sie nur, wie Sie sich augenblicklich fühlen. Wenn Ihnen die Antwort einmal schwerfallen sollte, wählen Sie die am ehesten zutreffende Antwort.",
+        "select_choices_or_calculations": "",
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "imq_1_morgens",
+        "form_name": "fragebogen_morgens",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "In diesem Moment fühle ich mich...",
+        "select_choices_or_calculations": [
+            { 
+                 "code" = "0",
+                 "label": "sehr müde"
+             },
+            { 
+                 "code" = "6",
+                 "label": "sehr wach"
+             }
+
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "number",
+        "text_validation_min": "",
+        "text_validation_max": "6",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
     }
+
 ]
