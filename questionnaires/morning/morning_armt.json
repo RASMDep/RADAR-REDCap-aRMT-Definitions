@@ -457,11 +457,11 @@
             },
             {
                 "code": "4",
-                "label": "Eher schlecht”  
+                "label": "Eher schlecht"
             },
             {
                 "code": "5",
-                "label": "Schlecht”              
+                "label": "Schlecht"            
             },
             {
                 "code": "6",
@@ -487,7 +487,7 @@
         "form_name": "fragebogen_morgens",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Im Vergleich zu meiner durchschnittlichen Schlafqualität war die letzte Nacht …(... verglichen mit vor dem Experiment)”,
+        "field_label": "Im Vergleich zu meiner durchschnittlichen Schlafqualität war die letzte Nacht …(... verglichen mit vor dem Experiment)",
         "select_choices_or_calculations": [
            {
                 "code": "0",
@@ -499,11 +499,11 @@
             },
             {
                 "code": "2",
-                "label": "Etwa gleich”   
+                "label": "Etwa gleich" 
             },
             {
                 "code": "3",
-                "label": "Eher schlechter”              
+                "label": "Eher schlechter"              
             },
             {
                 "code": "4",
@@ -609,7 +609,7 @@
         "form_name": "fragebogen_morgens",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Ich habe letzte Nacht gehört, wie das Gerät Töne gespielt hat: (nach dem Einschlafen)”,
+        "field_label": "Ich habe letzte Nacht gehört, wie das Gerät Töne gespielt hat: (nach dem Einschlafen)",
         "select_choices_or_calculations": [
           {
                 "code": "0",
@@ -643,7 +643,7 @@
         "form_name": "fragebogen_morgens",
         "section_header": "Schläftrigkeit\n",
         "field_type": "radio",
-        "field_label": "Auf einer Skala von 1-10, wie schläfrig fühlen Sie sich im Moment? (Diese Frage erfasst, wie munter Sie sich fühlen. Bitte schätzen Sie ein, wie Sie sich im Moment fühlen, indem Sie die entsprechende, passende Beschreibung auswählen (es ist nur eine Antwort möglich))”,
+        "field_label": "Auf einer Skala von 1-10, wie schläfrig fühlen Sie sich im Moment? (Diese Frage erfasst, wie munter Sie sich fühlen. Bitte schätzen Sie ein, wie Sie sich im Moment fühlen, indem Sie die entsprechende, passende Beschreibung auswählen (es ist nur eine Antwort möglich))",
         "select_choices_or_calculations": [
            {
                 "code": "0",
@@ -671,7 +671,7 @@
             },
             {
                 "code": "6",
-                "label": "7 - schläfrig, ohne Mühe wach zu bleiben "
+                "label": "7 - schläfrig, ohne Mühe wach zu bleiben"
             },
             {
                 "code": "7",
