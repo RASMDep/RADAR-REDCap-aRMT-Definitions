@@ -704,9 +704,22 @@
         "field_name": "info_6imq_1",
         "form_name": "fragebogen_morgens",
         "section_header": "Befindlichkeit\n",
-        "field_type": "descriptive",
-        "field_label": "Nachfolgend sehen Sie 6 Aussagen zu Ihrer Befindlichkeit. Platzieren sie den Schieber an die Stelle, die Ihren momentanen Zustand am besten beschreibt.Bitte beachten Sie folgende Punkte:Beurteilen Sie nur, wie Sie sich augenblicklich fühlen. Wenn Ihnen die Antwort einmal schwerfallen sollte, wählen Sie die am ehesten zutreffende Antwort.",
-        "select_choices_or_calculations": "",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+              {
+                "label": "Nachfolgend sehen Sie 6 Aussagen zu Ihrer Befindlichkeit.",
+                "code": ""
+              },
+              {
+                "label": "Platzieren sie den Schieber an die Stelle, die Ihren momentanen Zustand am besten beschreibt.",
+                "code": ""
+              },
+              {
+                "label": "Bitte beachten Sie folgende Punkte:Beurteilen Sie nur, wie Sie sich augenblicklich fühlen. Wenn Ihnen die Antwort einmal schwerfallen sollte, wählen Sie die am ehesten zutreffende Antwort.",
+                "code": ""
+              }
+         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
