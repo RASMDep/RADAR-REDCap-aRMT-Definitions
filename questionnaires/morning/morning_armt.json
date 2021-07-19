@@ -362,6 +362,7 @@
                 "code": "1",
                 "label": "Eher oberflächlich"              
             },
+            {
             
                 "code": "2",
                 "label": "Mittelmässig"  
@@ -404,7 +405,7 @@
                 "code": "1",
                 "label": "Eher oberflächlich"              
             },
-           {
+            {
                 "code": "2",
                 "label": "Etwa gleich"  
             },
@@ -446,7 +447,7 @@
                 "code": "1",
                 "label": "Gut”              
             },
-            
+            {
                 "code": "2",
                 "label": "Eher gut”   
             },
@@ -496,7 +497,7 @@
                 "code": "1",
                 "label": "Eher besser"             
             },
-            
+            {
                 "code": "2",
                 "label": "Etwa gleich”   
             },
@@ -538,7 +539,7 @@
                 "code": "1",
                 "label": "Ja"             
             },
-            
+            {
                 "code": "2",
                 "label": "Unklar"   
             }
@@ -727,11 +728,11 @@
         "field_type": "slider",
         "field_label": "In diesem Moment fühle ich mich...",
         "select_choices_or_calculations": [
-            { 
+             { 
                  "code" = "0",
                  "label": "sehr müde"
              },
-            { 
+             { 
                  "code" = "6",
                  "label": "sehr wach"
              }
