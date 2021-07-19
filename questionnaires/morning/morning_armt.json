@@ -411,11 +411,11 @@
             },
             {
                 "code": "3",
-                "label": "Eher tiefer”              
+                "label": "Eher tiefer"              
             },
             {
                 "code": "4",
-                "label": "Klar tiefer”  
+                "label": "Klar tiefer” "
             }      
         ],
         "field_note": "... verglichen mit vor dem Experiment",
