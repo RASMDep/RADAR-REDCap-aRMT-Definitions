@@ -395,7 +395,7 @@
         "form_name": "fragebogen_morgens",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Im Vergleich zu meiner durchschnittlichen Schlaftiefe habe ich ...  geschlafen. (... verglichen mit vor dem Experiment),
+        "field_label": "Im Vergleich zu meiner durchschnittlichen Schlaftiefe habe ich ...  geschlafen. (... verglichen mit vor dem Experiment)",
         "select_choices_or_calculations": [
             {
                 "code": "0",
