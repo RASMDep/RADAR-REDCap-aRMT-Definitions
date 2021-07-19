@@ -729,11 +729,11 @@
         "field_label": "In diesem Moment fühle ich mich...",
         "select_choices_or_calculations": [
              { 
-                 "code" = "0",
+                 "code" : "0",
                  "label": "sehr müde"
              },
              { 
-                 "code" = "6",
+                 "code" : "6",
                  "label": "sehr wach"
              }
 
