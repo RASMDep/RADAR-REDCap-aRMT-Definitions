@@ -346,5 +346,215 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": "responses['sfm_q6']=='1' || responses['sfm_q6']=='2' || responses['sfm_q6']=='3' || responses['sfm_q6']=='4'"
+    },
+    {
+        "field_name": "sfm_q7",
+        "form_name": "fragebogen_morgens",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Meine Schlaftiefe war ... (Während einer tiefen Schlafphase ist es schwieriger Sie aufzuwecken.)",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Sehr oberflächlich"  
+            },
+            {
+                "code": "1",
+                "label": "Eher oberflächlich"              
+            },
+            
+                "code": "2",
+                "label": "Mittelmässig"  
+            },
+            {
+                "code": "3",
+                "label": "Eher tief"              
+            },
+            {
+                "code": "4",
+                "label": "Sehr tief"  
+            }      
+        ],
+        "field_note": "Während einer tiefen Schlafphase ist es schwieriger Sie aufzuwecken.",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "sfm_q8",
+        "form_name": "fragebogen_morgens",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Im Vergleich zu meiner durchschnittlichen Schlaftiefe habe ich ...  geschlafen. (... verglichen mit vor dem Experiment),
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Klar oberflächlicher"  
+            },
+            {
+                "code": "1",
+                "label": "Eher oberflächlich"              
+            },
+            
+                "code": "2",
+                "label": "Etwa gleich"  
+            },
+            {
+                "code": "3",
+                "label": "Eher tiefer”              
+            },
+            {
+                "code": "4",
+                "label": "Klar tiefer”  
+            }      
+        ],
+        "field_note": "... verglichen mit vor dem Experiment",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "sfm_q12",
+        "form_name": "fragebogen_morgens",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Meine allgemeine Schlafqualität  war in der letzten Nacht ...",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Sehr gut"  
+            },
+            {
+                "code": "1",
+                "label": "Gut”              
+            },
+            
+                "code": "2",
+                "label": "Eher gut”   
+            },
+            {
+                "code": "3",
+                "label": "Mittelmässig”              
+            },
+            {
+                "code": "4",
+                "label": "Eher schlecht”  
+            },
+            {
+                "code": "5",
+                "label": "Schlecht”              
+            },
+            {
+                "code": "6",
+                "label": "Sehr schlecht" 
+            }         
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "sfm_q9",
+        "form_name": "fragebogen_morgens",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Im Vergleich zu meiner durchschnittlichen Schlafqualität war die letzte Nacht …(... verglichen mit vor dem Experiment)”,
+        "select_choices_or_calculations": [
+           {
+                "code": "0",
+                "label": "Klar besser"  
+            },
+            {
+                "code": "1",
+                "label": "Eher besser"             
+            },
+            
+                "code": "2",
+                "label": "Etwa gleich”   
+            },
+            {
+                "code": "3",
+                "label": "Eher schlechter”              
+            },
+            {
+                "code": "4",
+                "label": "Klar schlechter"  
+            }
+        ],
+        "field_note": "... verglichen mit vor dem Experiment",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "sfm_q9b",
+        "form_name": "fragebogen_morgens",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "War der schlechte Schlaf aufgrund des Interventionsgerätes?",
+        "select_choices_or_calculations": [
+           {
+                "code": "0",
+                "label": "Nein"
+            },
+            {
+                "code": "1",
+                "label": "Ja"             
+            },
+            
+                "code": "2",
+                "label": "Unklar"   
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[sfm_q9]='0' or [sfm_q9]='1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['sfm_q9']=='0' || responses['sfm_q9']=='1'"
     }
 ]
