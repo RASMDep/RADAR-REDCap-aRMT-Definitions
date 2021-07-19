@@ -749,7 +749,6 @@
                  "code" : "sehr wach",
                  "label": ""
              }
-
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "number",
@@ -780,7 +779,6 @@
                  "code" : "sehr unzufrieden",
                  "label": ""
              }
-
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "number",
@@ -811,7 +809,6 @@
                  "code" : "sehr ruhig",
                  "label": ""
              }
-
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "number",
@@ -842,7 +839,6 @@
                  "code" : "sehr energielos",
                  "label": ""
              }
-
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "number",
@@ -873,7 +869,6 @@
                  "code" : "sehr wohl",
                  "label": ""
              }
-
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "number",
