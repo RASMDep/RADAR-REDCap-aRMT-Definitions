@@ -763,5 +763,155 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
+    },
+    {
+        "field_name": "imq_2_morgens",
+        "form_name": "fragebogen_morgens",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "In diesem Moment fühle ich mich...",
+        "select_choices_or_calculations": [
+             { 
+                 "code" : "sehr zufrieden",
+                 "label": ""
+             },
+             { 
+                 "code" : "sehr unzufrieden",
+                 "label": ""
+             }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "number",
+        "text_validation_min": "",
+        "text_validation_max": "6",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "imq_3_morgens",
+        "form_name": "fragebogen_morgens",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "In diesem Moment fühle ich mich...",
+        "select_choices_or_calculations": [
+             { 
+                 "code" : "sehr unruhig",
+                 "label": ""
+             },
+             { 
+                 "code" : "sehr ruhig",
+                 "label": ""
+             }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "number",
+        "text_validation_min": "",
+        "text_validation_max": "6",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "imq_4_morgens",
+        "form_name": "fragebogen_morgens",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "In diesem Moment fühle ich mich...",
+        "select_choices_or_calculations": [
+             { 
+                 "code" : "sehr energiegeladen",
+                 "label": ""
+             },
+             { 
+                 "code" : "sehr energielos",
+                 "label": ""
+             }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "number",
+        "text_validation_min": "",
+        "text_validation_max": "6",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "imq_5_morgens",
+        "form_name": "fragebogen_morgens",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "In diesem Moment fühle ich mich...",
+        "select_choices_or_calculations": [
+             { 
+                 "code" : "sehr unwohl",
+                 "label": ""
+             },
+             { 
+                 "code" : "sehr wohl",
+                 "label": ""
+             }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "number",
+        "text_validation_min": "",
+        "text_validation_max": "6",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "imq_6_morgens",
+        "form_name": "fragebogen_morgens",
+        "section_header": "",
+        "field_type": "slider",
+        "field_label": "In diesem Moment fühle ich mich...",
+        "select_choices_or_calculations": [
+             { 
+                 "code" : "sehr entspannt",
+                 "label": ""
+             },
+             { 
+                 "code" : "sehr angespannt",
+                 "label": ""
+             }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "number",
+        "text_validation_min": "",
+        "text_validation_max": "6",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
     }
 ]
