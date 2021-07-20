@@ -313,7 +313,7 @@
                 "label":"Stecken Sie nun das Audiokabel vorne ein.",
                 "code" :" "
             },
-            }
+            {
                 "label":"Prüfen Sie ob in den nächsten 10-15 Sekunden ein Test Ton erscheint.",
                 "code" :" "
             }
@@ -403,11 +403,11 @@
                "label" :  "Wiederholen Sie bitte nochmals den letzten Schritt:",
                 "code" :""
             },
-            }
+            {
                "label" :  " 1) Ziehen Sie das Audiokabel nochmals aus",
                 "code" : ""
             },
-            }
+            {
                "label" :  " n2) Stecken Sie das Audiokabel in die dafür vorgesehene Buchse auf der linken Seite des Schlafgerätes.",
                 "code" : ""
             }
@@ -467,14 +467,14 @@
                "label" :  "Falls Sie immer noch nicht den Testton hören oder das gelbe Licht sehen, kontaktieren Sie die Studienkoordinatorin",
                 "code" :""
             },
-            }
+            {
                "label" :  " 1) Ziehen Sie das Audiokabel nochmals aus",
                 "code" : ""
             },
             }
                "label" :  " n2) Stecken Sie das Audiokabel in die dafür vorgesehene Buchse auf der linken Seite des Schlafgerätes.",
                 "code" : ""
-            }
+            {
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
