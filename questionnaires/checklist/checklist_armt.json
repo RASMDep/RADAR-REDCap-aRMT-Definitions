@@ -90,5 +90,61 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
+    },
+    {
+        "field_name": "cl_tagebuchintro",
+        "form_name": "checkliste_abends",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+            {
+                "label": "Bitte füllen Sie zuerst das Tagebuch aus bevor Sie mit dieser Checkliste weiterfahren!",
+                "code" : ""
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[cl_q3]='0'",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['cl_q3']=='0'"
+    },
+    {
+        "field_name": "cl_q2",
+        "form_name": "checkliste_abends",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Ich habe die Gesichtsreinigungs-Routine gemäss Instruktion durchgeführt (auch hinter den Ohren).",
+        "select_choices_or_calculations": [
+            { 
+                "code": "0",
+                "label": "Ja"
+            },
+            {
+                "code": "1",
+                "label": "Nein"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
     }
 ]
