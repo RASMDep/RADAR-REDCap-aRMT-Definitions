@@ -32,7 +32,7 @@
     {
         "field_name": "sfm_q1a",
         "form_name": "morning",
-        "section_header": "",
+        "section_header": "Schlafengehen",
         "field_type": "radio",
         "field_label": "Was war der Grund für die geänderte Bettzeit? (Bitte wählen Sie den Wichtigsten.)",
         "select_choices_or_calculations": [
@@ -78,7 +78,7 @@
     {
         "field_name": "sfm_q5",
         "form_name": "fragebogen_morgens",
-        "section_header": "",
+        "section_header": "Schlafengehen",
         "field_type": "radio",
         "field_label": "Im Vergleich zu meiner üblichen Einschlafdauer war meine Einschlafdauer gestern Abend ...(Die Einschlafdauer ist die Zeit vom Zubettgehen bis zum Einschlafen.)",
         "select_choices_or_calculations": [
@@ -120,7 +120,7 @@
     {
         "field_name": "sfm_q5b",
         "form_name": "fragebogen_morgens",
-        "section_header": "",
+        "section_header": "Schlafengehen",
         "field_type": "checkbox",
         "field_label": "Was war der Grund für die geänderte Einschlafdauer? (Mehrere Antworten möglich)",
         "select_choices_or_calculations": [
@@ -204,7 +204,7 @@
     {
         "field_name": "sfm_q2a",
         "form_name": "fragebogen_morgens",
-        "section_header": "",
+        "section_header": "Aufstehen",
         "field_type": "radio",
         "field_label": "Was war der Grund für die geänderte Aufstehzeit? (Bitte wählen Sie das Wahrscheinlichste.)",
         "select_choices_or_calculations": [
@@ -296,7 +296,7 @@
     {
         "field_name": "sfm_q6b",
         "form_name": "fragebogen_morgens",
-        "section_header": "",
+        "section_header": "Schlafqualität",
         "field_type": "checkbox",
         "field_label": "Was waren die Gründe für das nächtliche Erwachen?",
         "select_choices_or_calculations": [
@@ -350,7 +350,7 @@
     {
         "field_name": "sfm_q7",
         "form_name": "fragebogen_morgens",
-        "section_header": "",
+        "section_header": "Schlafqualität",
         "field_type": "radio",
         "field_label": "Meine Schlaftiefe war ... (Während einer tiefen Schlafphase ist es schwieriger Sie aufzuwecken.)",
         "select_choices_or_calculations": [
@@ -393,7 +393,7 @@
     {
         "field_name": "sfm_q8",
         "form_name": "fragebogen_morgens",
-        "section_header": "",
+        "section_header": "Schlafqualität",
         "field_type": "radio",
         "field_label": "Im Vergleich zu meiner durchschnittlichen Schlaftiefe habe ich ...  geschlafen. (... verglichen mit vor dem Experiment)",
         "select_choices_or_calculations": [
@@ -435,7 +435,7 @@
     {
         "field_name": "sfm_q12",
         "form_name": "fragebogen_morgens",
-        "section_header": "",
+        "section_header": "Schlafqualität",
         "field_type": "radio",
         "field_label": "Meine allgemeine Schlafqualität  war in der letzten Nacht ...",
         "select_choices_or_calculations": [
@@ -485,7 +485,7 @@
     {
         "field_name": "sfm_q9",
         "form_name": "fragebogen_morgens",
-        "section_header": "",
+        "section_header": "Schlafqualität",
         "field_type": "radio",
         "field_label": "Im Vergleich zu meiner durchschnittlichen Schlafqualität war die letzte Nacht …(... verglichen mit vor dem Experiment)",
         "select_choices_or_calculations": [
@@ -525,123 +525,9 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "sfm_q9b",
-        "form_name": "fragebogen_morgens",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "War der schlechte Schlaf aufgrund des Interventionsgerätes?",
-        "select_choices_or_calculations": [
-           {
-                "code": "0",
-                "label": "Nein"
-            },
-            {
-                "code": "1",
-                "label": "Ja"             
-            },
-            {
-                "code": "2",
-                "label": "Unklar"   
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[sfm_q9]='0' or [sfm_q9]='1'",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": "responses['sfm_q9']=='0' || responses['sfm_q9']=='1'"
-    } ,
-    {
-        "field_name": "sfm_q10",
-        "form_name": "fragebogen_morgens",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "Das Schlafgerät hat meine Schlafqualität...",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "Eindeutig verbessert"
-            },
-            {
-                "code": "1",
-                "label": "Eher verbessert"
-            },
-            {
-                "code": "2",
-                "label": "Nicht verändert"
-            },
-            {
-                "code": "3",
-                "label": "Eher verschlechtert"
-            },
-            {
-                "code": "4",
-                "label": "Eindeutig verschlechtert"
-            },
-            {
-                "code": "5",
-                "label": "Vielleicht verändert, aber unsicher ob dies wegen dem Schlafgerät ist"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "sfm_q11",
-        "form_name": "fragebogen_morgens",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "Ich habe letzte Nacht gehört, wie das Gerät Töne gespielt hat: (nach dem Einschlafen)",
-        "select_choices_or_calculations": [
-          {
-                "code": "0",
-                "label": "Ja"
-            },
-            {
-                "code": "1",
-                "label": "Nein"
-            },
-            {
-                "code": "2",
-                "label": "Ich habe Töne gehört, stammen möglicherweise nicht vom Schlafgerät"
-            }
-        ],
-        "field_note": "nach dem Einschlafen",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
         "field_name": "sss_morgens",
         "form_name": "fragebogen_morgens",
-        "section_header": "Schläftrigkeit\n",
+        "section_header": "Schläftrigkeit",
         "field_type": "radio",
         "field_label": "Auf einer Skala von 1-10, wie schläfrig fühlen Sie sich im Moment? (Diese Frage erfasst, wie munter Sie sich fühlen. Bitte schätzen Sie ein, wie Sie sich im Moment fühlen, indem Sie die entsprechende, passende Beschreibung auswählen (es ist nur eine Antwort möglich))",
         "select_choices_or_calculations": [
@@ -703,7 +589,7 @@
     {
         "field_name": "info_6imq_1",
         "form_name": "fragebogen_morgens",
-        "section_header": "Befindlichkeit\n",
+        "section_header": "Befindlichkeit",
         "field_type": "info",
         "field_label": "",
         "select_choices_or_calculations": [
@@ -737,7 +623,7 @@
     {
         "field_name": "imq_1_morgens",
         "form_name": "fragebogen_morgens",
-        "section_header": "",
+        "section_header": "Befindlichkeit",
         "field_type": "slider",
         "field_label": "In diesem Moment fühle ich mich...",
         "select_choices_or_calculations": [
@@ -767,7 +653,7 @@
     {
         "field_name": "imq_2_morgens",
         "form_name": "fragebogen_morgens",
-        "section_header": "",
+        "section_header": "Befindlichkeit",
         "field_type": "slider",
         "field_label": "In diesem Moment fühle ich mich...",
         "select_choices_or_calculations": [
@@ -797,7 +683,7 @@
     {
         "field_name": "imq_3_morgens",
         "form_name": "fragebogen_morgens",
-        "section_header": "",
+        "section_header": "Befindlichkeit",
         "field_type": "slider",
         "field_label": "In diesem Moment fühle ich mich...",
         "select_choices_or_calculations": [
@@ -827,7 +713,7 @@
     {
         "field_name": "imq_4_morgens",
         "form_name": "fragebogen_morgens",
-        "section_header": "",
+        "section_header": "Befindlichkeit",
         "field_type": "slider",
         "field_label": "In diesem Moment fühle ich mich...",
         "select_choices_or_calculations": [
@@ -857,7 +743,7 @@
     {
         "field_name": "imq_5_morgens",
         "form_name": "fragebogen_morgens",
-        "section_header": "",
+        "section_header": "Befindlichkeit",
         "field_type": "slider",
         "field_label": "In diesem Moment fühle ich mich...",
         "select_choices_or_calculations": [
@@ -887,7 +773,7 @@
     {
         "field_name": "imq_6_morgens",
         "form_name": "fragebogen_morgens",
-        "section_header": "",
+        "section_header": "Befindlichkeit",
         "field_type": "slider",
         "field_label": "In diesem Moment fühle ich mich...",
         "select_choices_or_calculations": [
@@ -917,7 +803,7 @@
     {
         "field_name": "mood_1_morgens",
         "form_name": "fragebogen_morgens",
-        "section_header": "",
+        "section_header": "Befindlichkeit",
         "field_type": "slider",
         "field_label": "Wie ist Ihre Stimmung im Moment?",
         "select_choices_or_calculations": [
@@ -947,7 +833,7 @@
     {
         "field_name": "mood_2_morgens",
         "form_name": "fragebogen_morgens",
-        "section_header": "",
+        "section_header": "Befindlichkeit",
         "field_type": "slider",
         "field_label": "Wie fühlen Sie sich im Moment?",
         "select_choices_or_calculations": [
