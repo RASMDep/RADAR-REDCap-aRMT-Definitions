@@ -60,35 +60,5 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
-    },
-    {
-        "field_name": "cl_q3",
-        "form_name": "checkliste_abends",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "Ich habe das Tagebuch ausgefüllt.",
-        "select_choices_or_calculations": [
-            { 
-                "code": "0",
-                "label": "Ja"
-            },
-            {
-                "code": "1",
-                "label": "Nein"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "RH",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
     }
 ]
