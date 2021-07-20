@@ -157,7 +157,7 @@
         "form_name": "tagebuch_abends",
         "section_header": "",
         "field_type": "text",
-        "field_label": "Zu welcher Uhrzeit konsumierten Sie ihr letzte Einheit Schokolade, Schwarztee...? ()",
+        "field_label": "Zu welcher Uhrzeit konsumierten Sie ihr letzte Einheit Schokolade, Schwarztee...? (HH:MM)",
         "select_choices_or_calculations": "",
         "field_note": "HH:MM",
         "text_validation_type_or_show_slider_number": "time",
@@ -244,7 +244,7 @@
         "form_name": "tagebuch_abends",
         "section_header": "",
         "field_type": "text",
-        "field_label": "Zu welcher Uhrzeit konsumierten Sie ihr letztes alkoholisches Getränk?",
+        "field_label": "Zu welcher Uhrzeit konsumierten Sie ihr letztes alkoholisches Getränk? (HH:MM)",
         "select_choices_or_calculations": "",
         "field_note": "HH:MM",
         "text_validation_type_or_show_slider_number": "time",
@@ -344,60 +344,81 @@
     {
         "field_name": "diary_q5b",
         "form_name": "tagebuch_abends",
-        "section_header": "",
+        "section_header": "Bewegung und Sport",
         "field_type": "text",
-        "field_label": "Wie lange haben Sie sich sportlich betätigt/eine körperlich anstrengende Tätigkeit betrieben?",
+        "field_label": "Wie lange haben Sie sich sportlich betätigt/eine körperlich anstrengende Tätigkeit betrieben? (Minuten)",
         "select_choices_or_calculations": "",
         "field_note": "MINUTEN",
         "text_validation_type_or_show_slider_number": "integer",
         "text_validation_min": "",
         "text_validation_max": "1500",
         "identifier": "",
-        "branching_logic": "[diary_q5] = '1'",
+        "branching_logic": "[diary_q5]='1'",
         "required_field": "y",
         "custom_alignment": "RH",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['diary_q5'] ==  '1'"
+        "evaluated_logic": "responses['diary_q5']=='1'"
     },
     {
         "field_name": "diary_q5c",
         "form_name": "tagebuch_abends",
-        "section_header": "",
+        "section_header": "Bewegung und Sport",
         "field_type": "checkbox",
         "field_label": "Welche Sportarten beschreiben Ihre körperliche Aktivität am besten?",
         "select_choices_or_calculations": [
-            {},
-            {},
-            {},
-            {},
-            {}
+            {
+                "code": "0",
+                "label": "Kraft  (Gewichtheben, Kraftraum, etc.)"
+            },
+            {
+                "code": "1",
+                "label": "Ausdauer (Joggen, Schwimmen, etc.)"
+            },
+            {
+                "code": "2",
+                "label": " Team (Fussball, Basketball, Hockey, etc.)"
+            },
+            {
+                "code": "3",
+                "label": "Sportart mit Schläger (Tennis, Squash, etc.)"
+            },
+            {
+                "code": "4",
+                "label": "Turnen (Manege, Aerobic, Yoga etc.)"
+            }
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[diary_q5] = '1'",
+        "branching_logic": "[diary_q5]='1'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['diary_q5'] ==  '1'"
+        "evaluated_logic": "responses['diary_q5']=='1'"
     },
     {
         "field_name": "diary_q6",
         "form_name": "tagebuch_abends",
-        "section_header": "",
+        "section_header": "Bewegung und Sport",
         "field_type": "radio",
         "field_label": "Haben Sie heute leichte körpertliche Aktivitäten ohne erhöhte Anstrengung/Schwitzen betrieben (z.B. Golf, gemütliches Gehen, Angeln)?",
         "select_choices_or_calculations": [
-            {},
-            {}
+            {
+                "code": "0",
+                "label": "Ja"
+            },
+            {
+                "code": "1",
+                "label": "Nein"
+            }
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -416,38 +437,60 @@
     {
         "field_name": "diary_q6b",
         "form_name": "tagebuch_abends",
-        "section_header": "",
+        "section_header": "Bewegung und Sport",
         "field_type": "text",
-        "field_label": "Wie lange haben Sie eine leichte körperliche Aktivität ausgeführt?",
+        "field_label": "Wie lange haben Sie eine leichte körperliche Aktivität ausgeführt? (Minuten)",
         "select_choices_or_calculations": "",
         "field_note": "MINUTEN",
         "text_validation_type_or_show_slider_number": "integer",
         "text_validation_min": "",
         "text_validation_max": "1500",
         "identifier": "",
-        "branching_logic": "[diary_q6] = '1'",
+        "branching_logic": "[diary_q6]='1'",
         "required_field": "y",
         "custom_alignment": "RH",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['diary_q6'] ==  '1'"
+        "evaluated_logic": "responses['diary_q6']=='1'"
     },
     {
         "field_name": "diary_q8",
         "form_name": "tagebuch_abends",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "Wie stark PHYSISCH, also körperlich belastend war Ihr Tag heute?",
+        "section_header": "Bewegung und Sport",
+        "field_type": "range",
+        "field_label": "Wie stark PHYSISCH, also körperlich belastend war Ihr Tag heute? (Körperliche Belastung)",
         "select_choices_or_calculations": [
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {}
+            {
+                "code": "0",
+                "label": "0 - überhaupt nicht"
+            },
+            {
+                "code": "1",
+                "label": ""
+            },
+            {
+                "code": "2",
+                "label": ""
+            },
+            {
+                "code": "3",
+                "label": ""
+            },
+            {
+                "code": "4",
+                "label": ""
+            }
+            ,
+            {
+                "code": "5",
+                "label": ""
+            },
+            {
+                "code": "6",
+                "label": "6 - sehr stark"
+            }
         ],
         "field_note": "Körperliche Belastung",
         "text_validation_type_or_show_slider_number": "",
@@ -466,17 +509,39 @@
     {
         "field_name": "diary_q7",
         "form_name": "tagebuch_abends",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "Wie stark PSYCHISCH, also mental belastend/stressig war Ihr Tag heute?",
+        "section_header": "Bewegung und Sport",
+        "field_type": "range",
+        "field_label": "Wie stark PSYCHISCH, also mental belastend/stressig war Ihr Tag heute? (Mentale Belastung)",
         "select_choices_or_calculations": [
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {}
+            {
+                "code": "0",
+                "label": "0 - überhaupt nicht"
+            },
+            {
+                "code": "1",
+                "label": ""
+            },
+            {
+                "code": "2",
+                "label": ""
+            },
+            {
+                "code": "3",
+                "label": ""
+            },
+            {
+                "code": "4",
+                "label": ""
+            }
+            ,
+            {
+                "code": "5",
+                "label": ""
+            },
+            {
+                "code": "6",
+                "label": "6 - sehr stark"
+            }
         ],
         "field_note": "Mentale Belastung",
         "text_validation_type_or_show_slider_number": "",
@@ -495,12 +560,18 @@
     {
         "field_name": "diary_q9",
         "form_name": "tagebuch_abends",
-        "section_header": "<div class=\"rich-text-field-label\"><p>Tagesschlaf</p></div>",
+        "section_header": "Tagesschlaf",
         "field_type": "radio",
         "field_label": "Haben Sie heute tagsüber geschlafen?",
         "select_choices_or_calculations": [
-            {},
-            {}
+            {
+                "code": "0",
+                "label": "Ja"
+            },
+            {
+                "code": "1",
+                "label": "Nein"
+            }
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -519,28 +590,28 @@
     {
         "field_name": "diary_q9b",
         "form_name": "tagebuch_abends",
-        "section_header": "",
+        "section_header": "Tagesschlaf",
         "field_type": "text",
-        "field_label": "Um welche Uhrzeit?",
+        "field_label": "Um welche Uhrzeit? (HH:MM)",
         "select_choices_or_calculations": "",
         "field_note": "HH:MM",
         "text_validation_type_or_show_slider_number": "time",
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[diary_q9] = '1'",
+        "branching_logic": "[diary_q9]='1'",
         "required_field": "y",
         "custom_alignment": "RH",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['diary_q9'] ==  '1'"
+        "evaluated_logic": "responses['diary_q9']=='1'"
     },
     {
         "field_name": "diary_q9c",
         "form_name": "tagebuch_abends",
-        "section_header": "",
+        "section_header": "Tagesschlaf",
         "field_type": "text",
         "field_label": "Wie lange (Minuten)?",
         "select_choices_or_calculations": "",
@@ -549,21 +620,34 @@
         "text_validation_min": "",
         "text_validation_max": "2000",
         "identifier": "",
-        "branching_logic": "[diary_q9] = '1'",
+        "branching_logic": "[diary_q9]='1'",
         "required_field": "y",
         "custom_alignment": "RH",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['diary_q9'] ==  '1'"
+        "evaluated_logic": "responses['diary_q9']=='1'"
     },
     {
         "field_name": "info_6imq_2",
         "form_name": "tagebuch_abends",
-        "section_header": "Befindlichkeit\n",
-        "field_type": "descriptive",
-        "field_label": "<div class=\"rich-text-field-label\"><p><span style=\"font-weight: normal;\">Nachfolgend sehen Sie 6 Aussagen zu Ihrer Befindlichkeit. Platzieren sie den Schieber an die Stelle, die Ihren momentanen Zustand am besten beschreibt.</span><br /><br /><span style=\"font-weight: normal;\">Bitte beachten Sie folgende Punkte:</span><br /><br /><span style=\"font-weight: normal;\">Beurteilen Sie nur, wie Sie sich augenblicklich fühlen.</span><br /><span style=\"font-weight: normal;\">Wenn Ihnen die Antwort einmal schwerfallen sollte, wählen Sie die am ehesten zutreffende Antwort.</span></p> <p> </p></div>",
+        "section_header": "Befindlichkeit",
+        "field_type": "info",
+        "field_label": [
+             {
+                "label": "Nachfolgend sehen Sie 6 Aussagen zu Ihrer Befindlichkeit.",
+                "code": ""
+              },
+              {
+                "label": "Platzieren sie den Schieber an die Stelle, die Ihren momentanen Zustand am besten beschreibt.",
+                "code": ""
+              },
+              {
+                "label": "Bitte beachten Sie folgende Punkte:Beurteilen Sie nur, wie Sie sich augenblicklich fühlen. Wenn Ihnen die Antwort einmal schwerfallen sollte, wählen Sie die am ehesten zutreffende Antwort.",
+                "code": ""
+              }
+        ],
         "select_choices_or_calculations": "",
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -584,7 +668,7 @@
         "form_name": "tagebuch_abends",
         "section_header": "",
         "field_type": "slider",
-        "field_label": "<div class=\"rich-text-field-label\"><p>In diesem Moment fühle ich mich...</p> <p> </p></div>",
+        "field_label": "In diesem Moment fühle ich mich...",
         "select_choices_or_calculations": [
             {},
             {},
