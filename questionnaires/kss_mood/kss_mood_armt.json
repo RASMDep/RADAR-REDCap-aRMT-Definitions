@@ -1,42 +1,51 @@
 [
     {
-        "field_name": "sss_mittags_info",
-        "form_name": "fragebogen_1300_uhr",
-        "section_header": "Schläfrigkeit\n",
-        "field_type": "descriptive",
-        "field_label": "Bitte füllen Sie diesen Fagebogen immer zwischen 13:00 und 14:00 oder vor einem eventuellen Mittagsschlaf aus",
-        "select_choices_or_calculations": "",
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
         "field_name": "sss_mittags",
         "form_name": "fragebogen_1300_uhr",
         "section_header": "",
         "field_type": "radio",
-        "field_label": "Auf einer Skala von 1-10, wie schläfrig fühlen Sie sich im Moment?",
+        "field_label": "Auf einer Skala von 1-10, wie schläfrig fühlen Sie sich im Moment? Diese Frage erfasst, wie munter Sie sich fühlen. Bitte schätzen Sie ein, wie Sie sich im Moment fühlen, indem Sie die entsprechende, passende Beschreibung auswählen (es ist nur eine Antwort möglich).",
         "select_choices_or_calculations": [
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {},
-            {}
+          {
+                "code": "0",
+                "label": "1 - äusserst wach"
+            },
+            {
+                "code": "1",
+                "label": "2 - sehr wach"
+            },
+            {
+                "code": "2",
+                "label": "3 - normal wach"
+            },
+            {
+                "code": "3",
+                "label": "4 - ziemlich wach"
+            },
+            {
+                "code": "4",
+                "label": "5 - weder wach noch schläfrig 6 - etwas schläfrig"
+            },
+            {
+                "code": "5",
+                "label": "6 - etwas schläfrig"
+            },
+            {
+                "code": "6",
+                "label": "7 - schläfrig, ohne Mühe wach zu bleiben"
+            },
+            {
+                "code": "7",
+                "label": "8 - schläfrig, etwas Mühe wach zu bleiben"
+            },
+            {
+                "code": "8",
+                "label": "9 - sehr schläfrig, grosse Mühe wach zu bleiben 10 - äusserst schläfrig, kann nicht wach bleiben"
+            },
+            {
+                "code": "9",
+                "label": "Ich habe Töne gehört, stammen möglicherweise nicht vom Schlafgerät"
+            }
         ],
         "field_note": "Diese Frage erfasst, wie munter Sie sich fühlen. Bitte schätzen Sie ein, wie Sie sich im Moment fühlen, indem Sie die entsprechende, passende Beschreibung auswählen (es ist nur eine Antwort möglich).",
         "text_validation_type_or_show_slider_number": "",
@@ -55,10 +64,23 @@
     {
         "field_name": "info_6imq",
         "form_name": "fragebogen_1300_uhr",
-        "section_header": "Befindlichkeit\n",
-        "field_type": "descriptive",
-        "field_label": "<div class=\"rich-text-field-label\"><p><span style=\"font-weight: normal;\">Nachfolgend sehen Sie 6 Aussagen zu Ihrer Befindlichkeit. Platzieren sie den Schieber an die Stelle, die Ihren momentanen Zustand am besten beschreibt.</span><br /><br /><span style=\"font-weight: normal;\">Bitte beachten Sie folgende Punkte:</span><br /><br /><span style=\"font-weight: normal;\">Beurteilen Sie nur, wie Sie sich augenblicklich fühlen.</span><br /><span style=\"font-weight: normal;\">Wenn Ihnen die Antwort einmal schwerfallen sollte, wählen Sie die am ehesten zutreffende Antwort.</span></p> <p> </p></div>",
-        "select_choices_or_calculations": "",
+        "section_header": "Befindlichkeit",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+              {
+                "label": "Nachfolgend sehen Sie 6 Aussagen zu Ihrer Befindlichkeit.",
+                "code": ""
+              },
+              {
+                "label": "Platzieren sie den Schieber an die Stelle, die Ihren momentanen Zustand am besten beschreibt.",
+                "code": ""
+              },
+              {
+                "label": "Bitte beachten Sie folgende Punkte:Beurteilen Sie nur, wie Sie sich augenblicklich fühlen. Wenn Ihnen die Antwort einmal schwerfallen sollte, wählen Sie die am ehesten zutreffende Antwort.",
+                "code": ""
+              }
+         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
         "text_validation_min": "",
@@ -77,12 +99,17 @@
         "field_name": "imq_1",
         "form_name": "fragebogen_1300_uhr",
         "section_header": "",
-        "field_type": "slider",
-        "field_label": "<div class=\"rich-text-field-label\"><p>In diesem Moment fühle ich mich...</p> <p> </p></div>",
+        "field_type": "range",
+        "field_label": "In diesem Moment fühle ich mich...",
         "select_choices_or_calculations": [
-            {},
-            {},
-            {}
+             { 
+                 "code" : "0",
+                 "label": "sehr müde"
+             },
+             { 
+                 "code" : "6",
+                 "label": "sehr wach"
+             }
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "number",
