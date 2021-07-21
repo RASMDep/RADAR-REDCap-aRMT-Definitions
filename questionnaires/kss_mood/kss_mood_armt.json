@@ -159,12 +159,17 @@
         "field_name": "imq_3",
         "form_name": "fragebogen_1300_uhr",
         "section_header": "",
-        "field_type": "slider",
+        "field_type": "range",
         "field_label": "In diesem Moment fühle ich mich...",
         "select_choices_or_calculations": [
-            {},
-            {},
-            {}
+             { 
+                 "code" : "0",
+                 "label": "sehr unruhig"
+             },
+             { 
+                 "code" : "6",
+                 "label": "sehr ruhig"
+             }
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -184,12 +189,17 @@
         "field_name": "imq_4",
         "form_name": "fragebogen_1300_uhr",
         "section_header": "",
-        "field_type": "slider",
-        "field_label": "<div class=\"rich-text-field-label\"><p>In diesem Moment fühle ich mich...</p> <p> </p></div>",
+        "field_type": "range",
+        "field_label": "In diesem Moment fühle ich mich...",
         "select_choices_or_calculations": [
-            {},
-            {},
-            {}
+              { 
+                 "code" : "0",
+                 "label": "sehr energiegeladen"
+             },
+             { 
+                 "code" : "6",
+                 "label": "sehr energielos"
+             }
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "number",
@@ -209,12 +219,17 @@
         "field_name": "imq_5",
         "form_name": "fragebogen_1300_uhr",
         "section_header": "",
-        "field_type": "slider",
-        "field_label": "<div class=\"rich-text-field-label\"><p>In diesem Moment fühle ich mich...</p> <p> </p></div>",
+        "field_type": "range",
+        "field_label": "In diesem Moment fühle ich mich...",
         "select_choices_or_calculations": [
-            {},
-            {},
-            {}
+             { 
+                 "label" : "sehr unwohl",
+                 "code": "0"
+             },
+             { 
+                 "label" : "sehr wohl",
+                 "code": "6"
+             }
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "number",
@@ -234,12 +249,17 @@
         "field_name": "imq_6",
         "form_name": "fragebogen_1300_uhr",
         "section_header": "",
-        "field_type": "slider",
-        "field_label": "<div class=\"rich-text-field-label\"><p>In diesem Moment fühle ich mich...</p></div>",
+        "field_type": "range",
+        "field_label": "In diesem Moment fühle ich mich...",
         "select_choices_or_calculations": [
-            {},
-            {},
-            {}
+             { 
+                 "code" : "0",
+                 "label": "sehr entspannt"
+             },
+             { 
+                 "code" : "6",
+                 "label": "sehr angespannt"
+             }
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "number",
@@ -262,9 +282,14 @@
         "field_type": "slider",
         "field_label": "Wie ist Ihre Stimmung im Moment?",
         "select_choices_or_calculations": [
-            {},
-            {},
-            {}
+             { 
+                 "code" : "0",
+                 "label": "depressive Stimmung"
+             },
+             { 
+                 "code" : "6",
+                 "label": "gute Stimmung"
+             }
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
@@ -287,9 +312,14 @@
         "field_type": "slider",
         "field_label": "Wie fühlen Sie sich im Moment?",
         "select_choices_or_calculations": [
-            {},
-            {},
-            {}
+             { 
+                 "code" : "0",
+                 "label": "so schlimm wie noch nie"
+             },
+             { 
+                 "code" : "6",
+                 "label": "so gut wie noch nie"
+             }
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "",
