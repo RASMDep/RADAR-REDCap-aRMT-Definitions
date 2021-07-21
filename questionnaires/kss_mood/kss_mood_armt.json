@@ -44,7 +44,7 @@
             },
             {
                 "code": "9",
-                "label": "Ich habe Töne gehört, stammen möglicherweise nicht vom Schlafgerät"
+                "label": "10 - äusserst schläfrig, kann nicht wach bleiben"
             }
         ],
         "field_note": "Diese Frage erfasst, wie munter Sie sich fühlen. Bitte schätzen Sie ein, wie Sie sich im Moment fühlen, indem Sie die entsprechende, passende Beschreibung auswählen (es ist nur eine Antwort möglich).",
@@ -129,12 +129,17 @@
         "field_name": "imq_2",
         "form_name": "fragebogen_1300_uhr",
         "section_header": "",
-        "field_type": "slider",
-        "field_label": "<div class=\"rich-text-field-label\"><p>In diesem Moment fühle ich mich...</p> <p> </p></div>",
+        "field_type": "range",
+        "field_label": "In diesem Moment fühle ich mich...",
         "select_choices_or_calculations": [
-            {},
-            {},
-            {}
+             { 
+                 "label" : "sehr zufrieden",
+                 "code": "0"
+             },
+             { 
+                 "label" : "sehr unzufrieden",
+                 "code": "6"
+             }
         ],
         "field_note": "",
         "text_validation_type_or_show_slider_number": "number",
