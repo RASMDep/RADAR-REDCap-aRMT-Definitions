@@ -481,8 +481,7 @@
             {
                 "code": "4",
                 "label": ""
-            }
-            ,
+            },
             {
                 "code": "5",
                 "label": ""
@@ -532,8 +531,7 @@
             {
                 "code": "4",
                 "label": ""
-            }
-            ,
+            },
             {
                 "code": "5",
                 "label": ""
@@ -902,16 +900,22 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
-    }
+    },
     {
         "field_name": "diary_device1",
         "form_name": "tagebuch_abends",
-        "section_header": "<div class=\"rich-text-field-label\"><p><strong>Geräte<br /><br /></strong></p></div>",
+        "section_header": "Geräte",
         "field_type": "radio",
         "field_label": "Ich habe das Schlafgerät über den Tag aufgeladen und das rote Licht ist jetzt kontinuierlich an.",
         "select_choices_or_calculations": [
-            {},
-            {}
+            {
+                "code": "0",
+                "label": "Ja"
+            },
+            {
+                "code": "1",
+                "label": "Nein"
+            }
         ],
         "field_note": "Stellen Sie sicher, dass das Schlafgerät bis zum Schlafengehen gut auf der Ladestation aufliegt und das rote Licht blinkt. Wenn das Schlafgerät voll geladen ist, leuchtet das rote Licht durchgehend. Nehmen Sie das Schlafgerät erst von der Ladestation, wenn Sie sich für das Schlafengehen vorbereiten",
         "text_validation_type_or_show_slider_number": "",
@@ -920,27 +924,6 @@
         "identifier": "",
         "branching_logic": "",
         "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "dairy_end",
-        "form_name": "tagebuch_abends",
-        "section_header": "",
-        "field_type": "descriptive",
-        "field_label": "Vielen Dank!\r\nVor dem Schlafengehen geht es dann weiter mit der Checkliste.",
-        "select_choices_or_calculations": "",
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
