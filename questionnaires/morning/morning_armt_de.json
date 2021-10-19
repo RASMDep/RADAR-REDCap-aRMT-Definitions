@@ -7,11 +7,11 @@
         "field_label": "Ich ging zur üblichen Zeit ins Bett (plus/minus 15 Minuten)",
         "select_choices_or_calculations": [
             {
-                "code": "0",
+                "code": "1",
                 "label": "Ja"
             },
             {
-                "code": "1",
+                "code": "2",
                 "label": "Nein"
             }
         ],
@@ -179,11 +179,11 @@
         "field_label": "Ich bin zur üblichen Zeit aufgestanden (plus/minus 15 Minuten)",
         "select_choices_or_calculations": [
             { 
-                "code": "0",
+                "code": "1",
                 "label": "Ja"
             },
             {
-                "code": "1",
+                "code": "2",
                 "label": "Nein"
             }
         ],
@@ -242,14 +242,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[sfm_q2]='0'",
+        "branching_logic": "[sfm_q2]='1'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['sfm_q2']=='0'"
+        "evaluated_logic": "responses['sfm_q2']=='1'"
     },
     {
         "field_name": "sfm_q6",
