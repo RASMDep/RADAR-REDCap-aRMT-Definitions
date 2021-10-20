@@ -268,11 +268,11 @@
         "field_label": "Haben Sie heute andere Medikamente eingenommen als diejenigen, welche mit dem Studienarzt besprochen wurden?",
         "select_choices_or_calculations": [
             {
-                "code": "0",
+                "code": "1",
                 "label": "Ja"
             },
             {
-                "code": "1",
+                "code": "2",
                 "label": "Nein"
             }
         ],
@@ -319,11 +319,11 @@
         "field_label": "Haben Sie heute Sport oder sonstige körperlich anstrengenden Tätigkeiten betrieben (mit erhöhter Anstrengung/Schwitzen, z.B. Schwimmen, Jogging, Fussball spielen, Velo fahren)?",
         "select_choices_or_calculations": [
             {
-                "code": "0",
+                "code": "1",
                 "label": "Ja"
             },
             {
-                "code": "1",
+                "code": "2",
                 "label": "Nein"
             }
         ],
@@ -412,11 +412,11 @@
         "field_label": "Haben Sie heute leichte körpertliche Aktivitäten ohne erhöhte Anstrengung/Schwitzen betrieben (z.B. Golf, gemütliches Gehen, Angeln)?",
         "select_choices_or_calculations": [
             {
-                "code": "0",
+                "code": "1",
                 "label": "Ja"
             },
             {
-                "code": "1",
+                "code": "2",
                 "label": "Nein"
             }
         ],
@@ -563,11 +563,11 @@
         "field_label": "Haben Sie heute tagsüber geschlafen?",
         "select_choices_or_calculations": [
             {
-                "code": "0",
+                "code": "1",
                 "label": "Ja"
             },
             {
-                "code": "1",
+                "code": "2",
                 "label": "Nein"
             }
         ],
@@ -853,7 +853,7 @@
                  "label": "depressive Stimmung"
              },
              { 
-                 "code" : "6",
+                 "code" : "100",
                  "label": "gute Stimmung"
              }
         ],
@@ -883,7 +883,7 @@
                  "label": "so schlimm wie noch nie"
              },
              { 
-                 "code" : "6",
+                 "code" : "100",
                  "label": "so gut wie noch nie"
              }
         ],
@@ -895,36 +895,6 @@
         "branching_logic": "",
         "required_field": "",
         "custom_alignment": "RH",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "diary_device1",
-        "form_name": "tagebuch_abends",
-        "section_header": "Geräte",
-        "field_type": "radio",
-        "field_label": "Ich habe das Schlafgerät über den Tag aufgeladen und das rote Licht ist jetzt kontinuierlich an.",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "Ja"
-            },
-            {
-                "code": "1",
-                "label": "Nein"
-            }
-        ],
-        "field_note": "Stellen Sie sicher, dass das Schlafgerät bis zum Schlafengehen gut auf der Ladestation aufliegt und das rote Licht blinkt. Wenn das Schlafgerät voll geladen ist, leuchtet das rote Licht durchgehend. Nehmen Sie das Schlafgerät erst von der Ladestation, wenn Sie sich für das Schlafengehen vorbereiten",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
