@@ -1,4 +1,4 @@
-[
+ [
     {
         "field_name": "kss",
         "form_name": "checkliste_abends",
@@ -62,62 +62,6 @@
         "evaluated_logic": ""
     },
     {
-        "field_name": "cl_q3",
-        "form_name": "checkliste_abends",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "Ich habe das Tagebuch ausgefüllt.",
-        "select_choices_or_calculations": [
-            { 
-                "code": "0",
-                "label": "Ja"
-            },
-            {
-                "code": "1",
-                "label": "Nein"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "RH",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "cl_tagebuchintro",
-        "form_name": "checkliste_abends",
-        "section_header": "",
-        "field_type": "info",
-        "field_label": "",
-        "select_choices_or_calculations": [
-            {
-                "label": "Bitte füllen Sie zuerst das Tagebuch aus bevor Sie mit dieser Checkliste weiterfahren!",
-                "code" : ""
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[cl_q3]='0'",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": "responses['cl_q3']=='0'"
-    },
-    {
         "field_name": "cl_q2",
         "form_name": "checkliste_abends",
         "section_header": "",
@@ -125,11 +69,11 @@
         "field_label": "Ich habe die Gesichtsreinigungs-Routine gemäss Instruktion durchgeführt (auch hinter den Ohren).",
         "select_choices_or_calculations": [
             { 
-                "code": "0",
+                "code": "1",
                 "label": "Ja"
             },
             {
-                "code": "1",
+                "code": "2",
                 "label": "Nein"
             }
         ],
@@ -146,5 +90,312 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
+    },
+    {
+        "field_name": "cl_q5",
+        "form_name": "checkliste_abends",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Ich habe die Abmessung für die Stirnelektrode durchgeführt.",
+        "select_choices_or_calculations": [
+            { 
+                "code": "1",
+                "label": "Ja"
+            },
+            {
+                "code": "2",
+                "label": "Nein"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+    },
+    {
+        "field_name": "cl_q6",
+        "form_name": "checkliste_abends",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Ich habe die Elektroden an folgenden Stellen gut angeklebt:",
+        "select_choices_or_calculations": [
+            { 
+                "code": "0",
+                "label": "Stirn Mitte (entsprechende cm Zahl oberhalb der Nasenfurche)"
+            },
+            {
+                "code": "1",
+                "label": "Hinter linkem Ohr"
+            },
+            {
+                "code": "2",
+                "label": " Hinter rechtem Ohr"
+            },
+            {
+                "code": "3",
+                "label": "Rechts oberhalb des Auges"
+            },
+            {
+                "code": "4",
+                "label": "Links unterhalb des Auges "
+            },
+            {
+                "code": "5",
+                "label": "Kinn rechts"
+            },
+            {
+                "code": "6",
+                "label": "Kinn links"
+            }
+
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+    },
+    {
+        "field_name": "cl_q7",
+        "form_name": "checkliste_abends",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Ich habe das Stirnband korrekt angezogen.",
+        "select_choices_or_calculations": [
+            { 
+                "code": "1",
+                "label": "Ja"
+            },
+            {
+                "code": "2",
+                "label": "Nein"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+    },
+    {
+        "field_name": "cl_q8",
+        "form_name": "checkliste_abends",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Ich habe jede einzelne Klebeelektrode korrekt mit den Kabeln im Stirnband  verbunden. (Markieren Sie jede Elektrode die nun verbunden ist.)",
+        "select_choices_or_calculations": 
+            { 
+                "code": "0",
+                "label": "Stirn Mitte"
+            },
+            {
+                "code": "1",
+                "label": "Hinter linkem Ohr"
+            },
+            {
+                "code": "2",
+                "label": " Hinter rechtem Ohr"
+            },
+            {
+                "code": "3",
+                "label": "Rechts oberhalb des Auges"
+            },
+            {
+                "code": "4",
+                "label": "Links unterhalb des Auges "
+            },
+            {
+                "code": "5",
+                "label": "Kinn rechts"
+            },
+            {
+                "code": "6",
+                "label": "Kinn links"
+            }
+
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+    }, 
+    {
+        "field_name": "checklist_info_2",
+        "form_name": "checkliste_abends",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+              {
+                "label": "Stecken Sie nun das Audiokabel vorne ein.",
+                "code": ""
+              },
+              {
+                "label": "Prüfen Sie ob in den nächsten 10-15 Sekunden ein Test Ton erscheint.",
+                "code": ""
+              }
+         ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "cl_testtone",
+        "form_name": "checkliste_abends",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Ich habe den Test Ton klar gehört:",
+        "select_choices_or_calculations": [
+            { 
+                "code": "1",
+                "label": "Ja"
+            },
+            {
+                "code": "2",
+                "label": "Nein"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+    },
+    {
+        "field_name": "cl_testlight",
+        "form_name": "checkliste_abends",
+        "section_header": "",
+        "field_type": "radio",
+        "field_label": "Das GELBE Licht ist jetzt an:",
+        "select_choices_or_calculations": [
+            { 
+                "code": "1",
+                "label": "Ja"
+            },
+            {
+                "code": "2",
+                "label": "Nein"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "RH",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+    },
+    {
+        "field_name": "cl_infofailure",
+        "form_name": "checkliste_abends",
+        "section_header": "Aufstehen",
+        "field_type": "radio",
+        "field_label": "Wiederholen Sie bitte nochmals den letzten Schritt: 1) Ziehen Sie das Audiokabel nochmals aus 2) Stecken Sie das Audiokabel in die dafür vorgesehene Buchse auf der linken Seite des Schlafgerätes.  Hat es jetzt funktioniert? Falls Sie immer noch nicht den Testton hören oder das gelbe Licht sehen, kontaktieren Sie die Studienkoordinatorin",
+        "select_choices_or_calculations": [
+            { 
+                "code": "1",
+                "label": "Ja"
+            },
+            {
+                "code": "2",
+                "label": "Nein"
+            }
+        ],
+        "field_note": "Bitte wählen Sie das Wahrscheinlichste.",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[cl_testtone]='1' or [cl_testlight]='1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['cl_testtone']=='1' || responses['cl_testlight']=='1'"
+    },
+    {
+        "field_name": "info_end",
+        "form_name": "checkliste_abends",
+        "section_header": "",
+        "field_type": "info",
+        "field_label": "",
+        "select_choices_or_calculations": [
+              {
+                "label": "Vielen Dank! Damit ist das Schlafgerät bereit. Ziehen Sie es nicht mehr aus.",
+                "code": ""
+              },
+              {
+                "label": "Wir wünschen eine gute Nacht!",
+                "code": ""
+              }
+         ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
     }
+    
 ]
