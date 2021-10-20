@@ -7,11 +7,11 @@
         "field_label": "Ich ging zur üblichen Zeit ins Bett (plus/minus 15 Minuten)",
         "select_choices_or_calculations": [
             {
-                "code": "0",
+                "code": "1",
                 "label": "Ja"
             },
             {
-                "code": "1",
+                "code": "2",
                 "label": "Nein"
             }
         ],
@@ -179,11 +179,11 @@
         "field_label": "Ich bin zur üblichen Zeit aufgestanden (plus/minus 15 Minuten)",
         "select_choices_or_calculations": [
             { 
-                "code": "0",
+                "code": "1",
                 "label": "Ja"
             },
             {
-                "code": "1",
+                "code": "2",
                 "label": "Nein"
             }
         ],
@@ -242,14 +242,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[sfm_q2]='0'",
+        "branching_logic": "[sfm_q2]='1'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['sfm_q2']=='0'"
+        "evaluated_logic": "responses['sfm_q2']=='1'"
     },
     {
         "field_name": "sfm_q6",
@@ -532,15 +532,15 @@
         "field_label": "War der schlechte Schlaf aufgrund des Interventionsgerätes?",
         "select_choices_or_calculations": [
            {
-                "code": "0",
+                "code": "1",
                 "label": "Nein"
             },
             {
-                "code": "1",
+                "code": "2",
                 "label": "Ja"             
             },
             {
-                "code": "2",
+                "code": "3",
                 "label": "Unklar"   
             }
         ],
@@ -612,15 +612,15 @@
         "field_label": "Ich habe letzte Nacht gehört, wie das Gerät Töne gespielt hat: (nach dem Einschlafen)",
         "select_choices_or_calculations": [
           {
-                "code": "0",
+                "code": "1",
                 "label": "Ja"
             },
             {
-                "code": "1",
+                "code": "2",
                 "label": "Nein"
             },
             {
-                "code": "2",
+                "code": "3",
                 "label": "Ich habe Töne gehört, stammen möglicherweise nicht vom Schlafgerät"
             }
         ],
@@ -926,7 +926,7 @@
                  "label": "depressive Stimmung"
              },
              { 
-                 "code" : "6",
+                 "code" : "100",
                  "label": "gute Stimmung"
              }
         ],
@@ -956,7 +956,7 @@
                  "label": "so schlimm wie noch nie"
              },
              { 
-                 "code" : "6",
+                 "code" : "100",
                  "label": "so gut wie noch nie"
              }
         ],
@@ -982,11 +982,11 @@
         "field_label": "Haben Sie letzte Nacht das Schlafgerät angezogen?",
         "select_choices_or_calculations": [
              { 
-                 "code" : "0",
+                 "code" : "1",
                  "label": "Ja"
              },
              { 
-                 "code" : "1",
+                 "code" : "2",
                  "label": "Nein"
              }
         ],
@@ -1012,11 +1012,11 @@
         "field_label": "Haben die Elektroden die ganze Nacht gehalten?",
         "select_choices_or_calculations": [
                { 
-                 "code" : "0",
+                 "code" : "1",
                  "label": "Ja"
              },
              { 
-                 "code" : "1",
+                 "code" : "2",
                  "label": "Nein"
              }
         ],
@@ -1071,14 +1071,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[gfm_q3]='0'",
+        "branching_logic": "[gfm_q3]='2'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['gfm_q3']=='0'"
+        "evaluated_logic": "responses['gfm_q3']=='2'"
     },
     {
         "field_name": "gfm_q4",
@@ -1109,14 +1109,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[gfm_q2]='1'",
+        "branching_logic": "",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['gfm_q2']=='1'"
+        "evaluated_logic": ""
     },
     {
         "field_name": "gfm_q5",
@@ -1126,11 +1126,11 @@
         "field_label": "Ist das Gateway-Gerät an einer Stromquelle eingesteckt?",
         "select_choices_or_calculations": [
              {  
-                 "code" : "0",
+                 "code" : "1",
                  "label": "Ja"
              },
              { 
-                 "code" : "1",
+                 "code" : "2",
                  "label": "Nein"
              },
         ],
@@ -1160,14 +1160,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[gfm_q5]='0'",
+        "branching_logic": "[gfm_q5]='2'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['gfm_q5']=='0'"
+        "evaluated_logic": "responses['gfm_q5']=='2'"
     },
     {
         "field_name": "gfm_q6",
@@ -1177,11 +1177,11 @@
         "field_label": "Haben Sie das Schlafgerät auf die Ladestation gelegt?",
         "select_choices_or_calculations": [
              {  
-                 "code" : "0",
+                 "code" : "1",
                  "label": "Ja"
              },
              { 
-                 "code" : "1",
+                 "code" : "2",
                  "label": "Nein"
              },
         ],
@@ -1211,14 +1211,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[gfm_q6]='0'",
+        "branching_logic": "[gfm_q6]='2'",
         "required_field": "",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['gfm_q6']=='0'"
+        "evaluated_logic": "responses['gfm_q6']=='2'"
     },
     {
         "field_name": "gfm_q9",
@@ -1228,11 +1228,11 @@
         "field_label": "Blinkt das rote Licht am Schlafgerät auf der Ladestation?",
         "select_choices_or_calculations": [
              {  
-                 "code" : "0",
+                 "code" : "1",
                  "label": "Ja"
              },
              { 
-                 "code" : "1",
+                 "code" : "2",
                  "label": "Nein"
              },
         ],
