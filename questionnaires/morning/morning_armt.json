@@ -7,11 +7,11 @@
         "field_label": "Ich ging zur üblichen Zeit ins Bett (plus/minus 15 Minuten)",
         "select_choices_or_calculations": [
             {
-                "code": "0",
+                "code": "1",
                 "label": "Ja"
             },
             {
-                "code": "1",
+                "code": "2",
                 "label": "Nein"
             }
         ],
@@ -179,11 +179,11 @@
         "field_label": "Ich bin zur üblichen Zeit aufgestanden (plus/minus 15 Minuten)",
         "select_choices_or_calculations": [
             { 
-                "code": "0",
+                "code": "1",
                 "label": "Ja"
             },
             {
-                "code": "1",
+                "code": "2",
                 "label": "Nein"
             }
         ],
@@ -242,14 +242,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[sfm_q2]='0'",
+        "branching_logic": "[sfm_q2]='1'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['sfm_q2']=='0'"
+        "evaluated_logic": "responses['sfm_q2']=='1'"
     },
     {
         "field_name": "sfm_q6",
@@ -524,6 +524,120 @@
         "field_annotation": "",
         "evaluated_logic": ""
     },
+  {
+        "field_name": "sfm_q9b",
+        "form_name": "fragebogen_morgens",
+        "section_header": "Schlafqualität",
+        "field_type": "radio",
+        "field_label": "War der schlechte Schlaf aufgrund des Interventionsgerätes?",
+        "select_choices_or_calculations": [
+           {
+                "code": "1",
+                "label": "Nein"
+            },
+            {
+                "code": "2",
+                "label": "Ja"             
+            },
+            {
+                "code": "3",
+                "label": "Unklar"   
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "[sfm_q9]='0' or [sfm_q9]='1'",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": "responses['sfm_q9']=='0' || responses['sfm_q9']=='1'"
+    } ,
+    {
+        "field_name": "sfm_q10",
+        "form_name": "fragebogen_morgens",
+        "section_header": "Schlafqualität",
+        "field_type": "radio",
+        "field_label": "Das Schlafgerät hat meine Schlafqualität...",
+        "select_choices_or_calculations": [
+            {
+                "code": "0",
+                "label": "Eindeutig verbessert"
+            },
+            {
+                "code": "1",
+                "label": "Eher verbessert"
+            },
+            {
+                "code": "2",
+                "label": "Nicht verändert"
+            },
+            {
+                "code": "3",
+                "label": "Eher verschlechtert"
+            },
+            {
+                "code": "4",
+                "label": "Eindeutig verschlechtert"
+            },
+            {
+                "code": "5",
+                "label": "Vielleicht verändert, aber unsicher ob dies wegen dem Schlafgerät ist"
+            }
+        ],
+        "field_note": "",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
+    {
+        "field_name": "sfm_q11",
+        "form_name": "fragebogen_morgens",
+        "section_header": "Schlafqualität",
+        "field_type": "radio",
+        "field_label": "Ich habe letzte Nacht gehört, wie das Gerät Töne gespielt hat: (nach dem Einschlafen)",
+        "select_choices_or_calculations": [
+          {
+                "code": "1",
+                "label": "Ja"
+            },
+            {
+                "code": "2",
+                "label": "Nein"
+            },
+            {
+                "code": "3",
+                "label": "Ich habe Töne gehört, stammen möglicherweise nicht vom Schlafgerät"
+            }
+        ],
+        "field_note": "nach dem Einschlafen",
+        "text_validation_type_or_show_slider_number": "",
+        "text_validation_min": "",
+        "text_validation_max": "",
+        "identifier": "",
+        "branching_logic": "",
+        "required_field": "y",
+        "custom_alignment": "",
+        "question_number": "",
+        "matrix_group_name": "",
+        "matrix_ranking": "",
+        "field_annotation": "",
+        "evaluated_logic": ""
+    },
     {
         "field_name": "sss_morgens",
         "form_name": "fragebogen_morgens",
@@ -602,7 +716,7 @@
                 "code": ""
               },
               {
-                "label": "Bitte beachten Sie folgende Punkte: Beurteilen Sie nur, wie Sie sich augenblicklich fühlen. Wenn Ihnen die Antwort einmal schwerfallen sollte, wählen Sie die am ehesten zutreffende Antwort.",
+                "label": "Bitte beachten Sie folgende Punkte: Beurteilen Sie nur, wie Sie sich augenblicklich fühlen. Wenn Ihnen die Antwort einmal schwerfallen sollte, wählen Sie die am ehesten zutreffende Antwort.",
                 "code": ""
               }
          ],
@@ -620,41 +734,7 @@
         "field_annotation": "",
         "evaluated_logic": ""
     },
-    {
-        "field_name": "info_6item_morgens",
-        "form_name": "fragebogen_morgens",
-        "section_header": "Befindlichkeit",
-        "field_type": "info",
-        "field_label": "",
-        "select_choices_or_calculations": [
-              {
-                "label": "Nachfolgend sehen Sie 6 Aussagen zu Ihrer Befindlichkeit.",
-                "code": ""
-              },
-              {
-                "label": "Platzieren sie den Schieber an die Stelle, die Ihren momentanen Zustand am besten beschreibt.",
-                "code": ""
-              },
-              {
-                "label": "Bitte beachten Sie folgende Punkte:Beurteilen Sie nur, wie Sie sich augenblicklich fühlen. Wenn Ihnen die Antwort einmal schwerfallen sollte, wählen Sie die am ehesten zutreffende Antwort.",
-                "code": ""
-              }
-         ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
+        {
         "field_name": "imq_1_morgens",
         "form_name": "fragebogen_morgens",
         "section_header": "Befindlichkeit",
@@ -846,7 +926,7 @@
                  "label": "depressive Stimmung"
              },
              { 
-                 "code" : "6",
+                 "code" : "100",
                  "label": "gute Stimmung"
              }
         ],
@@ -876,7 +956,7 @@
                  "label": "so schlimm wie noch nie"
              },
              { 
-                 "code" : "6",
+                 "code" : "100",
                  "label": "so gut wie noch nie"
              }
         ],
@@ -894,4 +974,4 @@
         "field_annotation": "",
         "evaluated_logic": ""
     }
-]
+ ]
