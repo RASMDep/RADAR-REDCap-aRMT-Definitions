@@ -1,4 +1,4 @@
-[
+ [
     {
         "field_name": "kss",
         "form_name": "checkliste_abends",
@@ -90,35 +90,6 @@
         "matrix_ranking": "",
         "field_annotation": "",
         "evaluated_logic": ""
-    },
-    {
-        "field_name": "cl_q5",
-        "form_name": "checkliste_abends",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "Ich habe die Abmessung für die Stirnelektrode durchgeführt.",
-        "select_choices_or_calculations": [
-            { 
-                "code": "1",
-                "label": "Ja"
-            },
-            {
-                "code": "2",
-                "label": "Nein"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "RH",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
     },
     {
         "field_name": "cl_q6",
