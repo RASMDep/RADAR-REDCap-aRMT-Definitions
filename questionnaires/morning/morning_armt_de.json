@@ -66,14 +66,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[sfm_q1]='1'",
+        "branching_logic": "[sfm_q1]='2'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['sfm_q1']='1'"
+        "evaluated_logic": "responses['sfm_q1']='2'"
     },
     {
         "field_name": "sfm_q5",
@@ -238,14 +238,14 @@
         "text_validation_min": "",
         "text_validation_max": "",
         "identifier": "",
-        "branching_logic": "[sfm_q2]='1'",
+        "branching_logic": "[sfm_q2]='2'",
         "required_field": "y",
         "custom_alignment": "",
         "question_number": "",
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['sfm_q2']=='1'"
+        "evaluated_logic": "responses['sfm_q2']=='2'"
     },
     {
         "field_name": "sfm_q6",
