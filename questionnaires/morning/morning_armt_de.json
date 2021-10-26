@@ -139,11 +139,7 @@
             {
                 "code": "3",
                 "label": "Störende Geräusche (z.B. Baulärm, Bettpartner) hielten mich wach"
-            },
-            {
-                "code": "4",
-                "label": "Schlafgerät war unbequem und machte das Einschlafen schwierig"
-            },
+            }
             {
                 "code": "5",
                 "label": "Bestimmte Speisen / Getränke vor dem Schlafengehen hielten mich wach"
@@ -300,10 +296,6 @@
         "field_type": "checkbox",
         "field_label": "Was waren die Gründe für das nächtliche Erwachen?",
         "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "Das Schlafgerät hat mich geweckt"
-            },
             {
                 "code": "1",
                 "label": "Schmerzen haben mich aufgeweckt"            
@@ -566,10 +558,6 @@
             {
                 "code": "8",
                 "label": "9 - sehr schläfrig, grosse Mühe wach zu bleiben 10 - äusserst schläfrig, kann nicht wach bleiben"
-            },
-            {
-                "code": "9",
-                "label": "Ich habe Töne gehört, stammen möglicherweise nicht vom Schlafgerät"
             }
         ],
         "field_note": "Diese Frage erfasst, wie munter Sie sich fühlen. Bitte schätzen Sie ein, wie Sie sich im Moment fühlen, indem Sie die entsprechende, passende Beschreibung auswählen (es ist nur eine Antwort möglich)",
