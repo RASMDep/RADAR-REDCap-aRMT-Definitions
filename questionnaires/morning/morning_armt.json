@@ -73,7 +73,7 @@
         "matrix_group_name": "",
         "matrix_ranking": "",
         "field_annotation": "",
-        "evaluated_logic": "responses['sfm_q1']='1'"
+        "evaluated_logic": "responses['sfm_q1']=='2'"
     },
     {
         "field_name": "sfm_q5",
