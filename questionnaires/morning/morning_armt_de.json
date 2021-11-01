@@ -4,7 +4,7 @@
         "form_name": "morning",
         "section_header": "Schlafengehen",
         "field_type": "radio",
-        "field_label": "Ich ging zur üblichen Zeit ins Bett (plus/minus 15 Minuten)",
+        "field_label": "Ich ging zur üblichen Zeit ins Bett (plus/minus 15 Minuten)_GERMAN",
         "select_choices_or_calculations": [
             {
                 "code": "1",
