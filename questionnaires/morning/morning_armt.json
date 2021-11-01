@@ -4,15 +4,15 @@
         "form_name": "morning",
         "section_header": "Schlafengehen",
         "field_type": "radio",
-        "field_label": "EN_Ich ging zur üblichen Zeit ins Bett (plus/minus 15 Minuten)",
+        "field_label": "I went to bed at the usual time (plus / minus 15 minutes)",
         "select_choices_or_calculations": [
             {
                 "code": "1",
-                "label": "Ja"
+                "label": "Yes"
             },
             {
                 "code": "2",
-                "label": "Nein"
+                "label": "No"
             }
         ],
         "field_note": "",
@@ -34,31 +34,31 @@
         "form_name": "morning",
         "section_header": "Schlafengehen",
         "field_type": "radio",
-        "field_label": "Was war der Grund für die geänderte Bettzeit? (Bitte wählen Sie den Wichtigsten.)",
+        "field_label": "What was the reason for the change in bed time? (Please select the most important.)",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Früher/später müde als sonst"
+                "label": "Sooner / later tired than usual"
             },
             {
                 "code": "1",
-                "label": "Aufgrund eines Anlasses (z.B. Party, Hochzeit, Abendessen mit Freunden)"
+                "label": "Due to an occasion (e.g. party, wedding, dinner with friends)"
             },
             {
                 "code": "2",
-                "label": "Längeres Arbeiten, das mich vom Schlafen abgehalten hat"
+                "label": "Long periods of work that kept me from sleeping"
             },
             {
                 "code": "3",
-                "label": "Fernsehen/Lesen/Hobbies, die mich vom Schlafen abgehalten haben"
+                "label": "Watching TV / reading / hobbies that kept me from sleeping"
             },
             {
                 "code": "4",
-                "label": "Unklar"
+                "label": "Unclear"
             },
             {
                 "code": "5",
-                "label": "Anderer Grund"
+                "label": "Other"
             }   
         ],
         "field_note": "",
@@ -80,27 +80,27 @@
         "form_name": "fragebogen_morgens",
         "section_header": "Schlafengehen",
         "field_type": "radio",
-        "field_label": "Im Vergleich zu meiner üblichen Einschlafdauer war meine Einschlafdauer gestern Abend ...(Die Einschlafdauer ist die Zeit vom Zubettgehen bis zum Einschlafen.)",
+        "field_label": "Compared to my usual sleep time, my sleep time last night was ... (Sleep time is the time from going to bed to falling asleep.)",
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "Viel länger"
+                "label": "Much longer"
             },
             {
                 "code": "1",
-                "label": "Etwas länger"
+                "label": "A little longer"
             },
             {
                 "code": "2",
-                "label": "Etwa gleich"
+                "label": "About the same"
             },
             {
                 "code": "3",
-                "label": "Etwas kürzer"
+                "label": "A bit shorter"
             },
             {
                 "code": "4",
-                "label": "Viel kürzer"
+                "label": "Much shorter"
             }
         ],
         "field_note": "Die Einschlafdauer ist die Zeit vom Zubettgehen bis zum Einschlafen.",
@@ -122,7 +122,7 @@
         "form_name": "fragebogen_morgens",
         "section_header": "Schlafengehen",
         "field_type": "checkbox",
-        "field_label": "Was war der Grund für die geänderte Einschlafdauer? (Mehrere Antworten möglich)",
+        "field_label": "What was the reason for the changed sleep duration? (Multiple answers possible)",
         "select_choices_or_calculations": [
             {
                 "code": "0",
