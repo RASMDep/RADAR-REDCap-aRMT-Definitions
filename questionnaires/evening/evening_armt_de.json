@@ -289,9 +289,13 @@
 		"field_name": "diary_q6e",
 		"form_name": "tagebuch_abends",
 		"section_header": "",
-		"field_type": "descriptive",
-		"field_label": "Bitte kontaktieren Sie Ihre Kontakperson und informieren Sie ihn/sie über das Medikament!",
-		"select_choices_or_calculations": "",
+		"field_type": "info",
+		"field_label": "",
+		"select_choices_or_calculations": [{
+				"label": "Bitte kontaktieren Sie Ihre Kontakperson und informieren Sie ihn/sie über das Medikament!",
+				"code": ""
+			}
+		],
 		"field_note": "",
 		"text_validation_type_or_show_slider_number": "",
 		"text_validation_min": "",
