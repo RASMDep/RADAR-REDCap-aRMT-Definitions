@@ -51,7 +51,7 @@
         "form_name": "ess",
         "section_header": "",
         "field_type": "range",
-        "field_label": "1. im Sitzen lesen",
+        "field_label": "1. Im Sitzen lesen",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -89,7 +89,7 @@
         "form_name": "ess",
         "section_header": "",
         "field_type": "range",
-        "field_label": "2. beim Fernsehen",
+        "field_label": "2. Beim Fernsehen",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -127,7 +127,7 @@
         "form_name": "ess",
         "section_header": "",
         "field_type": "range",
-        "field_label": "3. wenn Sie passiv (als Zuhörer) in der Öffentlichkeit sitzen (z.B. im Theater oder bei einem Vortrag)",
+        "field_label": "3. Wenn Sie passiv (als Zuhörer) in der Öffentlichkeit sitzen (z.B. im Theater oder bei einem Vortrag)",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -165,7 +165,7 @@
         "form_name": "ess",
         "section_header": "",
         "field_type": "range",
-        "field_label": "4. als Beifahrer im Auto während einer einstündigen Fahrt ohne Pause",
+        "field_label": "4. Als Beifahrer im Auto während einer einstündigen Fahrt ohne Pause",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -203,7 +203,7 @@
         "form_name": "ess",
         "section_header": "",
         "field_type": "range",
-        "field_label": "5. wenn Sie sich am Nachmittag hingelegt haben, um auszuruhen",
+        "field_label": "5. Wenn Sie sich am Nachmittag hingelegt haben, um auszuruhen",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -241,7 +241,7 @@
         "form_name": "ess",
         "section_header": "",
         "field_type": "range",
-        "field_label": "6. wenn Sie sitzen und sich mit jemandem unterhalten",
+        "field_label": "6. Wenn Sie sitzen und sich mit jemandem unterhalten",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -279,7 +279,7 @@
         "form_name": "ess",
         "section_header": "",
         "field_type": "range",
-        "field_label": "7. wenn Sie nach dem Mittagessen (ohne Alkohol) ruhig dasitzen",
+        "field_label": "7. Wenn Sie nach dem Mittagessen (ohne Alkohol) ruhig dasitzen",
         "select_choices_or_calculations": [
             {
                 "code": "0",
@@ -317,7 +317,7 @@
         "form_name": "ess",
         "section_header": "",
         "field_type": "range",
-        "field_label": "8. wenn Sie als Fahrer eines Autos verkehrsbedingt einige Minuten halten müssen",
+        "field_label": "8. Wenn Sie als Fahrer eines Autos verkehrsbedingt einige Minuten halten müssen",
         "select_choices_or_calculations": [
             {
                 "code": "0",
