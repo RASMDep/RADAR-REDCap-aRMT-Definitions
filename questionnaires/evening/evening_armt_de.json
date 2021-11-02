@@ -1,934 +1,946 @@
-[
-    {
-        "field_name": "diary_q1",
-        "form_name": "tagebuch_abends",
-        "section_header": "Nahrungsaufnahme",
-        "field_type": "range",
-        "field_label": "Wie viele Tassen/Drinks mit Koffein haben Sie heute zu sich genommen in Form von Kaffee oder Energy Drinks? (ANZAHL TASSEN/2.5dl DRINKS)",
-        "select_choices_or_calculations": [
-           {
-                "code": "0",
-                "label": "1 "
-            },
-            {
-                "code": "1",
-                "label": "1 "
-            },
-            {
-                "code": "2",
-                "label": "2 "
-            },
-            {
-                "code": "3",
-                "label": "3 "
-            },
-            {
-                "code": "4",
-                "label": "4 "
-            },
-            {
-                "code": "5",
-                "label": "5 "
-            },
-            {
-                "code": "6",
-                "label": "6 "
-            },
-            {
-                "code": "7",
-                "label": "7"
-            },
-            {
-                "code": "8",
-                "label": "8 "
-            },
-            {
-                "code": "9",
-                "label": "9 "
-            },
-            {
-                "code": "10",
-                "label": "10"
-            }  
-        ],
-        "field_note": "ANZAHL TASSEN/2.5dl DRINKS",
-        "text_validation_type_or_show_slider_number": "integer",
-        "text_validation_min": "0",
-        "text_validation_max": "10",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "RH",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "diary_q1b",
-        "form_name": "tagebuch_abends",
-        "section_header": "",
-        "field_type": "text",
-        "field_label": "Zu welcher Uhrzeit konsumierten Sie ihr letztes Getränk?",
-        "select_choices_or_calculations": "",
-        "field_note": "HH:MM",
-        "text_validation_type_or_show_slider_number": "time",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[diary_q1]>0",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": "responses['diary_q1']>0"
-    },
-    {
-        "field_name": "diary_q2",
-        "form_name": "tagebuch_abends",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "Wie viele Einheiten Schokolade, Schwarztee, Grüntee, Eistee, Coca Cola oder Ähnliches haben Sie heute zu sich genommen?(1 Einheit = 1 Reihe/Riegel Schokolade, 1 Tasse oder 2.5dl Glas der Getränke)",
-        "select_choices_or_calculations":  [
-           {
-                "code": "0",
-                "label": "1 "
-            },
-            {
-                "code": "1",
-                "label": "1 "
-            },
-            {
-                "code": "2",
-                "label": "2 "
-            },
-            {
-                "code": "3",
-                "label": "3 "
-            },
-            {
-                "code": "4",
-                "label": "4 "
-            },
-            {
-                "code": "5",
-                "label": "5 "
-            },
-            {
-                "code": "6",
-                "label": "6 "
-            },
-            {
-                "code": "7",
-                "label": "7"
-            },
-            {
-                "code": "8",
-                "label": "8 "
-            },
-            {
-                "code": "9",
-                "label": "9 "
-            },
-            {
-                "code": "10",
-                "label": "10"
-            }  
-        ],
-        "field_note": "1 Einheit = 1 Reihe/Riegel Schokolade, 1 Tasse oder 2.5dl Glas der Getränke",
-        "text_validation_type_or_show_slider_number": "integer",
-        "text_validation_min": "0",
-        "text_validation_max": "50",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "diary_q4b",
-        "form_name": "tagebuch_abends",
-        "section_header": "",
-        "field_type": "text",
-        "field_label": "Zu welcher Uhrzeit konsumierten Sie ihr letzte Einheit Schokolade, Schwarztee...? (HH:MM)",
-        "select_choices_or_calculations": "",
-        "field_note": "HH:MM",
-        "text_validation_type_or_show_slider_number": "time",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[diary_q2]>0",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": "responses['diary_q2']>0"
-    },
-    {
-        "field_name": "diary_q3",
-        "form_name": "tagebuch_abends",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "Wie viele alkoholische Getränke haben Sie heute getrunken?(Ein Getränk entspricht: 1dL Wein, 3dL Bier, 2cL Schnaps.)",
-        "select_choices_or_calculations": [
-           {
-                "code": "0",
-                "label": "1 "
-            },
-            {
-                "code": "1",
-                "label": "1 "
-            },
-            {
-                "code": "2",
-                "label": "2 "
-            },
-            {
-                "code": "3",
-                "label": "3 "
-            },
-            {
-                "code": "4",
-                "label": "4 "
-            },
-            {
-                "code": "5",
-                "label": "5 "
-            },
-            {
-                "code": "6",
-                "label": "6 "
-            },
-            {
-                "code": "7",
-                "label": "7"
-            },
-            {
-                "code": "8",
-                "label": "8 "
-            },
-            {
-                "code": "9",
-                "label": "9 "
-            },
-            {
-                "code": "10",
-                "label": "10"
-            }  
-        ],
-        "field_note": "Ein Getränk entspricht: 1dL Wein, 3dL Bier, 2cL Schnaps",
-        "text_validation_type_or_show_slider_number": "integer",
-        "text_validation_min": "0",
-        "text_validation_max": "50",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "diary_q3b",
-        "form_name": "tagebuch_abends",
-        "section_header": "",
-        "field_type": "text",
-        "field_label": "Zu welcher Uhrzeit konsumierten Sie ihr letztes alkoholisches Getränk? (HH:MM)",
-        "select_choices_or_calculations": "",
-        "field_note": "HH:MM",
-        "text_validation_type_or_show_slider_number": "time",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[diary_q3]>0",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": "responses['diary_q3']>0"
-    },
-    {
-        "field_name": "diary_q4",
-        "form_name": "tagebuch_abends",
-        "section_header": "",
-        "field_type": "radio",
-        "field_label": "Haben Sie heute andere Medikamente eingenommen als diejenigen, welche mit dem Studienarzt besprochen wurden?",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "Ja"
-            },
-            {
-                "code": "1",
-                "label": "Nein"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "RH",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "diary_q6e",
-        "form_name": "tagebuch_abends",
-        "section_header": "",
-        "field_type": "descriptive",
-        "field_label": "Bitte kontaktieren Sie Ihre Kontakperson und informieren Sie ihn/sie über das Medikament!",
-        "select_choices_or_calculations": "",
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[diary_q4]='1'",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": "responses['diary_q4']=='1'"
-    },
-    {
-        "field_name": "diary_q5",
-        "form_name": "tagebuch_abends",
-        "section_header": "Bewegung und Sport",
-        "field_type": "radio",
-        "field_label": "Haben Sie heute Sport oder sonstige körperlich anstrengenden Tätigkeiten betrieben (mit erhöhter Anstrengung/Schwitzen, z.B. Schwimmen, Jogging, Fussball spielen, Velo fahren)?",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "Ja"
-            },
-            {
-                "code": "1",
-                "label": "Nein"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "RH",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "diary_q5b",
-        "form_name": "tagebuch_abends",
-        "section_header": "Bewegung und Sport",
-        "field_type": "text",
-        "field_label": "Wie lange haben Sie sich sportlich betätigt/eine körperlich anstrengende Tätigkeit betrieben? (Minuten)",
-        "select_choices_or_calculations": "",
-        "field_note": "MINUTEN",
-        "text_validation_type_or_show_slider_number": "integer",
-        "text_validation_min": "",
-        "text_validation_max": "1500",
-        "identifier": "",
-        "branching_logic": "[diary_q5]='1'",
-        "required_field": "y",
-        "custom_alignment": "RH",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": "responses['diary_q5']=='1'"
-    },
-    {
-        "field_name": "diary_q5c",
-        "form_name": "tagebuch_abends",
-        "section_header": "Bewegung und Sport",
-        "field_type": "checkbox",
-        "field_label": "Welche Sportarten beschreiben Ihre körperliche Aktivität am besten?",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "Kraft  (Gewichtheben, Kraftraum, etc.)"
-            },
-            {
-                "code": "1",
-                "label": "Ausdauer (Joggen, Schwimmen, etc.)"
-            },
-            {
-                "code": "2",
-                "label": " Team (Fussball, Basketball, Hockey, etc.)"
-            },
-            {
-                "code": "3",
-                "label": "Sportart mit Schläger (Tennis, Squash, etc.)"
-            },
-            {
-                "code": "4",
-                "label": "Turnen (Manege, Aerobic, Yoga etc.)"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[diary_q5]='1'",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": "responses['diary_q5']=='1'"
-    },
-    {
-        "field_name": "diary_q6",
-        "form_name": "tagebuch_abends",
-        "section_header": "Bewegung und Sport",
-        "field_type": "radio",
-        "field_label": "Haben Sie heute leichte körpertliche Aktivitäten ohne erhöhte Anstrengung/Schwitzen betrieben (z.B. Golf, gemütliches Gehen, Angeln)?",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "Ja"
-            },
-            {
-                "code": "1",
-                "label": "Nein"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "RH",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "diary_q6b",
-        "form_name": "tagebuch_abends",
-        "section_header": "Bewegung und Sport",
-        "field_type": "text",
-        "field_label": "Wie lange haben Sie eine leichte körperliche Aktivität ausgeführt? (Minuten)",
-        "select_choices_or_calculations": "",
-        "field_note": "MINUTEN",
-        "text_validation_type_or_show_slider_number": "integer",
-        "text_validation_min": "",
-        "text_validation_max": "1500",
-        "identifier": "",
-        "branching_logic": "[diary_q6]='1'",
-        "required_field": "y",
-        "custom_alignment": "RH",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": "responses['diary_q6']=='1'"
-    },
-    {
-        "field_name": "diary_q8",
-        "form_name": "tagebuch_abends",
-        "section_header": "Bewegung und Sport",
-        "field_type": "range",
-        "field_label": "Wie stark PHYSISCH, also körperlich belastend war Ihr Tag heute? (Körperliche Belastung)",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 - überhaupt nicht"
-            },
-            {
-                "code": "1",
-                "label": ""
-            },
-            {
-                "code": "2",
-                "label": ""
-            },
-            {
-                "code": "3",
-                "label": ""
-            },
-            {
-                "code": "4",
-                "label": ""
-            },
-            {
-                "code": "5",
-                "label": ""
-            },
-            {
-                "code": "6",
-                "label": "6 - sehr stark"
-            }
-        ],
-        "field_note": "Körperliche Belastung",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "LV",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "diary_q7",
-        "form_name": "tagebuch_abends",
-        "section_header": "Bewegung und Sport",
-        "field_type": "range",
-        "field_label": "Wie stark PSYCHISCH, also mental belastend/stressig war Ihr Tag heute? (Mentale Belastung)",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0 - überhaupt nicht"
-            },
-            {
-                "code": "1",
-                "label": ""
-            },
-            {
-                "code": "2",
-                "label": ""
-            },
-            {
-                "code": "3",
-                "label": ""
-            },
-            {
-                "code": "4",
-                "label": ""
-            },
-            {
-                "code": "5",
-                "label": ""
-            },
-            {
-                "code": "6",
-                "label": "6 - sehr stark"
-            }
-        ],
-        "field_note": "Mentale Belastung",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "LV",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "diary_q9",
-        "form_name": "tagebuch_abends",
-        "section_header": "Tagesschlaf",
-        "field_type": "radio",
-        "field_label": "Haben Sie heute tagsüber geschlafen?",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "Ja"
-            },
-            {
-                "code": "1",
-                "label": "Nein"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "RH",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "diary_q9b",
-        "form_name": "tagebuch_abends",
-        "section_header": "Tagesschlaf",
-        "field_type": "text",
-        "field_label": "Um welche Uhrzeit? (HH:MM)",
-        "select_choices_or_calculations": "",
-        "field_note": "HH:MM",
-        "text_validation_type_or_show_slider_number": "time",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "[diary_q9]='1'",
-        "required_field": "y",
-        "custom_alignment": "RH",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": "responses['diary_q9']=='1'"
-    },
-    {
-        "field_name": "diary_q9c",
-        "form_name": "tagebuch_abends",
-        "section_header": "Tagesschlaf",
-        "field_type": "text",
-        "field_label": "Wie lange (Minuten)?",
-        "select_choices_or_calculations": "",
-        "field_note": "MINUTEN",
-        "text_validation_type_or_show_slider_number": "integer",
-        "text_validation_min": "",
-        "text_validation_max": "2000",
-        "identifier": "",
-        "branching_logic": "[diary_q9]='1'",
-        "required_field": "y",
-        "custom_alignment": "RH",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": "responses['diary_q9']=='1'"
-    },
-    {
-        "field_name": "info_6imq_2",
-        "form_name": "tagebuch_abends",
-        "section_header": "Befindlichkeit",
-        "field_type": "info",
-        "field_label": [
-             {
-                "label": "Nachfolgend sehen Sie 6 Aussagen zu Ihrer Befindlichkeit.",
-                "code": ""
-              },
-              {
-                "label": "Platzieren sie den Schieber an die Stelle, die Ihren momentanen Zustand am besten beschreibt.",
-                "code": ""
-              },
-              {
-                "label": "Bitte beachten Sie folgende Punkte:Beurteilen Sie nur, wie Sie sich augenblicklich fühlen. Wenn Ihnen die Antwort einmal schwerfallen sollte, wählen Sie die am ehesten zutreffende Antwort.",
-                "code": ""
-              }
-        ],
-        "select_choices_or_calculations": "",
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "imq_1_abends",
-        "form_name": "tagebuch_abends",
-        "section_header": "Befindlichkeit",
-        "field_type": "range",
-        "field_label": "In diesem Moment fühle ich mich...",
-        "select_choices_or_calculations": [
-             { 
-                 "code" : "0",
-                 "label": "sehr müde"
-             },
-             { 
-                 "code" : "6",
-                 "label": "sehr wach"
-             }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "number",
-        "text_validation_min": "",
-        "text_validation_max": "6",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "RH",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "imq_2_abends",
-        "form_name": "tagebuch_abends",
-        "section_header": "Befindlichkeit",
-        "field_type": "range",
-        "field_label": "In diesem Moment fühle ich mich...",
-        "select_choices_or_calculations": [
-             { 
-                 "label" : "sehr zufrieden",
-                 "code": "0"
-             },
-             { 
-                 "label" : "sehr unzufrieden",
-                 "code": "6"
-             }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "number",
-        "text_validation_min": "",
-        "text_validation_max": "6",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "RH",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "imq_3_abends",
-        "form_name": "tagebuch_abends",
-        "section_header": "Befindlichkeit",
-        "field_type": "range",
-        "field_label": "In diesem Moment fühle ich mich...",
-        "select_choices_or_calculations": [
-             { 
-                 "code" : "0",
-                 "label": "sehr unruhig"
-             },
-             { 
-                 "code" : "6",
-                 "label": "sehr ruhig"
-             }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "6",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "RH",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "imq_4_abends",
-        "form_name": "tagebuch_abends",
-        "section_header": "Befindlichkeit",
-        "field_type": "range",
-        "field_label": "In diesem Moment fühle ich mich...",
-        "select_choices_or_calculations": [
-              { 
-                 "code" : "0",
-                 "label": "sehr energiegeladen"
-             },
-             { 
-                 "code" : "6",
-                 "label": "sehr energielos"
-             }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "number",
-        "text_validation_min": "",
-        "text_validation_max": "6",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "RH",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "imq_5_abends",
-        "form_name": "tagebuch_abends",
-        "section_header": "Befindlichkeit",
-        "field_type": "range",
-        "field_label": "In diesem Moment fühle ich mich...",
-        "select_choices_or_calculations": [
-             { 
-                 "label" : "sehr unwohl",
-                 "code": "0"
-             },
-             { 
-                 "label" : "sehr wohl",
-                 "code": "6"
-             }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "number",
-        "text_validation_min": "",
-        "text_validation_max": "6",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "RH",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "imq_6_abends",
-        "form_name": "tagebuch_abends",
-        "section_header": "Befindlichkeit",
-        "field_type": "range",
-        "field_label": "In diesem Moment fühle ich mich...",
-        "select_choices_or_calculations": [
-             { 
-                 "code" : "0",
-                 "label": "sehr entspannt"
-             },
-             { 
-                 "code" : "6",
-                 "label": "sehr angespannt"
-             }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "number",
-        "text_validation_min": "",
-        "text_validation_max": "6",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "RH",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-     {
-        "field_name": "mood_1_abends",
-        "form_name": "tagebuch_abends",
-        "section_header": "",
-        "field_type": "slider",
-        "field_label": "Wie ist Ihre Stimmung im Moment?",
-        "select_choices_or_calculations": [
-             { 
-                 "code" : "0",
-                 "label": "depressive Stimmung"
-             },
-             { 
-                 "code" : "6",
-                 "label": "gute Stimmung"
-             }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "RH",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "mood_2_abends",
-        "form_name": "tagebuch_abends",
-        "section_header": "",
-        "field_type": "slider",
-        "field_label": "Wie fühlen Sie sich im Moment?",
-        "select_choices_or_calculations": [
-             { 
-                 "code" : "0",
-                 "label": "so schlimm wie noch nie"
-             },
-             { 
-                 "code" : "6",
-                 "label": "so gut wie noch nie"
-             }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "RH",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "diary_device1",
-        "form_name": "tagebuch_abends",
-        "section_header": "Geräte",
-        "field_type": "radio",
-        "field_label": "Ich habe das Schlafgerät über den Tag aufgeladen und das rote Licht ist jetzt kontinuierlich an.",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "Ja"
-            },
-            {
-                "code": "1",
-                "label": "Nein"
-            }
-        ],
-        "field_note": "Stellen Sie sicher, dass das Schlafgerät bis zum Schlafengehen gut auf der Ladestation aufliegt und das rote Licht blinkt. Wenn das Schlafgerät voll geladen ist, leuchtet das rote Licht durchgehend. Nehmen Sie das Schlafgerät erst von der Ladestation, wenn Sie sich für das Schlafengehen vorbereiten",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    }
+[{
+		"field_name": "diary_q1",
+		"form_name": "tagebuch_abends",
+		"section_header": "Nahrungsaufnahme",
+		"field_type": "range",
+		"field_label": "Wie viele Tassen/Drinks mit Koffein haben Sie heute zu sich genommen in Form von Kaffee oder Energy Drinks? (ANZAHL TASSEN/2.5dl DRINKS)",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "1 "
+			},
+			{
+				"code": "1",
+				"label": "1 "
+			},
+			{
+				"code": "2",
+				"label": "2 "
+			},
+			{
+				"code": "3",
+				"label": "3 "
+			},
+			{
+				"code": "4",
+				"label": "4 "
+			},
+			{
+				"code": "5",
+				"label": "5 "
+			},
+			{
+				"code": "6",
+				"label": "6 "
+			},
+			{
+				"code": "7",
+				"label": "7"
+			},
+			{
+				"code": "8",
+				"label": "8 "
+			},
+			{
+				"code": "9",
+				"label": "9 "
+			},
+			{
+				"code": "10",
+				"label": "10"
+			}
+		],
+		"field_note": "ANZAHL TASSEN/2.5dl DRINKS",
+		"text_validation_type_or_show_slider_number": "integer",
+		"text_validation_min": "0",
+		"text_validation_max": "10",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "RH",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "diary_q1b",
+		"form_name": "tagebuch_abends",
+		"section_header": "",
+		"field_type": "text",
+		"field_label": "Zu welcher Uhrzeit konsumierten Sie ihr letztes Getränk?",
+		"select_choices_or_calculations": "",
+		"field_note": "HH:MM",
+		"text_validation_type_or_show_slider_number": "time",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "[diary_q1]>0",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": "responses['diary_q1']>0"
+	},
+	{
+		"field_name": "diary_q2",
+		"form_name": "tagebuch_abends",
+		"section_header": "",
+		"field_type": "range",
+		"field_label": "Wie viele Einheiten Schokolade, Schwarztee, Grüntee, Eistee, Coca Cola oder Ähnliches haben Sie heute zu sich genommen?(1 Einheit = 1 Reihe/Riegel Schokolade, 1 Tasse oder 2.5dl Glas der Getränke)",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "1 "
+			},
+			{
+				"code": "1",
+				"label": "1 "
+			},
+			{
+				"code": "2",
+				"label": "2 "
+			},
+			{
+				"code": "3",
+				"label": "3 "
+			},
+			{
+				"code": "4",
+				"label": "4 "
+			},
+			{
+				"code": "5",
+				"label": "5 "
+			},
+			{
+				"code": "6",
+				"label": "6 "
+			},
+			{
+				"code": "7",
+				"label": "7"
+			},
+			{
+				"code": "8",
+				"label": "8 "
+			},
+			{
+				"code": "9",
+				"label": "9 "
+			},
+			{
+				"code": "10",
+				"label": "10"
+			}
+		],
+		"field_note": "1 Einheit = 1 Reihe/Riegel Schokolade, 1 Tasse oder 2.5dl Glas der Getränke",
+		"text_validation_type_or_show_slider_number": "integer",
+		"text_validation_min": "0",
+		"text_validation_max": "50",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "diary_q4b",
+		"form_name": "tagebuch_abends",
+		"section_header": "",
+		"field_type": "text",
+		"field_label": "Zu welcher Uhrzeit konsumierten Sie ihr letzte Einheit Schokolade, Schwarztee...? (HH:MM)",
+		"select_choices_or_calculations": "",
+		"field_note": "HH:MM",
+		"text_validation_type_or_show_slider_number": "time",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "[diary_q2]>0",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": "responses['diary_q2']>0"
+	},
+	{
+		"field_name": "diary_q3",
+		"form_name": "tagebuch_abends",
+		"section_header": "",
+		"field_type": "range",
+		"field_label": "Wie viele alkoholische Getränke haben Sie heute getrunken?(Ein Getränk entspricht: 1dL Wein, 3dL Bier, 2cL Schnaps.)",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "1 "
+			},
+			{
+				"code": "1",
+				"label": "1 "
+			},
+			{
+				"code": "2",
+				"label": "2 "
+			},
+			{
+				"code": "3",
+				"label": "3 "
+			},
+			{
+				"code": "4",
+				"label": "4 "
+			},
+			{
+				"code": "5",
+				"label": "5 "
+			},
+			{
+				"code": "6",
+				"label": "6 "
+			},
+			{
+				"code": "7",
+				"label": "7"
+			},
+			{
+				"code": "8",
+				"label": "8 "
+			},
+			{
+				"code": "9",
+				"label": "9 "
+			},
+			{
+				"code": "10",
+				"label": "10"
+			}
+		],
+		"field_note": "Ein Getränk entspricht: 1dL Wein, 3dL Bier, 2cL Schnaps",
+		"text_validation_type_or_show_slider_number": "integer",
+		"text_validation_min": "0",
+		"text_validation_max": "50",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "diary_q3b",
+		"form_name": "tagebuch_abends",
+		"section_header": "",
+		"field_type": "text",
+		"field_label": "Zu welcher Uhrzeit konsumierten Sie ihr letztes alkoholisches Getränk? (HH:MM)",
+		"select_choices_or_calculations": "",
+		"field_note": "HH:MM",
+		"text_validation_type_or_show_slider_number": "time",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "[diary_q3]>0",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": "responses['diary_q3']>0"
+	},
+	{
+		"field_name": "diary_q4",
+		"form_name": "tagebuch_abends",
+		"section_header": "",
+		"field_type": "radio",
+		"field_label": "Haben Sie heute andere Medikamente eingenommen als diejenigen, welche mit dem Studienarzt besprochen wurden?",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "Ja"
+			},
+			{
+				"code": "1",
+				"label": "Nein"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "RH",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "diary_q6e",
+		"form_name": "tagebuch_abends",
+		"section_header": "",
+		"field_type": "descriptive",
+		"field_label": "Bitte kontaktieren Sie Ihre Kontakperson und informieren Sie ihn/sie über das Medikament!",
+		"select_choices_or_calculations": "",
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "[diary_q4]='1'",
+		"required_field": "",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": "responses['diary_q4']=='1'"
+	},
+	{
+		"field_name": "diary_q5",
+		"form_name": "tagebuch_abends",
+		"section_header": "Bewegung und Sport",
+		"field_type": "radio",
+		"field_label": "Haben Sie heute Sport oder sonstige körperlich anstrengenden Tätigkeiten betrieben (mit erhöhter Anstrengung/Schwitzen, z.B. Schwimmen, Jogging, Fussball spielen, Velo fahren)?",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "Ja"
+			},
+			{
+				"code": "1",
+				"label": "Nein"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "RH",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "diary_q5b",
+		"form_name": "tagebuch_abends",
+		"section_header": "Bewegung und Sport",
+		"field_type": "text",
+		"field_label": "Wie lange haben Sie sich sportlich betätigt/eine körperlich anstrengende Tätigkeit betrieben? (Minuten)",
+		"select_choices_or_calculations": "",
+		"field_note": "MINUTEN",
+		"text_validation_type_or_show_slider_number": "integer",
+		"text_validation_min": "",
+		"text_validation_max": "1500",
+		"identifier": "",
+		"branching_logic": "[diary_q5]='1'",
+		"required_field": "y",
+		"custom_alignment": "RH",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": "responses['diary_q5']=='1'"
+	},
+	{
+		"field_name": "diary_q5c",
+		"form_name": "tagebuch_abends",
+		"section_header": "Bewegung und Sport",
+		"field_type": "checkbox",
+		"field_label": "Welche Sportarten beschreiben Ihre körperliche Aktivität am besten?",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "Kraft  (Gewichtheben, Kraftraum, etc.)"
+			},
+			{
+				"code": "1",
+				"label": "Ausdauer (Joggen, Schwimmen, etc.)"
+			},
+			{
+				"code": "2",
+				"label": " Team (Fussball, Basketball, Hockey, etc.)"
+			},
+			{
+				"code": "3",
+				"label": "Sportart mit Schläger (Tennis, Squash, etc.)"
+			},
+			{
+				"code": "4",
+				"label": "Turnen (Manege, Aerobic, Yoga etc.)"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "[diary_q5]='1'",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": "responses['diary_q5']=='1'"
+	},
+	{
+		"field_name": "diary_q6",
+		"form_name": "tagebuch_abends",
+		"section_header": "Bewegung und Sport",
+		"field_type": "radio",
+		"field_label": "Haben Sie heute leichte körpertliche Aktivitäten ohne erhöhte Anstrengung/Schwitzen betrieben (z.B. Golf, gemütliches Gehen, Angeln)?",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "Ja"
+			},
+			{
+				"code": "1",
+				"label": "Nein"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "RH",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "diary_q6b",
+		"form_name": "tagebuch_abends",
+		"section_header": "Bewegung und Sport",
+		"field_type": "text",
+		"field_label": "Wie lange haben Sie eine leichte körperliche Aktivität ausgeführt? (Minuten)",
+		"select_choices_or_calculations": "",
+		"field_note": "MINUTEN",
+		"text_validation_type_or_show_slider_number": "integer",
+		"text_validation_min": "",
+		"text_validation_max": "1500",
+		"identifier": "",
+		"branching_logic": "[diary_q6]='1'",
+		"required_field": "y",
+		"custom_alignment": "RH",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": "responses['diary_q6']=='1'"
+	},
+	{
+		"field_name": "diary_q8",
+		"form_name": "tagebuch_abends",
+		"section_header": "Bewegung und Sport",
+		"field_type": "range",
+		"field_label": "Wie stark PHYSISCH, also körperlich belastend war Ihr Tag heute? (Körperliche Belastung)",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "0 - überhaupt nicht"
+			},
+			{
+				"code": "1",
+				"label": ""
+			},
+			{
+				"code": "2",
+				"label": ""
+			},
+			{
+				"code": "3",
+				"label": ""
+			},
+			{
+				"code": "4",
+				"label": ""
+			},
+			{
+				"code": "5",
+				"label": ""
+			},
+			{
+				"code": "6",
+				"label": "6 - sehr stark"
+			}
+		],
+		"field_note": "Körperliche Belastung",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "LV",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "diary_q7",
+		"form_name": "tagebuch_abends",
+		"section_header": "Bewegung und Sport",
+		"field_type": "range",
+		"field_label": "Wie stark PSYCHISCH, also mental belastend/stressig war Ihr Tag heute? (Mentale Belastung)",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "0 - überhaupt nicht"
+			},
+			{
+				"code": "1",
+				"label": ""
+			},
+			{
+				"code": "2",
+				"label": ""
+			},
+			{
+				"code": "3",
+				"label": ""
+			},
+			{
+				"code": "4",
+				"label": ""
+			},
+			{
+				"code": "5",
+				"label": ""
+			},
+			{
+				"code": "6",
+				"label": "6 - sehr stark"
+			}
+		],
+		"field_note": "Mentale Belastung",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "LV",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "diary_q9",
+		"form_name": "tagebuch_abends",
+		"section_header": "Tagesschlaf",
+		"field_type": "radio",
+		"field_label": "Haben Sie heute tagsüber geschlafen?",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "Ja"
+			},
+			{
+				"code": "1",
+				"label": "Nein"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "RH",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "diary_q9b",
+		"form_name": "tagebuch_abends",
+		"section_header": "Tagesschlaf",
+		"field_type": "text",
+		"field_label": "Um welche Uhrzeit? (HH:MM)",
+		"select_choices_or_calculations": "",
+		"field_note": "HH:MM",
+		"text_validation_type_or_show_slider_number": "time",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "[diary_q9]='1'",
+		"required_field": "y",
+		"custom_alignment": "RH",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": "responses['diary_q9']=='1'"
+	},
+	{
+		"field_name": "diary_q9c",
+		"form_name": "tagebuch_abends",
+		"section_header": "Tagesschlaf",
+		"field_type": "text",
+		"field_label": "Wie lange (Minuten)?",
+		"select_choices_or_calculations": "",
+		"field_note": "MINUTEN",
+		"text_validation_type_or_show_slider_number": "integer",
+		"text_validation_min": "",
+		"text_validation_max": "2000",
+		"identifier": "",
+		"branching_logic": "[diary_q9]='1'",
+		"required_field": "y",
+		"custom_alignment": "RH",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": "responses['diary_q9']=='1'"
+	},
+	{
+		"field_name": "kss",
+		"form_name": "checkliste_abends",
+		"section_header": "",
+		"field_type": "radio",
+		"field_label": "Auf einer Skala von 1-10, wie schläfrig fühlen Sie sich im Moment? (Diese Frage erfasst, wie munter Sie sich fühlen. Bitte schätzen Sie ein, wie Sie sich im Moment fühlen, indem Sie die entsprechende, passende Beschreibung auswählen (es ist nur eine Antwort möglich))",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "1 - äusserst wach"
+			},
+			{
+				"code": "1",
+				"label": "2 - sehr wach"
+			},
+			{
+				"code": "2",
+				"label": "3 - normal wach"
+			},
+			{
+				"code": "3",
+				"label": "4 - ziemlich wach"
+			},
+			{
+				"code": "4",
+				"label": "5 - weder wach noch schläfrig 6 - etwas schläfrig"
+			},
+			{
+				"code": "5",
+				"label": "6 - etwas schläfrig"
+			},
+			{
+				"code": "6",
+				"label": "7 - schläfrig, ohne Mühe wach zu bleiben"
+			},
+			{
+				"code": "7",
+				"label": "8 - schläfrig, etwas Mühe wach zu bleiben"
+			},
+			{
+				"code": "8",
+				"label": "9 - sehr schläfrig, grosse Mühe wach zu bleiben 10 - äusserst schläfrig, kann nicht wach bleiben"
+			},
+			{
+				"code": "9",
+				"label": "Ich habe Töne gehört, stammen möglicherweise nicht vom Schlafgerät"
+			}
+		],
+		"field_note": "Diese Frage erfasst, wie munter Sie sich fühlen. Bitte schätzen Sie ein, wie Sie sich im Moment fühlen, indem Sie die entsprechende, passende Beschreibung auswählen (es ist nur eine Antwort möglich).",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "info_6imq_2",
+		"form_name": "tagebuch_abends",
+		"section_header": "Befindlichkeit",
+		"field_type": "info",
+		"field_label": [{
+				"label": "Nachfolgend sehen Sie 6 Aussagen zu Ihrer Befindlichkeit.",
+				"code": ""
+			},
+			{
+				"label": "Platzieren sie den Schieber an die Stelle, die Ihren momentanen Zustand am besten beschreibt.",
+				"code": ""
+			},
+			{
+				"label": "Bitte beachten Sie folgende Punkte:Beurteilen Sie nur, wie Sie sich augenblicklich fühlen. Wenn Ihnen die Antwort einmal schwerfallen sollte, wählen Sie die am ehesten zutreffende Antwort.",
+				"code": ""
+			}
+		],
+		"select_choices_or_calculations": "",
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "imq_1_abends",
+		"form_name": "tagebuch_abends",
+		"section_header": "Befindlichkeit",
+		"field_type": "range",
+		"field_label": "In diesem Moment fühle ich mich...",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "sehr müde"
+			},
+			{
+				"code": "6",
+				"label": "sehr wach"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "number",
+		"text_validation_min": "",
+		"text_validation_max": "6",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "RH",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "imq_2_abends",
+		"form_name": "tagebuch_abends",
+		"section_header": "Befindlichkeit",
+		"field_type": "range",
+		"field_label": "In diesem Moment fühle ich mich...",
+		"select_choices_or_calculations": [{
+				"label": "sehr zufrieden",
+				"code": "0"
+			},
+			{
+				"label": "sehr unzufrieden",
+				"code": "6"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "number",
+		"text_validation_min": "",
+		"text_validation_max": "6",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "RH",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "imq_3_abends",
+		"form_name": "tagebuch_abends",
+		"section_header": "Befindlichkeit",
+		"field_type": "range",
+		"field_label": "In diesem Moment fühle ich mich...",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "sehr unruhig"
+			},
+			{
+				"code": "6",
+				"label": "sehr ruhig"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "6",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "",
+		"custom_alignment": "RH",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "imq_4_abends",
+		"form_name": "tagebuch_abends",
+		"section_header": "Befindlichkeit",
+		"field_type": "range",
+		"field_label": "In diesem Moment fühle ich mich...",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "sehr energiegeladen"
+			},
+			{
+				"code": "6",
+				"label": "sehr energielos"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "number",
+		"text_validation_min": "",
+		"text_validation_max": "6",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "RH",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "imq_5_abends",
+		"form_name": "tagebuch_abends",
+		"section_header": "Befindlichkeit",
+		"field_type": "range",
+		"field_label": "In diesem Moment fühle ich mich...",
+		"select_choices_or_calculations": [{
+				"label": "sehr unwohl",
+				"code": "0"
+			},
+			{
+				"label": "sehr wohl",
+				"code": "6"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "number",
+		"text_validation_min": "",
+		"text_validation_max": "6",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "RH",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "imq_6_abends",
+		"form_name": "tagebuch_abends",
+		"section_header": "Befindlichkeit",
+		"field_type": "range",
+		"field_label": "In diesem Moment fühle ich mich...",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "sehr entspannt"
+			},
+			{
+				"code": "6",
+				"label": "sehr angespannt"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "number",
+		"text_validation_min": "",
+		"text_validation_max": "6",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "RH",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "mood_1_abends",
+		"form_name": "tagebuch_abends",
+		"section_header": "",
+		"field_type": "slider",
+		"field_label": "Wie ist Ihre Stimmung im Moment?",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "depressive Stimmung"
+			},
+			{
+				"code": "6",
+				"label": "gute Stimmung"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "",
+		"custom_alignment": "RH",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "mood_2_abends",
+		"form_name": "tagebuch_abends",
+		"section_header": "",
+		"field_type": "slider",
+		"field_label": "Wie fühlen Sie sich im Moment?",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "so schlimm wie noch nie"
+			},
+			{
+				"code": "6",
+				"label": "so gut wie noch nie"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "",
+		"custom_alignment": "RH",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	}
+
 ]
