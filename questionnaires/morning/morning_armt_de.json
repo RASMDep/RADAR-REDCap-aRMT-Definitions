@@ -519,11 +519,11 @@
 		"field_label": "War der schlechte Schlaf aufgrund des Interventionsgerätes?",
 		"select_choices_or_calculations": [{
 				"code": "1",
-				"label": "Nein"
+				"label": "Ja"
 			},
 			{
 				"code": "2",
-				"label": "Ja"
+				"label": "Nein"
 			},
 			{
 				"code": "3",
