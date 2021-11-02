@@ -122,7 +122,7 @@
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "ch habe so viel Freude wie immer an den Dingen, die mir Spass machen. (0)"
+                "label": "Ich habe so viel Freude wie immer an den Dingen, die mir Spass machen. (0)"
             },
             {
                 "code": "1",
@@ -134,7 +134,7 @@
             },
             {
                 "code": "3",
-                "label": "Ich habe keine Freude an den Dingen, die mir früher Spass gemacht haben (3)."
+                "label": "Ich habe keine Freude an den Dingen, die mir früher Spass gemacht haben. (3)"
             }
         ],
         "field_note": "",
@@ -206,7 +206,7 @@
             },
             {
                 "code": "2",
-                "label": "Ich glaube, dass ich für etwas bestraft werde. "
+                "label": "Ich glaube, dass ich für etwas bestraft werde. (2)"
             },
             {
                 "code": "3",
@@ -286,7 +286,7 @@
             },
             {
                 "code": "3",
-                "label": " Ich gebe mir die Schuld für alles Schlimme, was passiert. (3)"
+                "label": "Ich gebe mir die Schuld für alles Schlimme, was passiert. (3)"
             }
         ],
         "field_note": "",
@@ -350,7 +350,7 @@
         "select_choices_or_calculations": [
             {
                 "code": "0",
-                "label": "IIch weine nicht mehr als früher. (0)"
+                "label": "Ich weine nicht mehr als früher. (0)"
             },
             {
                 "code": "1",
@@ -589,19 +589,19 @@
                 "label": "Ich schlafe etwas weniger als sonst. (1)"
             },
             {
-                "code": "0",
+                "code": "3",
                 "label": "Ich schlafe viel mehr als sonst. (2)"
             },
             {
-                "code": "1",
-                "label": "ch schlafe viel weniger als sonst. (2)"
+                "code": "4",
+                "label": "Ich schlafe viel weniger als sonst. (2)"
             },
             {
-                "code": "2",
+                "code": "5",
                 "label": "Ich schlafe die meiste Zeit des Tages. (3)"
             },
             {
-                "code": "3",
+                "code": "6",
                 "label": "Ich wache 1-2 Stunden zu früh auf und kann dann nicht mehr einschlafen. (3)"
             }
         ],
