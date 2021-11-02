@@ -617,7 +617,7 @@
 		"evaluated_logic": "responses['diary_q9']=='1'"
 	},
 	{
-		"field_name": "kss",
+		"field_name": "diary_kss",
 		"form_name": "checkliste_abends",
 		"section_header": "",
 		"field_type": "radio",
