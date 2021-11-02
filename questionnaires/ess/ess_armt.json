@@ -1,353 +1,343 @@
-[
-        {
-        "field_name": "info_ess",
-        "form_name": "ess",
-        "section_header": "Befindlichkeit",
-        "field_type": "info",
-        "field_label": "",
-        "select_choices_or_calculations": [
-              {
-                "label": "Die nachfolgende Frage bezieht sich auf Ihr normales Alltagsleben in der letzten Zeit. Auch wenn Sie in der letzten Zeit einige dieser Situationen nicht erlebt haben, versuchen Sie sich trotzdem vorzustellen, wie sich diese Situation auf Sie ausgewirkt hätte. Benutzen Sie bitte die folgende Skala, um für jede Situation eine möglichst genaue Einschätzung vorzunehmen und kreuzen Sie die am ehesten zutreffende Zahl an:",
-                "code": ""
-              },
-              {
-                "label": "0 = würde niemals einnicken 1 = geringe Wahrscheinlichkeit einzunicken",
-                "code": ""
-              },
-             {
-                "label": "1 = geringe Wahrscheinlichkeit einzunicken",
-                "code": ""
-             },
-             {
-               "label": "2 = mittlere Wahrscheinlichkeit einzunicken",
-                "code": ""
-             },
-             {
-               "label": "2 = 3 = hohe Wahrscheinlichkeit einzunicken",
-                "code": ""
+[{
+		"field_name": "info_ess",
+		"form_name": "ess",
+		"section_header": "Befindlichkeit",
+		"field_type": "info",
+		"field_label": "",
+		"select_choices_or_calculations": [{
+				"label": "Die nachfolgende Frage bezieht sich auf Ihr normales Alltagsleben in der letzten Zeit. Auch wenn Sie in der letzten Zeit einige dieser Situationen nicht erlebt haben, versuchen Sie sich trotzdem vorzustellen, wie sich diese Situation auf Sie ausgewirkt hätte. Benutzen Sie bitte die folgende Skala, um für jede Situation eine möglichst genaue Einschätzung vorzunehmen und kreuzen Sie die am ehesten zutreffende Zahl an:",
+				"code": ""
+			},
+			{
+				"label": "0 = würde niemals einnicken 1 = geringe Wahrscheinlichkeit einzunicken",
+				"code": ""
+			},
+			{
+				"label": "1 = geringe Wahrscheinlichkeit einzunicken",
+				"code": ""
+			},
+			{
+				"label": "2 = mittlere Wahrscheinlichkeit einzunicken",
+				"code": ""
+			},
+			{
+				"label": "2 = 3 = hohe Wahrscheinlichkeit einzunicken",
+				"code": ""
 
-             },
-             {
-                "label": " Für wie wahrscheinlich halten Sie es, dass Sie in einer der folgenden Situationen einnicken oder einschlafen würden - sich also nicht nur müde fühlen?",
-                "code": ""
-              }
-         ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },  
-    {
-        "field_name": "ess_1",
-        "form_name": "ess",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "1. Im Sitzen lesen",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0-Niemals"
-            },
-            {
-                "code": "1",
-                "label": ""
-            },
-            {
-                "code": "2",
-                "label": " "
-            },
-            {
-                "code": "3",
-                "label": "3-Hohe"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ess",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "ess_2",
-        "form_name": "ess",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "2. Beim Fernsehen",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0-Niemals"
-            },
-            {
-                "code": "1",
-                "label": ""
-            },
-            {
-                "code": "2",
-                "label": " "
-            },
-            {
-                "code": "3",
-                "label": "3-Hohe"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ess",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "ess_3",
-        "form_name": "ess",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "3. Wenn Sie passiv (als Zuhörer) in der Öffentlichkeit sitzen (z.B. im Theater oder bei einem Vortrag)",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0-Niemals"
-            },
-            {
-                "code": "1",
-                "label": ""
-            },
-            {
-                "code": "2",
-                "label": " "
-            },
-            {
-                "code": "3",
-                "label": "3-Hohe"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ess",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "ess_4",
-        "form_name": "ess",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "4. Als Beifahrer im Auto während einer einstündigen Fahrt ohne Pause",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0-Niemals"
-            },
-            {
-                "code": "1",
-                "label": ""
-            },
-            {
-                "code": "2",
-                "label": " "
-            },
-            {
-                "code": "3",
-                "label": "3-Hohe"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ess",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "ess_5",
-        "form_name": "ess",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "5. Wenn Sie sich am Nachmittag hingelegt haben, um auszuruhen",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0-Niemals"
-            },
-            {
-                "code": "1",
-                "label": ""
-            },
-            {
-                "code": "2",
-                "label": " "
-            },
-            {
-                "code": "3",
-                "label": "3-Hohe"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ess",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "ess_6",
-        "form_name": "ess",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "6. Wenn Sie sitzen und sich mit jemandem unterhalten",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0-Niemals"
-            },
-            {
-                "code": "1",
-                "label": ""
-            },
-            {
-                "code": "2",
-                "label": " "
-            },
-            {
-                "code": "3",
-                "label": "3-Hohe"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ess",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "ess_7",
-        "form_name": "ess",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "7. Wenn Sie nach dem Mittagessen (ohne Alkohol) ruhig dasitzen",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0-Niemals"
-            },
-            {
-                "code": "1",
-                "label": ""
-            },
-            {
-                "code": "2",
-                "label": " "
-            },
-            {
-                "code": "3",
-                "label": "3-Hohe"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ess",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    },
-    {
-        "field_name": "ess_8",
-        "form_name": "ess",
-        "section_header": "",
-        "field_type": "range",
-        "field_label": "8. Wenn Sie als Fahrer eines Autos verkehrsbedingt einige Minuten halten müssen",
-        "select_choices_or_calculations": [
-            {
-                "code": "0",
-                "label": "0-Niemals"
-            },
-            {
-                "code": "1",
-                "label": ""
-            },
-            {
-                "code": "2",
-                "label": " "
-            },
-            {
-                "code": "3",
-                "label": "3-Hohe"
-            }
-        ],
-        "field_note": "",
-        "text_validation_type_or_show_slider_number": "",
-        "text_validation_min": "",
-        "text_validation_max": "",
-        "identifier": "",
-        "branching_logic": "",
-        "required_field": "y",
-        "custom_alignment": "",
-        "question_number": "",
-        "matrix_group_name": "ess",
-        "matrix_ranking": "",
-        "field_annotation": "",
-        "evaluated_logic": ""
-    }
+			},
+			{
+				"label": " Für wie wahrscheinlich halten Sie es, dass Sie in einer der folgenden Situationen einnicken oder einschlafen würden - sich also nicht nur müde fühlen?",
+				"code": ""
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "ess_1",
+		"form_name": "ess",
+		"section_header": "",
+		"field_type": "range",
+		"field_label": "1. Im Sitzen lesen",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "0-Niemals"
+			},
+			{
+				"code": "1",
+				"label": ""
+			},
+			{
+				"code": "2",
+				"label": " "
+			},
+			{
+				"code": "3",
+				"label": "3-Hohe"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "ess",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "ess_2",
+		"form_name": "ess",
+		"section_header": "",
+		"field_type": "range",
+		"field_label": "2. Beim Fernsehen",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "0-Niemals"
+			},
+			{
+				"code": "1",
+				"label": ""
+			},
+			{
+				"code": "2",
+				"label": " "
+			},
+			{
+				"code": "3",
+				"label": "3-Hohe"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "ess",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "ess_3",
+		"form_name": "ess",
+		"section_header": "",
+		"field_type": "range",
+		"field_label": "3. Wenn Sie passiv (als Zuhörer) in der Öffentlichkeit sitzen (z.B. im Theater oder bei einem Vortrag)",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "0-Niemals"
+			},
+			{
+				"code": "1",
+				"label": ""
+			},
+			{
+				"code": "2",
+				"label": " "
+			},
+			{
+				"code": "3",
+				"label": "3-Hohe"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "ess",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "ess_4",
+		"form_name": "ess",
+		"section_header": "",
+		"field_type": "range",
+		"field_label": "4. Als Beifahrer im Auto während einer einstündigen Fahrt ohne Pause",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "0-Niemals"
+			},
+			{
+				"code": "1",
+				"label": ""
+			},
+			{
+				"code": "2",
+				"label": " "
+			},
+			{
+				"code": "3",
+				"label": "3-Hohe"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "ess",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "ess_5",
+		"form_name": "ess",
+		"section_header": "",
+		"field_type": "range",
+		"field_label": "5. Wenn Sie sich am Nachmittag hingelegt haben, um auszuruhen",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "0-Niemals"
+			},
+			{
+				"code": "1",
+				"label": ""
+			},
+			{
+				"code": "2",
+				"label": " "
+			},
+			{
+				"code": "3",
+				"label": "3-Hohe"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "ess",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "ess_6",
+		"form_name": "ess",
+		"section_header": "",
+		"field_type": "range",
+		"field_label": "6. Wenn Sie sitzen und sich mit jemandem unterhalten",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "0-Niemals"
+			},
+			{
+				"code": "1",
+				"label": ""
+			},
+			{
+				"code": "2",
+				"label": " "
+			},
+			{
+				"code": "3",
+				"label": "3-Hohe"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "ess",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "ess_7",
+		"form_name": "ess",
+		"section_header": "",
+		"field_type": "range",
+		"field_label": "7. Wenn Sie nach dem Mittagessen (ohne Alkohol) ruhig dasitzen",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "0-Niemals"
+			},
+			{
+				"code": "1",
+				"label": ""
+			},
+			{
+				"code": "2",
+				"label": " "
+			},
+			{
+				"code": "3",
+				"label": "3-Hohe"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "ess",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "ess_8",
+		"form_name": "ess",
+		"section_header": "",
+		"field_type": "range",
+		"field_label": "8. Wenn Sie als Fahrer eines Autos verkehrsbedingt einige Minuten halten müssen",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "0-Niemals"
+			},
+			{
+				"code": "1",
+				"label": ""
+			},
+			{
+				"code": "2",
+				"label": " "
+			},
+			{
+				"code": "3",
+				"label": "3-Hohe"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "ess",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	}
 ]
