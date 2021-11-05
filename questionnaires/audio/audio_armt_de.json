@@ -70,7 +70,7 @@
   {
     "field_name": "audio_scripted_2",
     "form_name": "audio",
-    "section_header": "Nachfolgend finden Sie einen kurzen Auszug aus 'Schneewittchen', eine von Grimm Fabeln. Drücken Sie 'Start', lesen Sie den Text vor und drücken Sie dann 'Stoppen', wenn Sie fertig sind.",
+    "section_header": "Nachfolgend finden Sie einen kurzen Auszug aus 'Schneewittchen', ein Grimms Märchen. Drücken Sie 'Start', lesen Sie den Text vor und drücken Sie dann 'Stoppen', wenn Sie fertig sind.",
     "field_type": "audio",
     "field_label": "\"In dem Häuschen war alles klein, aber so zierlich und reinlich, dass es nicht zu sagen ist. Da stand ein weissgedecktes Tischlein mit sieben kleinen Tellern, jedes Tellerlein mit seinem Löffelein, ferner sieben Messerlein und Gäblelein und sieben Becherlein.\"",
     "select_choices_or_calculations": [],
