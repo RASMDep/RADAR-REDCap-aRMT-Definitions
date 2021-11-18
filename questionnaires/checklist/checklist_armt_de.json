@@ -167,16 +167,8 @@
       "field_label":"",
       "select_choices_or_calculations":[
          {
-            "label":"Stecken Sie nun das Audiokabel vorne ein.",
-            "code":""
-         },
-         {
-            "label":"Prüfen Sie ob in den nächsten 10-15 Sekunden ein Test Ton erscheint.",
-            "code":""
-         },
-         {
-            "label":"...!",
-            "code":""
+            "code":"",
+            "label":"Stecken Sie nun das Audiokabel vorne ein. \n\n Prüfen Sie ob in den nächsten 10-15 Sekunden ein Test Ton erscheint."
          }
       ],
       "field_note":"",
@@ -281,21 +273,17 @@
       "matrix_group_name":"",
       "matrix_ranking":"",
       "field_annotation":"",
-      "evaluated_logic":"responses['cl_testtone']=='1' || responses['cl_testlight']=='1'"
+      "evaluated_logic":"responses['cl_testtone']=='2' || responses['cl_testlight']=='2'"
    },
    {
       "field_name":"info_end",
       "form_name":"checkliste_abends",
-      "section_header":"",
+      "section_header":"Info",
       "field_type":"info",
       "field_label":"",
       "select_choices_or_calculations":[
          {
-            "label":"Vielen Dank! Damit ist das Schlafgerät bereit. Ziehen Sie es nicht mehr aus.",
-            "code":""
-         },
-         {
-            "label":"Wir wünschen eine gute Nacht!",
+            "label":"Vielen Dank! Damit ist das Schlafgerät bereit. Ziehen Sie es nicht mehr aus. \n Wir wünschen eine gute Nacht!",
             "code":""
          }
       ],
