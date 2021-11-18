@@ -1,4 +1,4 @@
- [
+[
  	{
  		"field_name": "cl_q2",
  		"form_name": "checkliste_abends",
@@ -32,7 +32,7 @@
  		"field_name": "cl_q6",
  		"form_name": "checkliste_abends",
  		"section_header": "",
- 		"field_type": "radio",
+ 		"field_type": "checkbox",
  		"field_label": "Ich habe die Elektroden an folgenden Stellen gut angeklebt:",
  		"select_choices_or_calculations": [{
  				"code": "0",
@@ -110,7 +110,7 @@
  		"field_name": "cl_q8",
  		"form_name": "checkliste_abends",
  		"section_header": "",
- 		"field_type": "radio",
+ 		"field_type": "checkbox",
  		"field_label": "Ich habe jede einzelne Klebeelektrode korrekt mit den Kabeln im Stirnband  verbunden. (Markieren Sie jede Elektrode die nun verbunden ist.)",
  		"select_choices_or_calculations": [{
  				"code": "0",
