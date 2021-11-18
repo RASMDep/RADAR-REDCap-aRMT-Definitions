@@ -162,18 +162,10 @@
    {
       "field_name":"checklist_info_2",
       "form_name":"checkliste_abends",
-      "section_header":"Info",
+      "section_header":"Stecken Sie nun das Audiokabel vorne ein...Prüfen Sie ob in den nächsten 10-15 Sekunden ein Test Ton erscheint.",
       "field_type":"info",
       "field_label":"",
       "select_choices_or_calculations":[
-         {
-            "label":"Stecken Sie nun das Audiokabel vorne ein.",
-            "code":""
-         },
-         {
-            "label":"Prüfen Sie ob in den nächsten 10-15 Sekunden ein Test Ton erscheint.",
-            "code":""
-         }
       ],
       "field_note":"",
       "text_validation_type_or_show_slider_number":"",
