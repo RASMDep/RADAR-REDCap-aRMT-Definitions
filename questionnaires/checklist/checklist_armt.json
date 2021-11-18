@@ -273,7 +273,7 @@
       "matrix_group_name":"",
       "matrix_ranking":"",
       "field_annotation":"",
-      "evaluated_logic":"responses['cl_testtone']=='1' || responses['cl_testlight']=='1'"
+      "evaluated_logic":"responses['cl_testtone']=='2' || responses['cl_testlight']=='2'"
    },
    {
       "field_name":"info_end",
