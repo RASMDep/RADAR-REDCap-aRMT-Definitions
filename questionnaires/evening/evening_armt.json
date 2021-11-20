@@ -263,11 +263,11 @@
 		"field_type": "radio",
 		"field_label": "Haben Sie heute andere Medikamente eingenommen als diejenigen, welche mit dem Studienarzt besprochen wurden?",
 		"select_choices_or_calculations": [{
-				"code": "0",
+				"code": "1",
 				"label": "Ja"
 			},
 			{
-				"code": "1",
+				"code": "2",
 				"label": "Nein"
 			}
 		],
@@ -317,11 +317,11 @@
 		"field_type": "radio",
 		"field_label": "Haben Sie heute Sport oder sonstige körperlich anstrengenden Tätigkeiten betrieben (mit erhöhter Anstrengung/Schwitzen, z.B. Schwimmen, Jogging, Fussball spielen, Velo fahren)?",
 		"select_choices_or_calculations": [{
-				"code": "0",
+				"code": "1",
 				"label": "Ja"
 			},
 			{
-				"code": "1",
+				"code": "2",
 				"label": "Nein"
 			}
 		],
@@ -408,11 +408,11 @@
 		"field_type": "radio",
 		"field_label": "Haben Sie heute leichte körpertliche Aktivitäten ohne erhöhte Anstrengung/Schwitzen betrieben (z.B. Golf, gemütliches Gehen, Angeln)?",
 		"select_choices_or_calculations": [{
-				"code": "0",
+				"code": "1",
 				"label": "Ja"
 			},
 			{
-				"code": "1",
+				"code": "2",
 				"label": "Nein"
 			}
 		],
@@ -556,11 +556,11 @@
 		"field_type": "radio",
 		"field_label": "Haben Sie heute tagsüber geschlafen?",
 		"select_choices_or_calculations": [{
-				"code": "0",
+				"code": "1",
 				"label": "Ja"
 			},
 			{
-				"code": "1",
+				"code": "2",
 				"label": "Nein"
 			}
 		],
@@ -681,12 +681,13 @@
 		"field_annotation": "",
 		"evaluated_logic": ""
 	},
-	{
+        {
 		"field_name": "info_6imq_2",
 		"form_name": "tagebuch_abends",
 		"section_header": "Befindlichkeit",
 		"field_type": "info",
-		"field_label": [{
+		"field_label": "",
+		"select_choices_or_calculations": [{
 				"label": "Nachfolgend sehen Sie 6 Aussagen zu Ihrer Befindlichkeit.",
 				"code": ""
 			},
@@ -699,7 +700,6 @@
 				"code": ""
 			}
 		],
-		"select_choices_or_calculations": "",
 		"field_note": "",
 		"text_validation_type_or_show_slider_number": "",
 		"text_validation_min": "",
