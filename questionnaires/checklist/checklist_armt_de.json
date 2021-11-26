@@ -266,7 +266,7 @@
       "text_validation_min":"",
       "text_validation_max":"",
       "identifier":"",
-      "branching_logic":"[cl_testtone]='1' or [cl_testlight]='1'",
+      "branching_logic":"[cl_testtone]='2' or [cl_testlight]='2'",
       "required_field":"y",
       "custom_alignment":"",
       "question_number":"",
