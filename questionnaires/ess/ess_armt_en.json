@@ -1,0 +1,343 @@
+[{
+		"field_name": "info_ess",
+		"form_name": "ess",
+		"section_header": "Befindlichkeit",
+		"field_type": "info",
+		"field_label": "",
+		"select_choices_or_calculations": [{
+				"label": "The following question refers to your normal daily life recently. Even if you have not experienced some of these situations recently, still try to imagine how this situation would have affected you. Please use the following scale to make an assessment as accurate as possible for each situation and tick the number that is most likely to apply::",
+				"code": ""
+			},
+			{
+				"label": "0 = would never fall asleep 1 = low probability of falling asleep",
+				"code": ""
+			},
+			{
+				"label": "1 = low probability of falling asleep",
+				"code": ""
+			},
+			{
+				"label": "2 = medium probability of falling asleep",
+				"code": ""
+			},
+			{
+				"label": "2 = 3 = high probability of falling asleep",
+				"code": ""
+
+			},
+			{
+				"label": " How likely do you think it is that you would fall asleep - i.e. not just feel tired - in any of the following situations?",
+				"code": ""
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "ess_1",
+		"form_name": "ess",
+		"section_header": "",
+		"field_type": "range",
+		"field_label": "1. Reading sitting down",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "0-Never"
+			},
+			{
+				"code": "1",
+				"label": ""
+			},
+			{
+				"code": "2",
+				"label": " "
+			},
+			{
+				"code": "3",
+				"label": "3-High"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "ess",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "ess_2",
+		"form_name": "ess",
+		"section_header": "",
+		"field_type": "range",
+		"field_label": "2. Watching TV",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "0-Never"
+			},
+			{
+				"code": "1",
+				"label": ""
+			},
+			{
+				"code": "2",
+				"label": " "
+			},
+			{
+				"code": "3",
+				"label": "3-High"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "ess",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "ess_3",
+		"form_name": "ess",
+		"section_header": "",
+		"field_type": "range",
+		"field_label": "3. If you are sitting passively (as an audience member) in public (e.g. in a theatre or at a lecture)",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "0-Never"
+			},
+			{
+				"code": "1",
+				"label": ""
+			},
+			{
+				"code": "2",
+				"label": " "
+			},
+			{
+				"code": "3",
+				"label": "3-High"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "ess",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "ess_4",
+		"form_name": "ess",
+		"section_header": "",
+		"field_type": "range",
+		"field_label": "4. As a passenger in a car during a one-hour drive without a break",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "0-Never"
+			},
+			{
+				"code": "1",
+				"label": ""
+			},
+			{
+				"code": "2",
+				"label": " "
+			},
+			{
+				"code": "3",
+				"label": "3-High"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "ess",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "ess_5",
+		"form_name": "ess",
+		"section_header": "",
+		"field_type": "range",
+		"field_label": "5.  When you lay down to rest in the afternoon",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "0-Never"
+			},
+			{
+				"code": "1",
+				"label": ""
+			},
+			{
+				"code": "2",
+				"label": " "
+			},
+			{
+				"code": "3",
+				"label": "3-High"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "ess",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "ess_6",
+		"form_name": "ess",
+		"section_header": "",
+		"field_type": "range",
+		"field_label": "6. When you are sitting and talking to someone",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "0-Never"
+			},
+			{
+				"code": "1",
+				"label": ""
+			},
+			{
+				"code": "2",
+				"label": " "
+			},
+			{
+				"code": "3",
+				"label": "3-High"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "ess",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "ess_7",
+		"form_name": "ess",
+		"section_header": "",
+		"field_type": "range",
+		"field_label": "7. If you sit quietly after lunch (without alcohol)",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "0-Never"
+			},
+			{
+				"code": "1",
+				"label": ""
+			},
+			{
+				"code": "2",
+				"label": " "
+			},
+			{
+				"code": "3",
+				"label": "3-High"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "ess",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "ess_8",
+		"form_name": "ess",
+		"section_header": "",
+		"field_type": "range",
+		"field_label": "8. If you are the driver of a car and have to stop for a few minutes due to traffic",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "0-Never"
+			},
+			{
+				"code": "1",
+				"label": ""
+			},
+			{
+				"code": "2",
+				"label": " "
+			},
+			{
+				"code": "3",
+				"label": "3-High"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "ess",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	}
+]

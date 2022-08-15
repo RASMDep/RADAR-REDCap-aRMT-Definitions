@@ -1,0 +1,802 @@
+[{
+		"field_name": "beck_1",
+		"form_name": "bdi_ii",
+		"section_header": "",
+		"field_type": "radio",
+		"field_label": "1. Sadnedd",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "I am not sad. (0)"
+			},
+			{
+				"code": "1",
+				"label": "I am often sad. (1)"
+			},
+			{
+				"code": "2",
+				"label": "I am sad all the time. (2)"
+			},
+			{
+				"code": "3",
+				"label": "I am so sad or unhappy that I can't stand it. (3)"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "beck_2",
+		"form_name": "bdi_ii",
+		"section_header": "",
+		"field_type": "radio",
+		"field_label": "2. Pessimism",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "I am not discouraged about my future. (0)"
+			},
+			{
+				"code": "1",
+				"label": "I am more discouraged than before about my future. (1)"
+			},
+			{
+				"code": "2",
+				"label": "I don't think my situation will improve. (2)"
+			},
+			{
+				"code": "3",
+				"label": "I feel like there is no hope for my future and things will only get worse. (3)"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "beck_3",
+		"form_name": "bdi_ii",
+		"section_header": "",
+		"field_type": "radio",
+		"field_label": "3. Previous failures",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "I don't feel like a failure. (0)"
+			},
+			{
+				"code": "1",
+				"label": "I have failed more often than I should. (1)"
+			},
+			{
+				"code": "2",
+				"label": "When I look back, I see a lot of failures. (2)"
+			},
+			{
+				"code": "3",
+				"label": "I personally feel like a total failure (3)."
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "beck_4",
+		"form_name": "bdi_ii",
+		"section_header": "",
+		"field_type": "radio",
+		"field_label": "4. Loss of Joy",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "I get as much pleasure as ever from the things I enjoy. (0)"
+			},
+			{
+				"code": "1",
+				"label": "I don't enjoy things as much as I used to. (1)"
+			},
+			{
+				"code": "2",
+				"label": "I get very little enjoyment out of the things I used to enjoy. (2)"
+			},
+			{
+				"code": "3",
+				"label": "I get no pleasure from the things I used to enjoy. (3)"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "beck_5",
+		"form_name": "bdi_ii",
+		"section_header": "",
+		"field_type": "radio",
+		"field_label": "5. Guilt",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "I have no particular feelings of guilt. (0)"
+			},
+			{
+				"code": "1",
+				"label": "I feel guilty about many things I have done or should have done. (1)"
+			},
+			{
+				"code": "2",
+				"label": "I feel guilty most of the time. (2)"
+			},
+			{
+				"code": "3",
+				"label": "I feel guilty all the time. (3)"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "beck_6",
+		"form_name": "bdi_ii",
+		"section_header": "",
+		"field_type": "radio",
+		"field_label": "6. Feelings of being punished",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "I don't feel like I'm being punished for anything. (0)"
+			},
+			{
+				"code": "1",
+				"label": "I feel like I might be punished for something. (1)"
+			},
+			{
+				"code": "2",
+				"label": "I feel that I might be punished for something. (2)"
+			},
+			{
+				"code": "3",
+				"label": "(2) I feel I am being punished for something. (3)"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "beck_7",
+		"form_name": "bdi_ii",
+		"section_header": "",
+		"field_type": "radio",
+		"field_label": "7. Dislike of oneself",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "My feelings towards myself have remained the same. (0)"
+			},
+			{
+				"code": "1",
+				"label": "I have lost confidence in myself. (1)"
+			},
+			{
+				"code": "2",
+				"label": "I am disappointed in myself. (2)"
+			},
+			{
+				"code": "3",
+				"label": "I don't like myself. (3)"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "beck_8",
+		"form_name": "bdi_ii",
+		"section_header": "",
+		"field_type": "radio",
+		"field_label": "8. Self-recrimination",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "I am not more critical of myself than usual and do not blame myself more than usual. (0)"
+			},
+			{
+				"code": "1",
+				"label": "I am more critical of myself than before. (1)"
+			},
+			{
+				"code": "2",
+				"label": "I blame myself for all my mistakes. (2)"
+			},
+			{
+				"code": "3",
+				"label": "I blame myself for everything bad that happens. (3)"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "beck_9",
+		"form_name": "bdi_ii",
+		"section_header": "",
+		"field_type": "radio",
+		"field_label": "9. Suicidal thoughts or wishes",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "I never think about killing myself. (0)"
+			},
+			{
+				"code": "1",
+				"label": "I have suicidal thoughts, but I would not carry them out. (1)"
+			},
+			{
+				"code": "2",
+				"label": "I want to kill myself. (2)"
+			},
+			{
+				"code": "3",
+				"label": "I would kill myself if I had the chance. (3)"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "beck_10",
+		"form_name": "bdi_ii",
+		"section_header": "",
+		"field_type": "radio",
+		"field_label": "10. Crying",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "I don't cry any more than I used to. (0)"
+			},
+			{
+				"code": "1",
+				"label": "I cry more now than I used to. (1)"
+			},
+			{
+				"code": "2",
+				"label": "I cry over every little thing. (2)"
+			},
+			{
+				"code": "3",
+				"label": "I feel like crying, but I can't. (3)"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "beck_11",
+		"form_name": "bdi_ii",
+		"section_header": "",
+		"field_type": "radio",
+		"field_label": "11. Irritability",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "I am not more restless or agitated than usual. (0)"
+			},
+			{
+				"code": "1",
+				"label": "I am more restless or agitated than usual. (1)"
+			},
+			{
+				"code": "2",
+				"label": "I am so restless or excited that it is hard not to move. (2)"
+			},
+			{
+				"code": "3",
+				"label": "I am so restless or excited that I have to keep moving or doing something all the time. (3)"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "beck_12",
+		"form_name": "bdi_ii",
+		"section_header": "",
+		"field_type": "radio",
+		"field_label": "12. Disinterest",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "I have not lost interest in other people or activities. (0)"
+			},
+			{
+				"code": "1",
+				"label": "I am less interested in other people or things than before. (1)"
+			},
+			{
+				"code": "2",
+				"label": "I have lost most of my interest in other people or things. (2)"
+			},
+			{
+				"code": "3",
+				"label": "It is hard to get interested in anything. (3)"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "beck_13",
+		"form_name": "bdi_ii",
+		"section_header": "",
+		"field_type": "radio",
+		"field_label": "13. Decision-incapacity",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "I make decisions about as easily as ever.. (0)"
+			},
+			{
+				"code": "1",
+				"label": "I find it harder than usual to make decisions. (1)"
+			},
+			{
+				"code": "2",
+				"label": "I have much more difficulty making decisions than before. (2)"
+			},
+			{
+				"code": "3",
+				"label": "I have trouble making decisions at all. (3)"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "beck_14",
+		"form_name": "bdi_ii",
+		"section_header": "",
+		"field_type": "radio",
+		"field_label": "14. Worthlessness",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "I do not feel worthless. (0)"
+			},
+			{
+				"code": "1",
+				"label": "I do not consider myself as valuable and useful as before. (1)"
+			},
+			{
+				"code": "2",
+				"label": "I feel I am of less value than other people. (2)"
+			},
+			{
+				"code": "3",
+				"label": "I feel like I am completely worthless. (3)"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "beck_15",
+		"form_name": "bdi_ii",
+		"section_header": "",
+		"field_type": "radio",
+		"field_label": "15. Loss of energie",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "I have as much energy as ever. (0)"
+			},
+			{
+				"code": "1",
+				"label": "I have less energy than before. (1)"
+			},
+			{
+				"code": "2",
+				"label": "I don't have enough energy to do much. (2)"
+			},
+			{
+				"code": "3",
+				"label": "I don't have enough energy to do anything. (3)"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "beck_16",
+		"form_name": "bdi_ii",
+		"section_header": "",
+		"field_type": "radio",
+		"field_label": "16. Changes in sleep habits\n",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "My sleeping habits have not changed. (0)"
+			},
+			{
+				"code": "1",
+				"label": "I sleep a little more than usual. (1)"
+			},
+			{
+				"code": "2",
+				"label": "I sleep a little less than usual. (1)"
+			},
+			{
+				"code": "3",
+				"label": "I sleep much more than usual. (2)"
+			},
+			{
+				"code": "4",
+				"label": "I sleep much less than usual. (2)"
+			},
+			{
+				"code": "5",
+				"label": "I sleep most of the day. (3)"
+			},
+			{
+				"code": "6",
+				"label": "I wake up 1-2 hours too early and then can't get back to sleep. (3)"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "beck_17",
+		"form_name": "bdi_ii",
+		"section_header": "",
+		"field_type": "radio",
+		"field_label": "17. Irritability",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "I am no more irritable than usual. (0)"
+			},
+			{
+				"code": "1",
+				"label": "I am more irritable than usual. (1)"
+			},
+			{
+				"code": "2",
+				"label": "I am much more irritable than usual. (2)"
+			},
+			{
+				"code": "3",
+				"label": "I am irritable all the time. (3)"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "beck_18",
+		"form_name": "bdi_ii",
+		"section_header": "",
+		"field_type": "radio",
+		"field_label": "18. Changes in appetite",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "My appetite has not changed. (0)"
+			},
+			{
+				"code": "1",
+				"label": "My appetite is slightly smaller than usual. (1)"
+			},
+			{
+				"code": "2",
+				"label": "My appetite is a little bigger than usual. (1)"
+			},
+			{
+				"code": "0",
+				"label": "My appetite is much smaller than usual. (2)"
+			},
+			{
+				"code": "1",
+				"label": "My appetite is much bigger than usual. (2)"
+			},
+			{
+				"code": "2",
+				"label": "I have no appetite at all. (3)"
+			},
+			{
+				"code": "3",
+				"label": "I am very hungry all the time. (3)"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "beck_19",
+		"form_name": "bdi_ii",
+		"section_header": "",
+		"field_type": "radio",
+		"field_label": "19. Focus difficulties\n",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "I can focus as well as ever. (0)"
+			},
+			{
+				"code": "1",
+				"label": "I can't focus as well as ever. (1)"
+			},
+			{
+				"code": "2",
+				"label": "I find it difficult to focus on anything for very long. (2)"
+			},
+			{
+				"code": "3",
+				"label": "I can't focus on anything. (3)"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "beck_20",
+		"form_name": "bdi_ii",
+		"section_header": "",
+		"field_type": "radio",
+		"field_label": "20. Fatigue",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "I am not more tired than usual. (0)"
+			},
+			{
+				"code": "1",
+				"label": "I get tired faster than usual. (1)"
+			},
+			{
+				"code": "2",
+				"label": "I am too tired for many things I used to like to do. (2)"
+			},
+			{
+				"code": "3",
+				"label": "I am too tired for most of the things I used to do. (3)"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "beck_21",
+		"form_name": "bdi_ii",
+		"section_header": "",
+		"field_type": "radio",
+		"field_label": "21. Loss of interest in sexual intercourse\n",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "I have not noticed any changes in my interest in sexual intercourse recently. (0)"
+			},
+			{
+				"code": "1",
+				"label": "I have less interest in sexual intercourse than before. (1)"
+			},
+			{
+				"code": "2",
+				"label": "I have much less interest in sexual intercourse now. (2)"
+			},
+			{
+				"code": "3",
+				"label": "I have completely lost interest in sexual intercourse. (3)"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	}
+]
