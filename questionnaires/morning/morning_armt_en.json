@@ -74,7 +74,7 @@
 	},
 	{
 		"field_name": "sfm_q5",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Bedtime",
 		"field_type": "radio",
 		"field_label": "Compared to my usual time to fall asleep, my time to fall asleep last night was ...(The time to fall asleep is the time from going to bed to falling asleep).",
@@ -115,7 +115,7 @@
 	},
 	{
 		"field_name": "sfm_q5b",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Bedtime",
 		"field_type": "checkbox",
 		"field_label": "What was the reason for the change in the duration of falling asleep? (Multiple answers possible)",
@@ -134,11 +134,7 @@
 			{
 				"code": "3",
 				"label": "Disturbing noises (e.g. construction noise, bed partner) kept me awake"
-			},
-			{
-				"code": "4",
-				"label": "Sleeping device was uncomfortable and made it difficult to fall asleep"
-			},
+			}
 			{
 				"code": "5",
 				"label": "Certain foods/drinks before bedtime kept me awake"
@@ -168,7 +164,7 @@
 	},
 	{
 		"field_name": "sfm_q2",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Getting up",
 		"field_type": "radio",
 		"field_label": "I got up at the usual time (plus/minus 15 minutes)",
@@ -197,7 +193,7 @@
 	},
 	{
 		"field_name": "sfm_q2a",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Getting up",
 		"field_type": "radio",
 		"field_label": "What was the reason for the change in the time you got up? (Please choose the most probable.)",
@@ -246,7 +242,7 @@
 	},
 	{
 		"field_name": "sfm_q6",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Sleep quality",
 		"field_type": "radio",
 		"field_label": "Number of awakenings last night: ",
@@ -287,15 +283,11 @@
 	},
 	{
 		"field_name": "sfm_q6b",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Sleep quality",
 		"field_type": "checkbox",
 		"field_label": "What were the reasons for the night awakening?",
 		"select_choices_or_calculations": [{
-				"code": "0",
-				"label": "The sleeping device woke me up"
-			},
-			{
 				"code": "1",
 				"label": "Pain woke me up"
 			},
@@ -340,7 +332,7 @@
 	},
 	{
 		"field_name": "sfm_q7",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Sleep quality",
 		"field_type": "radio",
 		"field_label": "My depth of sleep was ... (During a deep sleep phase it is more difficult to wake you up).",
@@ -382,7 +374,7 @@
 	},
 	{
 		"field_name": "sfm_q8",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Sleep quality",
 		"field_type": "radio",
 		"field_label": "Compared to my average depth of sleep, I ...  slept. (... compared to before the experiment).",
@@ -423,7 +415,7 @@
 	},
 	{
 		"field_name": "sfm_q12",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Sleep quality",
 		"field_type": "radio",
 		"field_label": "My overall sleep quality last night was ...",
@@ -472,7 +464,7 @@
 	},
 	{
 		"field_name": "sfm_q9",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Sleep quality",
 		"field_type": "radio",
 		"field_label": "Compared to my average sleep quality last night (... compared to before the experiment).",
@@ -512,119 +504,8 @@
 		"evaluated_logic": ""
 	},
 	{
-		"field_name": "sfm_q9b",
-		"form_name": "fragebogen_morgens",
-		"section_header": "Sleep quality",
-		"field_type": "radio",
-		"field_label": "Was the poor sleep due to the intervention device?",
-		"select_choices_or_calculations": [{
-				"code": "1",
-				"label": "Yes"
-			},
-			{
-				"code": "2",
-				"label": "No"
-			},
-			{
-				"code": "3",
-				"label": "Unclear"
-			}
-		],
-		"field_note": "",
-		"text_validation_type_or_show_slider_number": "",
-		"text_validation_min": "",
-		"text_validation_max": "",
-		"identifier": "",
-		"branching_logic": "[sfm_q9]='0' or [sfm_q9]='1'",
-		"required_field": "y",
-		"custom_alignment": "",
-		"question_number": "",
-		"matrix_group_name": "",
-		"matrix_ranking": "",
-		"field_annotation": "",
-		"evaluated_logic": "responses['sfm_q9']=='0' || responses['sfm_q9']=='1'"
-	},
-	{
-		"field_name": "sfm_q10",
-		"form_name": "fragebogen_morgens",
-		"section_header": "Sleep quality",
-		"field_type": "radio",
-		"field_label": "The sleep device has improved my sleep quality...",
-		"select_choices_or_calculations": [{
-				"code": "0",
-				"label": "Clearly improved"
-			},
-			{
-				"code": "1",
-				"label": "Rather improved"
-			},
-			{
-				"code": "2",
-				"label": "Not changed"
-			},
-			{
-				"code": "3",
-				"label": "Rather worsened"
-			},
-			{
-				"code": "4",
-				"label": "Clearly deteriorated"
-			},
-			{
-				"code": "5",
-				"label": "Maybe changed, but unsure if this is because of the sleeping device"
-			}
-		],
-		"field_note": "",
-		"text_validation_type_or_show_slider_number": "",
-		"text_validation_min": "",
-		"text_validation_max": "",
-		"identifier": "",
-		"branching_logic": "",
-		"required_field": "y",
-		"custom_alignment": "",
-		"question_number": "",
-		"matrix_group_name": "",
-		"matrix_ranking": "",
-		"field_annotation": "",
-		"evaluated_logic": ""
-	},
-	{
-		"field_name": "sfm_q11",
-		"form_name": "fragebogen_morgens",
-		"section_header": "Sleep quality",
-		"field_type": "radio",
-		"field_label": "I heard the device playing sounds last night: (after falling asleep).",
-		"select_choices_or_calculations": [{
-				"code": "1",
-				"label": "Yes"
-			},
-			{
-				"code": "2",
-				"label": "No"
-			},
-			{
-				"code": "3",
-				"label": "I have heard sounds, may not be from the sleep device."
-			}
-		],
-		"field_note": "after falling asleep",
-		"text_validation_type_or_show_slider_number": "",
-		"text_validation_min": "",
-		"text_validation_max": "",
-		"identifier": "",
-		"branching_logic": "",
-		"required_field": "y",
-		"custom_alignment": "",
-		"question_number": "",
-		"matrix_group_name": "",
-		"matrix_ranking": "",
-		"field_annotation": "",
-		"evaluated_logic": ""
-	},
-	{
-		"field_name": "sss_morgens",
-		"form_name": "fragebogen_morgens",
+		"field_name": "kss_morgens",
+		"form_name": "morning",
 		"section_header": "Sleepiness",
 		"field_type": "radio",
 		"field_label": "On a scale of 1-10, how sleepy do you feel right now? (This question captures how sleepy you feel. Please rate how you feel at the moment by selecting the appropriate matching description (only one answer is possible)).",
@@ -658,7 +539,7 @@
 			},
 			{
 				"code": "7",
-				"label": "8 - sleepy, some effort to stay awake"
+				"label": "8 - sleepy, some difficulty to stay awake"
 			},
 			{
 				"code": "8",
@@ -684,8 +565,8 @@
 		"evaluated_logic": ""
 	},
 	{
-		"field_name": "info_6imq_1",
-		"form_name": "fragebogen_morgens",
+		"field_name": "info_6",
+		"form_name": "morning",
 		"section_header": "State of mind",
 		"field_type": "info",
 		"field_label": "",
@@ -718,7 +599,7 @@
 	},
 	{
 		"field_name": "imq_1_morgens",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "State of mind",
 		"field_type": "range",
 		"field_label": "At this moment I feel...",
@@ -747,10 +628,10 @@
 	},
 	{
 		"field_name": "imq_2_morgens",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "State of mind",
 		"field_type": "range",
-		"field_label": "In diesem Moment fühle ich mich...",
+		"field_label": "At this moment I feel...",
 		"select_choices_or_calculations": [{
 			"label": "very satisfied",
 			"code": "0"
@@ -776,10 +657,10 @@
 	},
 	{
 		"field_name": "imq_3_morgens",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "State of mind",
 		"field_type": "range",
-		"field_label": "In diesem Moment fühle ich mich...",
+		"field_label": "At this moment I feel...",
 		"select_choices_or_calculations": [{
 			"code": "0",
 			"label": "very restless"
@@ -805,10 +686,10 @@
 	},
 	{
 		"field_name": "imq_4_morgens",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "State of mind",
 		"field_type": "range",
-		"field_label": "In diesem Moment fühle ich mich...",
+		"field_label": "At this moment I feel...",
 		"select_choices_or_calculations": [{
 			"code": "0",
 			"label": "very energetic"
@@ -834,10 +715,10 @@
 	},
 	{
 		"field_name": "imq_5_morgens",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "State of mind",
 		"field_type": "range",
-		"field_label": "In diesem Moment fühle ich mich...",
+		"field_label": "At this moment I feel...",
 		"select_choices_or_calculations": [{
 			"label": "very uncomfortable",
 			"code": "0"
@@ -863,10 +744,10 @@
 	},
 	{
 		"field_name": "imq_6_morgens",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "State of mind",
 		"field_type": "range",
-		"field_label": "In diesem Moment fühle ich mich...",
+		"field_label": "At this moment I feel...",
 		"select_choices_or_calculations": [{
 			"code": "0",
 			"label": "very relaxed"
@@ -892,7 +773,7 @@
 	},
 	{
 		"field_name": "mood_1_morgens",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "State of mind",
 		"field_type": "slider",
 		"field_label": "What is your mood at the moment?",
@@ -921,7 +802,7 @@
 	},
 	{
 		"field_name": "mood_2_morgens",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "State of mind",
 		"field_type": "slider",
 		"field_label": "How are you feeling right now?",
