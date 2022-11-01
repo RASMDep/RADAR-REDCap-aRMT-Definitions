@@ -621,7 +621,7 @@
 		"evaluated_logic": "responses['diary_q9']=='1'"
 	},
 	{
-		"field_name": "kks_evening",
+		"field_name": "kks",
 		"form_name": "evening",
 		"section_header": "",
 		"field_type": "radio",
@@ -715,7 +715,7 @@
 		"evaluated_logic": ""
 	},
 	{
-		"field_name": "imq_1_evening",
+		"field_name": "imq_1",
 		"form_name": "evening",
 		"section_header": "State of mind",
 		"field_type": "range",
@@ -744,7 +744,7 @@
 		"evaluated_logic": ""
 	},
 	{
-		"field_name": "imq_2_evening",
+		"field_name": "imq_2",
 		"form_name": "evening",
 		"section_header": "State of mind",
 		"field_type": "range",
@@ -773,7 +773,7 @@
 		"evaluated_logic": ""
 	},
 	{
-		"field_name": "imq_3_evening",
+		"field_name": "imq_3",
 		"form_name": "evening",
 		"section_header": "State of mind",
 		"field_type": "range",
@@ -802,7 +802,7 @@
 		"evaluated_logic": ""
 	},
 	{
-		"field_name": "imq_4_evening",
+		"field_name": "imq_4",
 		"form_name": "evening",
 		"section_header": "State of mind",
 		"field_type": "range",
@@ -831,7 +831,7 @@
 		"evaluated_logic": ""
 	},
 	{
-		"field_name": "imq_5_evening",
+		"field_name": "imq_5",
 		"form_name": "evening",
 		"section_header": "State of mind",
 		"field_type": "range",
@@ -860,7 +860,7 @@
 		"evaluated_logic": ""
 	},
 	{
-		"field_name": "imq_6_evening",
+		"field_name": "imq_6",
 		"form_name": "evening",
 		"section_header": "State of mind",
 		"field_type": "range",
@@ -889,7 +889,7 @@
 		"evaluated_logic": ""
 	},
 	{
-		"field_name": "mood_1_evening",
+		"field_name": "mood_1",
 		"form_name": "evening",
 		"section_header": "",
 		"field_type": "slider",
@@ -918,7 +918,7 @@
 		"evaluated_logic": ""
 	},
 	{
-		"field_name": "mood_2_evening",
+		"field_name": "mood_2",
 		"form_name": "evening",
 		"section_header": "",
 		"field_type": "slider",
