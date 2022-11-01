@@ -1216,26 +1216,5 @@
 		"matrix_ranking": "",
 		"field_annotation": "",
 		"evaluated_logic": "responses['gfm_q6']=='1'"
-	},
-	{
-		"field_name": "gfm_finalmess",
-		"form_name": "fragebogen_morgens",
-		"section_header": "Vorbereitungen für den Tag",
-		"field_type": "info",
-		"field_label": "Um zu speichen müssen Sie jetzt noch auf 'Speichern'  klicken. Vielen Dank! ",
-		"select_choices_or_calculations": "",
-		"field_note": "",
-		"text_validation_type_or_show_slider_number": "",
-		"text_validation_min": "",
-		"text_validation_max": "",
-		"identifier": "",
-		"branching_logic": "",
-		"required_field": "",
-		"custom_alignment": "",
-		"question_number": "",
-		"matrix_group_name": "",
-		"matrix_ranking": "",
-		"field_annotation": "",
-		"evaluated_logic": ""
 	}
 ]
