@@ -1220,26 +1220,5 @@
 		"matrix_ranking": "",
 		"field_annotation": "",
 		"evaluated_logic": "responses['gfm_q6']=='1'"
-	},
-	{
-		"field_name": "gfm_finalmess",
-		"form_name": "fragebogen_morgens",
-		"section_header": "Preparations for the day",
-		"field_type": "info",
-		"field_label": "In order to save, you must now click on 'Save'. Thank you very much! ",
-		"select_choices_or_calculations": "",
-		"field_note": "",
-		"text_validation_type_or_show_slider_number": "",
-		"text_validation_min": "",
-		"text_validation_max": "",
-		"identifier": "",
-		"branching_logic": "",
-		"required_field": "",
-		"custom_alignment": "",
-		"question_number": "",
-		"matrix_group_name": "",
-		"matrix_ranking": "",
-		"field_annotation": "",
-		"evaluated_logic": ""
 	}
 ]
