@@ -504,7 +504,7 @@
 		"evaluated_logic": ""
 	},
 	{
-		"field_name": "kss_morgens",
+		"field_name": "kss",
 		"form_name": "morning",
 		"section_header": "Sleepiness",
 		"field_type": "radio",
@@ -598,7 +598,7 @@
 		"evaluated_logic": ""
 	},
 	{
-		"field_name": "imq_1_morgens",
+		"field_name": "imq_1",
 		"form_name": "morning",
 		"section_header": "State of mind",
 		"field_type": "range",
@@ -627,7 +627,7 @@
 		"evaluated_logic": ""
 	},
 	{
-		"field_name": "imq_2_morgens",
+		"field_name": "imq_2",
 		"form_name": "morning",
 		"section_header": "State of mind",
 		"field_type": "range",
@@ -656,7 +656,7 @@
 		"evaluated_logic": ""
 	},
 	{
-		"field_name": "imq_3_morgens",
+		"field_name": "imq_3",
 		"form_name": "morning",
 		"section_header": "State of mind",
 		"field_type": "range",
@@ -685,7 +685,7 @@
 		"evaluated_logic": ""
 	},
 	{
-		"field_name": "imq_4_morgens",
+		"field_name": "imq_4",
 		"form_name": "morning",
 		"section_header": "State of mind",
 		"field_type": "range",
@@ -714,7 +714,7 @@
 		"evaluated_logic": ""
 	},
 	{
-		"field_name": "imq_5_morgens",
+		"field_name": "imq_5",
 		"form_name": "morning",
 		"section_header": "State of mind",
 		"field_type": "range",
@@ -743,7 +743,7 @@
 		"evaluated_logic": ""
 	},
 	{
-		"field_name": "imq_6_morgens",
+		"field_name": "imq_6",
 		"form_name": "morning",
 		"section_header": "State of mind",
 		"field_type": "range",
@@ -772,7 +772,7 @@
 		"evaluated_logic": ""
 	},
 	{
-		"field_name": "mood_1_morgens",
+		"field_name": "mood_1",
 		"form_name": "morning",
 		"section_header": "State of mind",
 		"field_type": "slider",
@@ -801,7 +801,7 @@
 		"evaluated_logic": ""
 	},
 	{
-		"field_name": "mood_2_morgens",
+		"field_name": "mood_2",
 		"form_name": "morning",
 		"section_header": "State of mind",
 		"field_type": "slider",
