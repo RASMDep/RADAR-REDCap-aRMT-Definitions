@@ -899,7 +899,7 @@
 				"label": "depressive Stimmung"
 			},
 			{
-				"code": "6",
+				"code": "100",
 				"label": "gute Stimmung"
 			}
 		],
@@ -928,7 +928,7 @@
 				"label": "so schlimm wie noch nie"
 			},
 			{
-				"code": "6",
+				"code": "100",
 				"label": "so gut wie noch nie"
 			}
 		],
