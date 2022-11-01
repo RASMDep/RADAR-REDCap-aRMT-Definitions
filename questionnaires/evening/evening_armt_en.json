@@ -899,7 +899,7 @@
 				"label": "depressed mood"
 			},
 			{
-				"code": "6",
+				"code": "100",
 				"label": "good mood"
 			}
 		],
@@ -928,7 +928,7 @@
 				"label": "worse than ever"
 			},
 			{
-				"code": "6",
+				"code": "100",
 				"label": "better than ever"
 			}
 		],
