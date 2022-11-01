@@ -1035,7 +1035,12 @@
 			{
 				"code": "5",
 				"label": "Kinn rechts"
+			},
+			{
+				"code": "6",
+				"label": "Kinn links"
 			}
+
 		],
 		"field_note": "",
 		"text_validation_type_or_show_slider_number": "",
@@ -1143,7 +1148,7 @@
 		"form_name": "fragebogen_morgens",
 		"section_header": "Vorbereitungen für den Tag",
 		"field_type": "radio",
-		"field_label": "Haben Sie das Schlafgerät auf die Ladestation gelegt?",
+		"field_label": "Haben Sie das Schlafgerät zum Aufladen angeschlossen?",
 		"select_choices_or_calculations": [{
 				"code": "1",
 				"label": "Ja"
@@ -1193,7 +1198,7 @@
 		"form_name": "fragebogen_morgens",
 		"section_header": "Vorbereitungen für den Tag",
 		"field_type": "radio",
-		"field_label": "Blinkt das rote Licht am Schlafgerät auf der Ladestation?",
+		"field_label": "Blinkt das rote Licht am Schlafgerät?",
 		"select_choices_or_calculations": [{
 				"code": "1",
 				"label": "Ja"
