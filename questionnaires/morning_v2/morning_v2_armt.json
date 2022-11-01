@@ -74,7 +74,7 @@
 	},
 	{
 		"field_name": "sfm_q5",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Schlafengehen",
 		"field_type": "radio",
 		"field_label": "Im Vergleich zu meiner üblichen Einschlafdauer war meine Einschlafdauer gestern Abend ...(Die Einschlafdauer ist die Zeit vom Zubettgehen bis zum Einschlafen.)",
@@ -115,7 +115,7 @@
 	},
 	{
 		"field_name": "sfm_q5b",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Schlafengehen",
 		"field_type": "checkbox",
 		"field_label": "Was war der Grund für die geänderte Einschlafdauer? (Mehrere Antworten möglich)",
@@ -168,7 +168,7 @@
 	},
 	{
 		"field_name": "sfm_q2",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Aufstehen",
 		"field_type": "radio",
 		"field_label": "Ich bin zur üblichen Zeit aufgestanden (plus/minus 15 Minuten)",
@@ -197,7 +197,7 @@
 	},
 	{
 		"field_name": "sfm_q2a",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Aufstehen",
 		"field_type": "radio",
 		"field_label": "Was war der Grund für die geänderte Aufstehzeit? (Bitte wählen Sie das Wahrscheinlichste.)",
@@ -246,7 +246,7 @@
 	},
 	{
 		"field_name": "sfm_q6",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Schlafqualität",
 		"field_type": "radio",
 		"field_label": "Anzahl Erwachen letzte Nacht: ",
@@ -287,7 +287,7 @@
 	},
 	{
 		"field_name": "sfm_q6b",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Schlafqualität",
 		"field_type": "checkbox",
 		"field_label": "Was waren die Gründe für das nächtliche Erwachen?",
@@ -340,7 +340,7 @@
 	},
 	{
 		"field_name": "sfm_q7",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Schlafqualität",
 		"field_type": "radio",
 		"field_label": "Meine Schlaftiefe war ... (Während einer tiefen Schlafphase ist es schwieriger Sie aufzuwecken.)",
@@ -382,7 +382,7 @@
 	},
 	{
 		"field_name": "sfm_q8",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Schlafqualität",
 		"field_type": "radio",
 		"field_label": "Im Vergleich zu meiner durchschnittlichen Schlaftiefe habe ich ...  geschlafen. (... verglichen mit vor dem Experiment)",
@@ -423,7 +423,7 @@
 	},
 	{
 		"field_name": "sfm_q12",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Schlafqualität",
 		"field_type": "radio",
 		"field_label": "Meine allgemeine Schlafqualität  war in der letzten Nacht ...",
@@ -472,7 +472,7 @@
 	},
 	{
 		"field_name": "sfm_q9",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Schlafqualität",
 		"field_type": "radio",
 		"field_label": "Im Vergleich zu meiner durchschnittlichen Schlafqualität war die letzte Nacht (... verglichen mit vor dem Experiment)",
@@ -513,7 +513,7 @@
 	},
 	{
 		"field_name": "sfm_q9b",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Schlafqualität",
 		"field_type": "radio",
 		"field_label": "War der schlechte Schlaf aufgrund des Interventionsgerätes?",
@@ -546,7 +546,7 @@
 	},
 	{
 		"field_name": "sfm_q10",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Schlafqualität",
 		"field_type": "radio",
 		"field_label": "Das Schlafgerät hat meine Schlafqualität...",
@@ -591,7 +591,7 @@
 	},
 	{
 		"field_name": "sfm_q11",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Schlafqualität",
 		"field_type": "radio",
 		"field_label": "Ich habe letzte Nacht gehört, wie das Gerät Töne gespielt hat: (nach dem Einschlafen)",
@@ -623,8 +623,8 @@
 		"evaluated_logic": ""
 	},
 	{
-		"field_name": "sss_morgens",
-		"form_name": "fragebogen_morgens",
+		"field_name": "kss_morgens",
+		"form_name": "morning",
 		"section_header": "Schläftrigkeit",
 		"field_type": "radio",
 		"field_label": "Auf einer Skala von 1-10, wie schläfrig fühlen Sie sich im Moment? (Diese Frage erfasst, wie munter Sie sich fühlen. Bitte schätzen Sie ein, wie Sie sich im Moment fühlen, indem Sie die entsprechende, passende Beschreibung auswählen (es ist nur eine Antwort möglich))",
@@ -684,8 +684,8 @@
 		"evaluated_logic": ""
 	},
 	{
-		"field_name": "info_6imq_1",
-		"form_name": "fragebogen_morgens",
+		"field_name": "info_6",
+		"form_name": "morning",
 		"section_header": "Befindlichkeit",
 		"field_type": "info",
 		"field_label": "",
@@ -718,7 +718,7 @@
 	},
 	{
 		"field_name": "imq_1_morgens",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Befindlichkeit",
 		"field_type": "range",
 		"field_label": "In diesem Moment fühle ich mich...",
@@ -747,7 +747,7 @@
 	},
 	{
 		"field_name": "imq_2_morgens",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Befindlichkeit",
 		"field_type": "range",
 		"field_label": "In diesem Moment fühle ich mich...",
@@ -776,7 +776,7 @@
 	},
 	{
 		"field_name": "imq_3_morgens",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Befindlichkeit",
 		"field_type": "range",
 		"field_label": "In diesem Moment fühle ich mich...",
@@ -805,7 +805,7 @@
 	},
 	{
 		"field_name": "imq_4_morgens",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Befindlichkeit",
 		"field_type": "range",
 		"field_label": "In diesem Moment fühle ich mich...",
@@ -834,7 +834,7 @@
 	},
 	{
 		"field_name": "imq_5_morgens",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Befindlichkeit",
 		"field_type": "range",
 		"field_label": "In diesem Moment fühle ich mich...",
@@ -863,7 +863,7 @@
 	},
 	{
 		"field_name": "imq_6_morgens",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Befindlichkeit",
 		"field_type": "range",
 		"field_label": "In diesem Moment fühle ich mich...",
@@ -892,7 +892,7 @@
 	},
 	{
 		"field_name": "mood_1_morgens",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Befindlichkeit",
 		"field_type": "slider",
 		"field_label": "Wie ist Ihre Stimmung im Moment?",
@@ -921,7 +921,7 @@
 	},
 	{
 		"field_name": "mood_2_morgens",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Befindlichkeit",
 		"field_type": "slider",
 		"field_label": "Wie fühlen Sie sich im Moment?",
@@ -950,7 +950,7 @@
 	},
 	{
 		"field_name": "gfm_q2",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Gerätebenutzung",
 		"field_type": "radio",
 		"field_label": "Haben Sie letzte Nacht das Schlafgerät angezogen?",
@@ -979,7 +979,7 @@
 	},
 	{
 		"field_name": "gfm_q3",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Gerätebenutzung",
 		"field_type": "radio",
 		"field_label": "Haben die Elektroden die ganze Nacht gehalten?",
@@ -1008,7 +1008,7 @@
 	},
 	{
 		"field_name": "gfm_q3b",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Gerätebenutzung",
 		"field_type": "checkbox",
 		"field_label": "Welche Elektrode/n war/waren betroffen?",
@@ -1058,7 +1058,7 @@
 	},
 	{
 		"field_name": "gfm_q4",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Gerätebenutzung",
 		"field_type": "radio",
 		"field_label": "Position des Stirnbandes beim Aufwachen",
@@ -1095,7 +1095,7 @@
 	},
 	{
 		"field_name": "gfm_q5",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Vorbereitungen für den Tag",
 		"field_type": "radio",
 		"field_label": "Ist das Gateway-Gerät an einer Stromquelle eingesteckt?",
@@ -1124,7 +1124,7 @@
 	},
 	{
 		"field_name": "gfm_q11",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Vorbereitungen für den Tag",
 		"field_type": "descriptive",
 		"field_label": "Bitte behalten Sie das Gateway mit Ladestation immer eingesteckt und an einem Ort mit gutem Internet-Empfang.",
@@ -1145,7 +1145,7 @@
 	},
 	{
 		"field_name": "gfm_q6",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Vorbereitungen für den Tag",
 		"field_type": "radio",
 		"field_label": "Haben Sie das Schlafgerät zum Aufladen angeschlossen?",
@@ -1174,7 +1174,7 @@
 	},
 	{
 		"field_name": "gfm_chargingmess",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Vorbereitungen für den Tag",
 		"field_type": "descriptive",
 		"field_label": "Bitte laden Sie alle Geräte immer während dem Tag auf und stoppen diesen Vorgang erst beim Schlafengehen.",
@@ -1195,7 +1195,7 @@
 	},
 	{
 		"field_name": "gfm_q9",
-		"form_name": "fragebogen_morgens",
+		"form_name": "morning",
 		"section_header": "Vorbereitungen für den Tag",
 		"field_type": "radio",
 		"field_label": "Blinkt das rote Licht am Schlafgerät?",
