@@ -1,0 +1,951 @@
+[{
+		"field_name": "sfm_q1",
+		"form_name": "morning",
+		"section_header": "Bedtime",
+		"field_type": "radio",
+		"field_label": "I went to bed at the usual time (plus/minus 15 minutes)",
+		"select_choices_or_calculations": [{
+				"code": "1",
+				"label": "Yes"
+			},
+			{
+				"code": "2",
+				"label": "No"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "sfm_q1a",
+		"form_name": "morning",
+		"section_header": "Bedtime",
+		"field_type": "radio",
+		"field_label": "What was the reason for the change in bedtime? (Please choose the most important one.)",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "Tired earlier/later than usual"
+			},
+			{
+				"code": "1",
+				"label": "Due to an occasion (e.g. party, wedding, dinner with friends)."
+			},
+			{
+				"code": "2",
+				"label": "Prolonged work that kept me from sleeping"
+			},
+			{
+				"code": "3",
+				"label": "Watching TV/reading/hobbies that kept me from sleeping"
+			},
+			{
+				"code": "4",
+				"label": "Unclear"
+			},
+			{
+				"code": "5",
+				"label": "Other reason"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "[sfm_q1]='2'",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": "responses['sfm_q1']=='2'"
+	},
+	{
+		"field_name": "sfm_q5",
+		"form_name": "fragebogen_morgens",
+		"section_header": "Bedtime",
+		"field_type": "radio",
+		"field_label": "Compared to my usual time to fall asleep, my time to fall asleep last night was ...(The time to fall asleep is the time from going to bed to falling asleep).",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "Much longer"
+			},
+			{
+				"code": "1",
+				"label": "A bit longer"
+			},
+			{
+				"code": "2",
+				"label": "About the same"
+			},
+			{
+				"code": "3",
+				"label": "A bit shorter"
+			},
+			{
+				"code": "4",
+				"label": "Much shorter"
+			}
+		],
+		"field_note": "Sleep duration is the time from going to bed to falling asleep.",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "sfm_q5b",
+		"form_name": "fragebogen_morgens",
+		"section_header": "Bedtime",
+		"field_type": "checkbox",
+		"field_label": "What was the reason for the change in the duration of falling asleep? (Multiple answers possible)",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "More/less tired than usual"
+			},
+			{
+				"code": "1",
+				"label": "Thoughts / worries / nervousness kept me awake"
+			},
+			{
+				"code": "2",
+				"label": "Pain kept me awake"
+			},
+			{
+				"code": "3",
+				"label": "Disturbing noises (e.g. construction noise, bed partner) kept me awake"
+			},
+			{
+				"code": "4",
+				"label": "Sleeping device was uncomfortable and made it difficult to fall asleep"
+			},
+			{
+				"code": "5",
+				"label": "Certain foods/drinks before bedtime kept me awake"
+			},
+			{
+				"code": "6",
+				"label": "Unclear"
+			},
+			{
+				"code": "7",
+				"label": "Other reason"
+			}
+		],
+		"field_note": "multiple answers possible",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "[sfm_q5]='0' or [sfm_q5]='1' or [sfm_q5]='4' or [sfm_q5]='3'",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": "responses['sfm_q5']=='0' || responses['sfm_q5']=='1' || responses['sfm_q5']=='4' || responses['sfm_q5']=='3'"
+	},
+	{
+		"field_name": "sfm_q2",
+		"form_name": "fragebogen_morgens",
+		"section_header": "Getting up",
+		"field_type": "radio",
+		"field_label": "I got up at the usual time (plus/minus 15 minutes)",
+		"select_choices_or_calculations": [{
+				"code": "1",
+				"label": "Yes"
+			},
+			{
+				"code": "2",
+				"label": "No"
+			}
+		],
+		"field_note": "plus/minus 15 minutes",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "sfm_q2a",
+		"form_name": "fragebogen_morgens",
+		"section_header": "Getting up",
+		"field_type": "radio",
+		"field_label": "What was the reason for the change in the time you got up? (Please choose the most probable.)",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "Due to the change in bedtime, the time of getting up was adjusted"
+			},
+			{
+				"code": "1",
+				"label": "Due to an external event (e.g. meeting)"
+			},
+			{
+				"code": "2",
+				"label": "More/less tired in the morning"
+			},
+			{
+				"code": "3",
+				"label": "Alarm clock did not ring/slept in"
+			},
+			{
+				"code": "4",
+				"label": "Disturbing noises (e.g. construction noise, bed partner) woke me up and sleeping was no longer possible"
+			},
+			{
+				"code": "5",
+				"label": "Unclear"
+			},
+			{
+				"code": "6",
+				"label": "Other reason"
+			}
+		],
+		"field_note": "Bitte wählen Sie das Wahrscheinlichste.",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "[sfm_q2]='2'",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": "responses['sfm_q2']=='2'"
+	},
+	{
+		"field_name": "sfm_q6",
+		"form_name": "fragebogen_morgens",
+		"section_header": "Sleep quality",
+		"field_type": "radio",
+		"field_label": "Number of awakenings last night: ",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "none"
+			},
+			{
+				"code": "1",
+				"label": "once"
+			},
+			{
+				"code": "2",
+				"label": "twice"
+			},
+			{
+				"code": "3",
+				"label": "three times"
+			},
+			{
+				"code": "4",
+				"label": "more than 4 times"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "sfm_q6b",
+		"form_name": "fragebogen_morgens",
+		"section_header": "Sleep quality",
+		"field_type": "checkbox",
+		"field_label": "What were the reasons for the night awakening?",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "The sleeping device woke me up"
+			},
+			{
+				"code": "1",
+				"label": "Pain woke me up"
+			},
+			{
+				"code": "2",
+				"label": "Disturbing noises (e.g. construction noise, bed partner) woke me up"
+			},
+			{
+				"code": "3",
+				"label": "Toilet visits"
+			},
+			{
+				"code": "4",
+				"label": "Nightmares/unpleasant dreams"
+			},
+			{
+				"code": "5",
+				"label": "Unclear"
+			},
+			{
+				"code": "6",
+				"label": "Other study devices or study-related items"
+			},
+			{
+				"code": "7",
+				"label": "Other reason"
+			}
+		],
+		"field_note": "multiple answers possible",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "[sfm_q6]='1' or [sfm_q6]='2' or [sfm_q6]='3' or [sfm_q6]='4'",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": "responses['sfm_q6']=='1' || responses['sfm_q6']=='2' || responses['sfm_q6']=='3' || responses['sfm_q6']=='4'"
+	},
+	{
+		"field_name": "sfm_q7",
+		"form_name": "fragebogen_morgens",
+		"section_header": "Sleep quality",
+		"field_type": "radio",
+		"field_label": "My depth of sleep was ... (During a deep sleep phase it is more difficult to wake you up).",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "Very superficial"
+			},
+			{
+				"code": "1",
+				"label": "Rather superficial"
+			},
+			{
+
+				"code": "2",
+				"label": "Mediocre"
+			},
+			{
+				"code": "3",
+				"label": "Rather deep"
+			},
+			{
+				"code": "4",
+				"label": "Very deep"
+			}
+		],
+		"field_note": "During a deep sleep phase, it is more difficult to wake you up.",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "sfm_q8",
+		"form_name": "fragebogen_morgens",
+		"section_header": "Sleep quality",
+		"field_type": "radio",
+		"field_label": "Compared to my average depth of sleep, I ...  slept. (... compared to before the experiment).",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "Clearly more superficial"
+			},
+			{
+				"code": "1",
+				"label": "Rather superficial"
+			},
+			{
+				"code": "2",
+				"label": "About the same"
+			},
+			{
+				"code": "3",
+				"label": "Rather deeper"
+			},
+			{
+				"code": "4",
+				"label": "Celarly deeper"
+			}
+		],
+		"field_note": "... compared with before the experiment",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "sfm_q12",
+		"form_name": "fragebogen_morgens",
+		"section_header": "Sleep quality",
+		"field_type": "radio",
+		"field_label": "My overall sleep quality last night was ...",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "Very good"
+			},
+			{
+				"code": "1",
+				"label": "Good"
+			},
+			{
+				"code": "2",
+				"label": "Rather gut"
+			},
+			{
+				"code": "3",
+				"label": "Mediocre"
+			},
+			{
+				"code": "4",
+				"label": "Rather bad"
+			},
+			{
+				"code": "5",
+				"label": "Bad"
+			},
+			{
+				"code": "6",
+				"label": "Very bad"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "sfm_q9",
+		"form_name": "fragebogen_morgens",
+		"section_header": "Sleep quality",
+		"field_type": "radio",
+		"field_label": "Compared to my average sleep quality last night (... compared to before the experiment).",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "Clearly better"
+			},
+			{
+				"code": "1",
+				"label": "Rather better"
+			},
+			{
+				"code": "2",
+				"label": "About the same"
+			},
+			{
+				"code": "3",
+				"label": "Rather worse"
+			},
+			{
+				"code": "4",
+				"label": "Clearly worse"
+			}
+		],
+		"field_note": "... compared with before the experiment",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "sfm_q9b",
+		"form_name": "fragebogen_morgens",
+		"section_header": "Sleep quality",
+		"field_type": "radio",
+		"field_label": "Was the poor sleep due to the intervention device?",
+		"select_choices_or_calculations": [{
+				"code": "1",
+				"label": "Yes"
+			},
+			{
+				"code": "2",
+				"label": "No"
+			},
+			{
+				"code": "3",
+				"label": "Unclear"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "[sfm_q9]='0' or [sfm_q9]='1'",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": "responses['sfm_q9']=='0' || responses['sfm_q9']=='1'"
+	},
+	{
+		"field_name": "sfm_q10",
+		"form_name": "fragebogen_morgens",
+		"section_header": "Sleep quality",
+		"field_type": "radio",
+		"field_label": "The sleep device has improved my sleep quality...",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "Clearly improved"
+			},
+			{
+				"code": "1",
+				"label": "Rather improved"
+			},
+			{
+				"code": "2",
+				"label": "Not changed"
+			},
+			{
+				"code": "3",
+				"label": "Rather worsened"
+			},
+			{
+				"code": "4",
+				"label": "Clearly deteriorated"
+			},
+			{
+				"code": "5",
+				"label": "Maybe changed, but unsure if this is because of the sleeping device"
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "sfm_q11",
+		"form_name": "fragebogen_morgens",
+		"section_header": "Sleep quality",
+		"field_type": "radio",
+		"field_label": "I heard the device playing sounds last night: (after falling asleep).",
+		"select_choices_or_calculations": [{
+				"code": "1",
+				"label": "Yes"
+			},
+			{
+				"code": "2",
+				"label": "No"
+			},
+			{
+				"code": "3",
+				"label": "I have heard sounds, may not be from the sleep device."
+			}
+		],
+		"field_note": "after falling asleep",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "sss_morgens",
+		"form_name": "fragebogen_morgens",
+		"section_header": "Sleepiness",
+		"field_type": "radio",
+		"field_label": "On a scale of 1-10, how sleepy do you feel right now? (This question captures how sleepy you feel. Please rate how you feel at the moment by selecting the appropriate matching description (only one answer is possible)).",
+		"select_choices_or_calculations": [{
+				"code": "0",
+				"label": "1 - extremely awake"
+			},
+			{
+				"code": "1",
+				"label": "2 - very awake"
+			},
+			{
+				"code": "2",
+				"label": "3 - normally awake"
+			},
+			{
+				"code": "3",
+				"label": "4 - quite awake"
+			},
+			{
+				"code": "4",
+				"label": "5 - neither awake nor sleepy 6 - somewhat sleepy"
+			},
+			{
+				"code": "5",
+				"label": "6 - a little sleepy"
+			},
+			{
+				"code": "6",
+				"label": "7 - sleepy, without difficulty to stay awake"
+			},
+			{
+				"code": "7",
+				"label": "8 - sleepy, some difficulty to stay awake"
+			},
+			{
+				"code": "8",
+				"label": "9 - very sleepy, great difficulty to stay awake"
+			},
+			{
+				"code": "9",
+				"label": "10 - extremely sleepy, cannot stay awake"
+			}
+		],
+		"field_note": "This question captures how awake you feel. Please estimate how you feel at the moment by selecting the appropriate matching description (only one answer is possible).",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "info_6imq_1",
+		"form_name": "fragebogen_morgens",
+		"section_header": "State of mind",
+		"field_type": "info",
+		"field_label": "",
+		"select_choices_or_calculations": [{
+				"label": "Below you will see 6 statements about your state of mind.",
+				"code": ""
+			},
+			{
+				"label": "Place the slider in the position that best describes your current state.",
+				"code": ""
+			},
+			{
+				"label": "Please note the following points: Assess only how you feel at the moment. If you ever find it difficult to answer, choose the answer that is most likely to apply.",
+				"code": ""
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "imq_1_morgens",
+		"form_name": "fragebogen_morgens",
+		"section_header": "State of mind",
+		"field_type": "range",
+		"field_label": "At this moment I feel...",
+		"select_choices_or_calculations": [{
+			"code": "0",
+			"label": "very tired"
+		},
+		{
+			"code": "6",
+			"label": "very awake"
+		}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "number",
+		"text_validation_min": "",
+		"text_validation_max": "6",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "RH",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "imq_2_morgens",
+		"form_name": "fragebogen_morgens",
+		"section_header": "State of mind",
+		"field_type": "range",
+		"field_label": "In diesem Moment fühle ich mich...",
+		"select_choices_or_calculations": [{
+			"label": "very satisfied",
+			"code": "0"
+		},
+		{
+			"label": "very unsatisfied",
+			"code": "6"
+		}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "number",
+		"text_validation_min": "",
+		"text_validation_max": "6",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "RH",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "imq_3_morgens",
+		"form_name": "fragebogen_morgens",
+		"section_header": "State of mind",
+		"field_type": "range",
+		"field_label": "In diesem Moment fühle ich mich...",
+		"select_choices_or_calculations": [{
+			"code": "0",
+			"label": "very restless"
+		},
+		{
+			"code": "6",
+			"label": "very calm"
+		}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "6",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "",
+		"custom_alignment": "RH",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "imq_4_morgens",
+		"form_name": "fragebogen_morgens",
+		"section_header": "State of mind",
+		"field_type": "range",
+		"field_label": "In diesem Moment fühle ich mich...",
+		"select_choices_or_calculations": [{
+			"code": "0",
+			"label": "very energetic"
+		},
+		{
+			"code": "6",
+			"label": "very tired"
+		}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "number",
+		"text_validation_min": "",
+		"text_validation_max": "6",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "RH",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "imq_5_morgens",
+		"form_name": "fragebogen_morgens",
+		"section_header": "State of mind",
+		"field_type": "range",
+		"field_label": "In diesem Moment fühle ich mich...",
+		"select_choices_or_calculations": [{
+			"label": "very uncomfortable",
+			"code": "0"
+		},
+		{
+			"label": "very comfortable",
+			"code": "6"
+		}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "number",
+		"text_validation_min": "",
+		"text_validation_max": "6",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "RH",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "imq_6_morgens",
+		"form_name": "fragebogen_morgens",
+		"section_header": "State of mind",
+		"field_type": "range",
+		"field_label": "In diesem Moment fühle ich mich...",
+		"select_choices_or_calculations": [{
+			"code": "0",
+			"label": "very relaxed"
+		},
+		{
+			"code": "6",
+			"label": "very tense"
+		}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "number",
+		"text_validation_min": "",
+		"text_validation_max": "6",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "RH",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "mood_1_morgens",
+		"form_name": "fragebogen_morgens",
+		"section_header": "State of mind",
+		"field_type": "slider",
+		"field_label": "What is your mood at the moment?",
+		"select_choices_or_calculations": [{
+			"code": "0",
+			"label": "depressed mood"
+		},
+		{
+			"code": "100",
+			"label": "good mood"
+		}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "",
+		"custom_alignment": "RH",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+		"field_name": "mood_2_morgens",
+		"form_name": "fragebogen_morgens",
+		"section_header": "State of mind",
+		"field_type": "slider",
+		"field_label": "How are you feeling right now?",
+		"select_choices_or_calculations": [{
+			"code": "0",
+			"label": "worse than ever"
+		},
+		{
+			"code": "100",
+			"label": "better than ever"
+		}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "",
+		"custom_alignment": "RH",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	}
+]
