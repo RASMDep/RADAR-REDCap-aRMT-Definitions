@@ -2,7 +2,7 @@
 		"field_name": "diary_q1",
 		"form_name": "evening",
 		"section_header": "Food consumption",
-		"field_type": "range",
+		"field_type": "radio",
 		"field_label": "How many cups/drinks with caffeine did you consume today in the form of coffee or energy drinks? (NUMBER OF CUPS/2.5dl DRINKS)",
 		"select_choices_or_calculations": [{
 				"code": "0",
