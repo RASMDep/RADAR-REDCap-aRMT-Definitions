@@ -3,49 +3,49 @@
 		"form_name": "kss_mood",
 		"section_header": "",
 		"field_type": "radio",
-		"field_label": "Auf einer Skala von 1-10, wie schläfrig fühlen Sie sich im Moment? Diese Frage erfasst, wie munter Sie sich fühlen. Bitte schätzen Sie ein, wie Sie sich im Moment fühlen, indem Sie die entsprechende, passende Beschreibung auswählen (es ist nur eine Antwort möglich).",
+		"field_label": "On a scale of 1-10, how sleepy do you feel right now? This question captures how sleepy you feel. Please rate how you feel at the moment by selecting the appropriate matching description (only one answer is possible).",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "1 - äusserst wach"
+				"label": "1 - extremely awak"
 			},
 			{
 				"code": "1",
-				"label": "2 - sehr wach"
+				"label": "2 - very awake"
 			},
 			{
 				"code": "2",
-				"label": "3 - normal wach"
+				"label": "3 - normally awake"
 			},
 			{
 				"code": "3",
-				"label": "4 - ziemlich wach"
+				"label": "4 - fairly awake"
 			},
 			{
 				"code": "4",
-				"label": "5 - weder wach noch schläfrig"
+				"label": "5 - neither awake nor sleepy"
 			},
 			{
 				"code": "5",
-				"label": "6 - etwas schläfrig"
+				"label": "6 - somewhat sleepy"
 			},
 			{
 				"code": "6",
-				"label": "7 - schläfrig, ohne Mühe wach zu bleiben"
+				"label": "7 - sleepy, without effort to stay awake"
 			},
 			{
 				"code": "7",
-				"label": "8 - schläfrig, etwas Mühe wach zu bleiben"
+				"label": "8 - sleepy, some effort to stay awake"
 			},
 			{
 				"code": "8",
-				"label": "9 - sehr schläfrig, grosse Mühe wach zu bleiben"
+				"label": "9 - very sleepy, great difficulty staying awake"
 			},
 			{
 				"code": "9",
-				"label": "10 - äusserst schläfrig, kann nicht wach bleiben"
+				"label": "10 - extremely sleepy, can't stay awake"
 			}
 		],
-		"field_note": "Diese Frage erfasst, wie munter Sie sich fühlen. Bitte schätzen Sie ein, wie Sie sich im Moment fühlen, indem Sie die entsprechende, passende Beschreibung auswählen (es ist nur eine Antwort möglich).",
+		"field_note": "This question captures how awake you feel. Please estimate how you feel at the moment by selecting the appropriate matching description (only one answer is possible).",
 		"text_validation_type_or_show_slider_number": "",
 		"text_validation_min": "",
 		"text_validation_max": "",
@@ -66,17 +66,17 @@
 		"field_type": "info",
 		"field_label": "",
 		"select_choices_or_calculations": [{
-				"label": "Nachfolgend sehen Sie 6 Aussagen zu Ihrer Befindlichkeit.",
-				"code": ""
-			},
-			{
-				"label": "Platzieren sie den Schieber an die Stelle, die Ihren momentanen Zustand am besten beschreibt.",
-				"code": ""
-			},
-			{
-				"label": "Bitte beachten Sie folgende Punkte:Beurteilen Sie nur, wie Sie sich augenblicklich fühlen. Wenn Ihnen die Antwort einmal schwerfallen sollte, wählen Sie die am ehesten zutreffende Antwort.",
-				"code": ""
-			}
+			"label": "Below you will see 6 statements about your state of mind.",
+			"code": ""
+		},
+		{
+			"label": "Place the slider in the position that best describes your current state.",
+			"code": ""
+		},
+		{
+			"label": "Please note the following points: Assess only how you feel at the moment. If you ever find it difficult to answer, choose the answer that is most likely to apply.",
+			"code": ""
+		}
 		],
 		"field_note": "",
 		"text_validation_type_or_show_slider_number": "",
@@ -97,15 +97,15 @@
 		"form_name": "kss_mood",
 		"section_header": "",
 		"field_type": "range",
-		"field_label": "In diesem Moment fühle ich mich...",
+		"field_label": "At this moment I feel...",
 		"select_choices_or_calculations": [{
-				"code": "0",
-				"label": "sehr müde"
-			},
-			{
-				"code": "6",
-				"label": "sehr wach"
-			}
+			"code": "0",
+			"label": "very tired"
+		},
+		{
+			"code": "6",
+			"label": "very awake"
+		}
 		],
 		"field_note": "",
 		"text_validation_type_or_show_slider_number": "number",
@@ -126,15 +126,15 @@
 		"form_name": "kss_mood",
 		"section_header": "",
 		"field_type": "range",
-		"field_label": "In diesem Moment fühle ich mich...",
+		"field_label": "At this moment I feel...",
 		"select_choices_or_calculations": [{
-				"label": "sehr zufrieden",
-				"code": "0"
-			},
-			{
-				"label": "sehr unzufrieden",
-				"code": "6"
-			}
+			"label": "very satisfied",
+			"code": "0"
+		},
+		{
+			"label": "very unsatisfied",
+			"code": "6"
+		}
 		],
 		"field_note": "",
 		"text_validation_type_or_show_slider_number": "number",
@@ -155,15 +155,15 @@
 		"form_name": "kss_mood",
 		"section_header": "",
 		"field_type": "range",
-		"field_label": "In diesem Moment fühle ich mich...",
+		"field_label": "At this moment I feel...",
 		"select_choices_or_calculations": [{
-				"code": "0",
-				"label": "sehr unruhig"
-			},
-			{
-				"code": "6",
-				"label": "sehr ruhig"
-			}
+			"code": "0",
+			"label": "very restless"
+		},
+		{
+			"code": "6",
+			"label": "very calm"
+		}
 		],
 		"field_note": "",
 		"text_validation_type_or_show_slider_number": "",
@@ -184,15 +184,15 @@
 		"form_name": "kss_mood",
 		"section_header": "",
 		"field_type": "range",
-		"field_label": "In diesem Moment fühle ich mich...",
+		"field_label": "At this moment I feel...",
 		"select_choices_or_calculations": [{
-				"code": "0",
-				"label": "sehr energiegeladen"
-			},
-			{
-				"code": "6",
-				"label": "sehr energielos"
-			}
+			"code": "0",
+			"label": "very energetic"
+		},
+		{
+			"code": "6",
+			"label": "very tired"
+		}
 		],
 		"field_note": "",
 		"text_validation_type_or_show_slider_number": "number",
@@ -213,15 +213,15 @@
 		"form_name": "kss_mood",
 		"section_header": "",
 		"field_type": "range",
-		"field_label": "In diesem Moment fühle ich mich...",
+		"field_label": "At this moment I feel...",
 		"select_choices_or_calculations": [{
-				"label": "sehr unwohl",
-				"code": "0"
-			},
-			{
-				"label": "sehr wohl",
-				"code": "6"
-			}
+			"label": "very uncomfortable",
+			"code": "0"
+		},
+		{
+			"label": "very comfortable",
+			"code": "6"
+		}
 		],
 		"field_note": "",
 		"text_validation_type_or_show_slider_number": "number",
@@ -242,15 +242,15 @@
 		"form_name": "kss_mood",
 		"section_header": "",
 		"field_type": "range",
-		"field_label": "In diesem Moment fühle ich mich...",
+		"field_label": "At this moment I feel...",
 		"select_choices_or_calculations": [{
-				"code": "0",
-				"label": "sehr entspannt"
-			},
-			{
-				"code": "6",
-				"label": "sehr angespannt"
-			}
+			"code": "0",
+			"label": "very relaxed"
+		},
+		{
+			"code": "6",
+			"label": "very tense"
+		}
 		],
 		"field_note": "",
 		"text_validation_type_or_show_slider_number": "number",
@@ -271,14 +271,14 @@
 		"form_name": "kss_mood",
 		"section_header": "",
 		"field_type": "slider",
-		"field_label": "Wie ist Ihre Stimmung im Moment?",
+		"field_label": "What is your mood at the moment??",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "depressive Stimmung"
+				"label": "depressed mood"
 			},
 			{
 				"code": "100",
-				"label": "gute Stimmung"
+				"label": "good mood"
 			}
 		],
 		"field_note": "",
@@ -300,14 +300,14 @@
 		"form_name": "kss_mood",
 		"section_header": "",
 		"field_type": "slider",
-		"field_label": "Wie fühlen Sie sich im Moment?",
+		"field_label": "How do you feel right now?",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "so schlimm wie noch nie"
+				"label": "worse than ever"
 			},
 			{
 				"code": "100",
-				"label": "so gut wie noch nie"
+				"label": "better than ever"
 			}
 		],
 		"field_note": "",
