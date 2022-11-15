@@ -97,7 +97,7 @@
 		"form_name": "kss_mood",
 		"section_header": "",
 		"field_type": "range",
-		"field_label": "In diesem Moment fühle ich mich...",
+		"field_label": "At this moment I feel...",
 		"select_choices_or_calculations": [{
 			"code": "0",
 			"label": "very tired"
