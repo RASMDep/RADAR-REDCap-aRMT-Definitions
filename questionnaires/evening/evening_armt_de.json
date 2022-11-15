@@ -2,7 +2,7 @@
 		"field_name": "diary_q1",
 		"form_name": "evening",
 		"section_header": "Nahrungsaufnahme",
-		"field_type": "radio",
+		"field_type": "range",
 		"field_label": "Wie viele Tassen/Drinks mit Koffein haben Sie heute zu sich genommen in Form von Kaffee oder Energy Drinks? (ANZAHL TASSEN/2.5dl DRINKS)",
 		"select_choices_or_calculations": [{
 				"code": "0",
@@ -88,7 +88,7 @@
 		"field_name": "diary_q2",
 		"form_name": "evening",
 		"section_header": "",
-		"field_type": "radio",
+		"field_type": "range",
 		"field_label": "Wie viele Einheiten Schokolade, Schwarztee, Grüntee, Eistee, Coca Cola oder Ähnliches haben Sie heute zu sich genommen?(1 Einheit = 1 Reihe/Riegel Schokolade, 1 Tasse oder 2.5dl Glas der Getränke)",
 		"select_choices_or_calculations": [{
 				"code": "0",
@@ -174,7 +174,7 @@
 		"field_name": "diary_q3",
 		"form_name": "evening",
 		"section_header": "",
-		"field_type": "radio",
+		"field_type": "range",
 		"field_label": "Wie viele alkoholische Getränke haben Sie heute getrunken?(Ein Getränk entspricht: 1dL Wein, 3dL Bier, 2cL Schnaps.)",
 		"select_choices_or_calculations": [{
 				"code": "0",
@@ -455,7 +455,7 @@
 		"field_name": "diary_q8",
 		"form_name": "evening",
 		"section_header": "Bewegung und Sport",
-		"field_type": "radio",
+		"field_type": "range",
 		"field_label": "Wie stark PHYSISCH, also körperlich belastend war Ihr Tag heute? (Körperliche Belastung)",
 		"select_choices_or_calculations": [{
 				"code": "0",
@@ -504,7 +504,7 @@
 		"field_name": "diary_q7",
 		"form_name": "evening",
 		"section_header": "Bewegung und Sport",
-		"field_type": "radio",
+		"field_type": "range",
 		"field_label": "Wie stark PSYCHISCH, also mental belastend/stressig war Ihr Tag heute? (Mentale Belastung)",
 		"select_choices_or_calculations": [{
 				"code": "0",
