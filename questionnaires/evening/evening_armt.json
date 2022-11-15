@@ -2,7 +2,7 @@
 		"field_name": "diary_q1",
 		"form_name": "evening",
 		"section_header": "Food consumption",
-		"field_type": "radio",
+		"field_type": "range",
 		"field_label": "How many cups/drinks with caffeine did you consume today in the form of coffee or energy drinks? (NUMBER OF CUPS/2.5dl DRINKS)",
 		"select_choices_or_calculations": [{
 				"code": "0",
@@ -88,7 +88,7 @@
 		"field_name": "diary_q2",
 		"form_name": "evening",
 		"section_header": "",
-		"field_type": "radio",
+		"field_type": "range",
 		"field_label": "How many units of chocolate, black tea, green tea, iced tea, Coca Cola or similar did you consume today? (1 unit = 1 row/bar of chocolate, 1 cup or 2.5dl glass of the drinks)",
 		"select_choices_or_calculations": [{
 				"code": "0",
@@ -174,7 +174,7 @@
 		"field_name": "diary_q3",
 		"form_name": "evening",
 		"section_header": "",
-		"field_type": "radio",
+		"field_type": "range",
 		"field_label": "How many alcoholic drinks did you have today? (One drink equals: 1dL wine, 3dL beer, 2cL liquor).",
 		"select_choices_or_calculations": [{
 				"code": "0",
@@ -455,7 +455,7 @@
 		"field_name": "diary_q8",
 		"form_name": "evening",
 		"section_header": "Exercise and sport",
-		"field_type": "radio",
+		"field_type": "range",
 		"field_label": "How much PHYSICAL, i.e. physically stressful, was your day today? (Physical stress)",
 		"select_choices_or_calculations": [{
 				"code": "0",
@@ -504,7 +504,7 @@
 		"field_name": "diary_q7",
 		"form_name": "evening",
 		"section_header": "Exercise and sport",
-		"field_type": "radio",
+		"field_type": "range",
 		"field_label": "How much PSYCHICALLY, i.e. mentally stressful, was your day today? (Mental stress)",
 		"select_choices_or_calculations": [{
 				"code": "0",
