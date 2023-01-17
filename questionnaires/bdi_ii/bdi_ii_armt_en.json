@@ -3,7 +3,7 @@
 		"form_name": "bdi_ii",
 		"section_header": "",
 		"field_type": "radio",
-		"field_label": "1. Sadnedd",
+		"field_label": "1. Sadness",
 		"select_choices_or_calculations": [{
 				"code": "0",
 				"label": "I am not sad. (0)"
