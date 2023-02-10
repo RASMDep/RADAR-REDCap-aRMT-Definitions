@@ -154,7 +154,7 @@
 		"form_name": "evening",
 		"section_header": "",
 		"field_type": "text",
-		"field_label": "Zu welcher Uhrzeit konsumierten Sie ihr letzte Einheit Schokolade, Schwarztee...? (HH:MM)",
+		"field_label": "Zu welcher Uhrzeit konsumierten Sie Ihre letzte Einheit Schokolade, Schwarztee...? (HH:MM)",
 		"select_choices_or_calculations": "",
 		"field_note": "HH:MM",
 		"text_validation_type_or_show_slider_number": "time",
@@ -240,7 +240,7 @@
 		"form_name": "evening",
 		"section_header": "",
 		"field_type": "text",
-		"field_label": "Zu welcher Uhrzeit konsumierten Sie ihr letztes alkoholisches Getränk? (HH:MM)",
+		"field_label": "Zu welcher Uhrzeit konsumierten Sie Ihr letztes alkoholisches Getränk? (HH:MM)",
 		"select_choices_or_calculations": "",
 		"field_note": "HH:MM",
 		"text_validation_type_or_show_slider_number": "time",
@@ -406,7 +406,7 @@
 		"form_name": "evening",
 		"section_header": "Bewegung und Sport",
 		"field_type": "radio",
-		"field_label": "Haben Sie heute leichte körpertliche Aktivitäten ohne erhöhte Anstrengung/Schwitzen betrieben (z.B. Golf, gemütliches Gehen, Angeln)?",
+		"field_label": "Haben Sie heute leichte körperliche Aktivitäten ohne erhöhte Anstrengung/Schwitzen betrieben (z.B. Golf, gemütliches Gehen, Angeln)?",
 		"select_choices_or_calculations": [{
 				"code": "1",
 				"label": "Ja"
@@ -692,7 +692,7 @@
 				"code": ""
 			},
 			{
-				"label": "Platzieren sie den Schieber an die Stelle, die Ihren momentanen Zustand am besten beschreibt.",
+				"label": "Platzieren Sie den Schieber an die Stelle, die Ihren momentanen Zustand am besten beschreibt.",
 				"code": ""
 			},
 			{
