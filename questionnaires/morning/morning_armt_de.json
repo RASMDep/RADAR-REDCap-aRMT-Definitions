@@ -32,7 +32,7 @@
 		"form_name": "morning",
 		"section_header": "Schlafengehen",
 		"field_type": "radio",
-		"field_label": "Was war der Grund für die geänderte Bettzeit? (Bitte wählen Sie den Wichtigsten.)",
+		"field_label": "Was war der Grund für die geänderte Bettzeit? (Bitte wählen Sie das Wahrscheinlichste.)",
 		"select_choices_or_calculations": [{
 				"code": "0",
 				"label": "Früher/später müde als sonst"
@@ -286,7 +286,7 @@
 		"form_name": "morning",
 		"section_header": "Schlafqualität",
 		"field_type": "checkbox",
-		"field_label": "Was waren die Gründe für das nächtliche Erwachen?",
+		"field_label": "Was waren die Gründe für das nächtliche Erwachen? (Mehrere Antworten möglich)",
 		"select_choices_or_calculations": [{
 				"code": "1",
 				"label": "Schmerzen haben mich aufgeweckt"
@@ -575,7 +575,7 @@
 				"code": ""
 			},
 			{
-				"label": "Platzieren sie den Schieber an die Stelle, die Ihren momentanen Zustand am besten beschreibt.",
+				"label": "Platzieren Sie den Schieber an die Stelle, die Ihren momentanen Zustand am besten beschreibt.",
 				"code": ""
 			},
 			{
