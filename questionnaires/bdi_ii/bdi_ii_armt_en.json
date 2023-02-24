@@ -521,7 +521,7 @@
 		"form_name": "bdi_ii",
 		"section_header": "",
 		"field_type": "radio",
-		"field_label": "15. Loss of energie",
+		"field_label": "15. Loss of energy",
 		"select_choices_or_calculations": [{
 				"code": "0",
 				"label": "I have as much energy as ever. (0)"
