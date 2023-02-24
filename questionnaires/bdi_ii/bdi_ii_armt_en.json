@@ -373,7 +373,7 @@
 		"form_name": "bdi_ii",
 		"section_header": "",
 		"field_type": "radio",
-		"field_label": "11. Irritability",
+		"field_label": "11. Agitation",
 		"select_choices_or_calculations": [{
 				"code": "0",
 				"label": "I am not more restless or wound up than usual. (0)"
@@ -647,23 +647,23 @@
 		"field_label": "18. Changes in appetite",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "My appetite has not changed. (0)"
+				"label": "I have not experienced any change in my appetite. (0)"
 			},
 			{
 				"code": "1",
-				"label": "My appetite is slightly smaller than usual. (1)"
+				"label": "My appetite is somewhat less than usual. (1)"
 			},
 			{
 				"code": "2",
-				"label": "My appetite is a little bigger than usual. (1)"
+				"label": "My appetite is somewhat greater than usual. (1)"
 			},
 			{
 				"code": "0",
-				"label": "My appetite is much smaller than usual. (2)"
+				"label": "My appetite is much less than usual. (2)"
 			},
 			{
 				"code": "1",
-				"label": "My appetite is much bigger than usual. (2)"
+				"label": "My appetite is much greater than usual. (2)"
 			},
 			{
 				"code": "2",
@@ -671,7 +671,7 @@
 			},
 			{
 				"code": "3",
-				"label": "I am very hungry all the time. (3)"
+				"label": "I crave food all the time. (3)"
 			}
 		],
 		"field_note": "",
@@ -696,19 +696,19 @@
 		"field_label": "19. Focus difficulties\n",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "I can focus as well as ever. (0)"
+				"label": "I can concentrate as well as ever. (0)"
 			},
 			{
 				"code": "1",
-				"label": "I can't focus as well as ever. (1)"
+				"label": "I can't concentrate as well as usual. (1)"
 			},
 			{
 				"code": "2",
-				"label": "I find it difficult to focus on anything for very long. (2)"
+				"label": "It's hard to keep my mind on anything for very long. (2)"
 			},
 			{
 				"code": "3",
-				"label": "I can't focus on anything. (3)"
+				"label": "I find I can't concentrate on anything. (3)"
 			}
 		],
 		"field_note": "",
@@ -733,19 +733,19 @@
 		"field_label": "20. Fatigue",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "I am not more tired than usual. (0)"
+				"label": "I am no more tired or fatigued than usual. (0)"
 			},
 			{
 				"code": "1",
-				"label": "I get tired faster than usual. (1)"
+				"label": "I get more tired or fatigued more easily than usual. (1)"
 			},
 			{
 				"code": "2",
-				"label": "I am too tired for many things I used to like to do. (2)"
+				"label": "I am too tired or fatigued to do a lot of the things I used to do. (2)"
 			},
 			{
 				"code": "3",
-				"label": "I am too tired for most of the things I used to do. (3)"
+				"label": "I am too tired or fatigued to do most of the things I used to do. (3)"
 			}
 		],
 		"field_note": "",
@@ -770,19 +770,19 @@
 		"field_label": "21. Loss of interest in sexual intercourse\n",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "I have not noticed any changes in my interest in sexual intercourse recently. (0)"
+				"label": "I have not noticed any recent change in my interest in sex. (0)"
 			},
 			{
 				"code": "1",
-				"label": "I have less interest in sexual intercourse than before. (1)"
+				"label": "I am less interested in sex than I used to be. (1)"
 			},
 			{
 				"code": "2",
-				"label": "I have much less interest in sexual intercourse now. (2)"
+				"label": "I am much less interested in sex now. (2)"
 			},
 			{
 				"code": "3",
-				"label": "I have completely lost interest in sexual intercourse. (3)"
+				"label": "I  have lost interest in sex completely. (3)"
 			}
 		],
 		"field_note": "",
