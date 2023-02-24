@@ -3,22 +3,22 @@
 		"form_name": "bdi_ii",
 		"section_header": "",
 		"field_type": "radio",
-		"field_label": "1. Traurigkeit",
+		"field_label": "1. Sadness",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "Ich bin nicht traurig. (0)"
+				"label": "I am not sad. (0)"
 			},
 			{
 				"code": "1",
-				"label": "Ich bin oft traurig. (1)"
+				"label": "I am often sad. (1)"
 			},
 			{
 				"code": "2",
-				"label": "Ich bin ständig traurig. (2)"
+				"label": "I am sad all the time. (2)"
 			},
 			{
 				"code": "3",
-				"label": "Ich bin so traurig oder unglücklich, dass ich es nicht aushalten kann. (3)"
+				"label": "I am so sad or unhappy that I can't stand it. (3)"
 			}
 		],
 		"field_note": "",
@@ -40,22 +40,22 @@
 		"form_name": "bdi_ii",
 		"section_header": "",
 		"field_type": "radio",
-		"field_label": "2. Pessimismus",
+		"field_label": "2. Pessimism",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "Ich bin nicht mutlos, was meine Zukunft angeht. (0)"
+				"label": "I am not discouraged about my future. (0)"
 			},
 			{
 				"code": "1",
-				"label": "Ich bin mutloser als früher, was meine Zukunft angeht. (1)"
+				"label": "I am more discouraged than before about my future. (1)"
 			},
 			{
 				"code": "2",
-				"label": "Ich glaube nicht, dass sich meine Lage verbessert. (2)"
+				"label": "I don't think my situation will improve. (2)"
 			},
 			{
 				"code": "3",
-				"label": "Ich habe das Gefühl, dass es keine Hoffnung gibt für meine Zukunft und es nur noch schlimmer wird. (3)"
+				"label": "I feel like there is no hope for my future and things will only get worse. (3)"
 			}
 		],
 		"field_note": "",
@@ -77,22 +77,22 @@
 		"form_name": "bdi_ii",
 		"section_header": "",
 		"field_type": "radio",
-		"field_label": "3. Frühere Misserfolge",
+		"field_label": "3. Previous failures",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "Ich fühle mich nicht als Versager. (0)"
+				"label": "I don't feel like a failure. (0)"
 			},
 			{
 				"code": "1",
-				"label": "Ich habe öfter versagt als ich sollte. (1)"
+				"label": "I have failed more often than I should. (1)"
 			},
 			{
 				"code": "2",
-				"label": "Wenn ich zurückblicke, sehe ich eine Menge Misserfolge. (2)"
+				"label": "When I look back, I see a lot of failures. (2)"
 			},
 			{
 				"code": "3",
-				"label": "Ich fühle mich persönlich als totaler Versager (3)."
+				"label": "I personally feel like a total failure (3)."
 			}
 		],
 		"field_note": "",
@@ -114,22 +114,22 @@
 		"form_name": "bdi_ii",
 		"section_header": "",
 		"field_type": "radio",
-		"field_label": "4. Verlust von Freude",
+		"field_label": "4. Loss of Joy",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "Ich habe so viel Freude wie immer an den Dingen, die mir Spass machen. (0)"
+				"label": "I get as much pleasure as ever from the things I enjoy. (0)"
 			},
 			{
 				"code": "1",
-				"label": "Ich habe nicht mehr so viel Spass an den Dingen wie früher. (1)"
+				"label": "I don't enjoy things as much as I used to. (1)"
 			},
 			{
 				"code": "2",
-				"label": "Ich habe sehr wenig Freude an den Dingen, die mir früher Spass gemacht haben. (2)"
+				"label": "I get very little enjoyment out of the things I used to enjoy. (2)"
 			},
 			{
 				"code": "3",
-				"label": "Ich habe keine Freude an den Dingen, die mir früher Spass gemacht haben. (3)"
+				"label": "I get no pleasure from the things I used to enjoy. (3)"
 			}
 		],
 		"field_note": "",
@@ -151,22 +151,22 @@
 		"form_name": "bdi_ii",
 		"section_header": "",
 		"field_type": "radio",
-		"field_label": "5. Schuldgefühle",
+		"field_label": "5. Guilt",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "Ich habe keine besonderen Schuldgefühle. (0)"
+				"label": "I have no particular feelings of guilt. (0)"
 			},
 			{
 				"code": "1",
-				"label": "Ich habe bei vielen Dingen, die ich getan habe oder hätte tun sollen, Schuldgefühle. (1)"
+				"label": "I feel guilty about many things I have done or should have done. (1)"
 			},
 			{
 				"code": "2",
-				"label": "Ich habe die meiste Zeit Schuldgefühle. (2)"
+				"label": "I feel guilty most of the time. (2)"
 			},
 			{
 				"code": "3",
-				"label": "Ich habe ständig Schuldgefühle. (3)"
+				"label": "I feel guilty all the time. (3)"
 			}
 		],
 		"field_note": "",
@@ -188,22 +188,22 @@
 		"form_name": "bdi_ii",
 		"section_header": "",
 		"field_type": "radio",
-		"field_label": "6. Gefühle, bestraft zu werden",
+		"field_label": "6. Feelings of being punished",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "Ich habe nicht das Gefühl, für etwas bestraft zu werden. (0)"
+				"label": "I don't feel like I'm being punished for anything. (0)"
 			},
 			{
 				"code": "1",
-				"label": "Ich habe das Gefühl, dass ich vielleicht für etwas bestraft werde. (1)"
+				"label": "I feel like I might be punished for something. (1)"
 			},
 			{
 				"code": "2",
-				"label": "Ich glaube, dass ich für etwas bestraft werde. (2)"
+				"label": "I feel that I might be punished for something. (2)"
 			},
 			{
 				"code": "3",
-				"label": "Ich habe das Gefühl, für etwas bestraft zu werden. (3)"
+				"label": "(2) I feel I am being punished for something. (3)"
 			}
 		],
 		"field_note": "",
@@ -225,22 +225,22 @@
 		"form_name": "bdi_ii",
 		"section_header": "",
 		"field_type": "radio",
-		"field_label": "7. Abneigung gegen sich selbst",
+		"field_label": "7. Dislike of oneself",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "Meine Gefühle mir gegenüber sind die gleichen geblieben. (0)"
+				"label": "My feelings towards myself have remained the same. (0)"
 			},
 			{
 				"code": "1",
-				"label": "Ich habe das Vertrauen in mich verloren. (1)"
+				"label": "I have lost confidence in myself. (1)"
 			},
 			{
 				"code": "2",
-				"label": "Ich bin von mir selbst enttäuscht. (2)"
+				"label": "I am disappointed in myself. (2)"
 			},
 			{
 				"code": "3",
-				"label": "Ich mag mich nicht. (3)"
+				"label": "I don't like myself. (3)"
 			}
 		],
 		"field_note": "",
@@ -262,22 +262,22 @@
 		"form_name": "bdi_ii",
 		"section_header": "",
 		"field_type": "radio",
-		"field_label": "8. Selbstvorwürfe",
+		"field_label": "8. Self-recrimination",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "Ich bin mir selbst gegenüber nicht kritischer als sonst und mache mir nicht mehr Vorwürfe als sonst. (0)"
+				"label": "I am not more critical of myself than usual and do not blame myself more than usual. (0)"
 			},
 			{
 				"code": "1",
-				"label": "Ich bin mir selbst gegenüber kritischer als früher. (1)"
+				"label": "I am more critical of myself than before. (1)"
 			},
 			{
 				"code": "2",
-				"label": "Ich mache mir Vorwürfe für alle meine Fehler. (2)"
+				"label": "I blame myself for all my mistakes. (2)"
 			},
 			{
 				"code": "3",
-				"label": "Ich gebe mir die Schuld für alles Schlimme, was passiert. (3)"
+				"label": "I blame myself for everything bad that happens. (3)"
 			}
 		],
 		"field_note": "",
@@ -299,22 +299,22 @@
 		"form_name": "bdi_ii",
 		"section_header": "",
 		"field_type": "radio",
-		"field_label": "9. Selbstmordgedanken oder -wünsche",
+		"field_label": "9. Suicidal thoughts or wishes",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "Ich denke nie daran, mich umzubringen. (0)"
+				"label": "I never think about killing myself. (0)"
 			},
 			{
 				"code": "1",
-				"label": "Ich habe Selbstmordgedanken, aber ich würde sie nicht ausführen. (1)"
+				"label": "I have suicidal thoughts, but I would not carry them out. (1)"
 			},
 			{
 				"code": "2",
-				"label": "Ich möchte mich umbringen. (2)"
+				"label": "I want to kill myself. (2)"
 			},
 			{
 				"code": "3",
-				"label": "Ich würde mich umbringen, wenn ich die Möglichkeit hätte. (3)"
+				"label": "I would kill myself if I had the chance. (3)"
 			}
 		],
 		"field_note": "",
@@ -336,22 +336,22 @@
 		"form_name": "bdi_ii",
 		"section_header": "",
 		"field_type": "radio",
-		"field_label": "10. Weinen",
+		"field_label": "10. Crying",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "Ich weine nicht mehr als früher. (0)"
+				"label": "I don't cry any more than I used to. (0)"
 			},
 			{
 				"code": "1",
-				"label": "Ich weine jetzt mehr als früher. (1)"
+				"label": "I cry more now than I used to. (1)"
 			},
 			{
 				"code": "2",
-				"label": "Ich weine wegen jeder Kleinigkeit. (2)"
+				"label": "I cry over every little thing. (2)"
 			},
 			{
 				"code": "3",
-				"label": "Mir ist nach Weinen zumute, aber ich kann nicht. (3)"
+				"label": "I feel like crying, but I can't. (3)"
 			}
 		],
 		"field_note": "",
@@ -373,22 +373,22 @@
 		"form_name": "bdi_ii",
 		"section_header": "",
 		"field_type": "radio",
-		"field_label": "11. Reizbarkeit",
+		"field_label": "11. Irritability",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "Ich bin nicht unruhiger oder erregter als sonst. (0)"
+				"label": "I am not more restless or agitated than usual. (0)"
 			},
 			{
 				"code": "1",
-				"label": "Ich bin unruhiger oder erregter als sonst. (1)"
+				"label": "I am more restless or agitated than usual. (1)"
 			},
 			{
 				"code": "2",
-				"label": "Ich bin so unruhig oder erregt, dass es schwer ist, mich nicht zu bewegen. (2)"
+				"label": "I am so restless or excited that it is hard not to move. (2)"
 			},
 			{
 				"code": "3",
-				"label": "Ich bin so unruhig oder erregt, dass ich ständig in Bewegung bleiben oder etwas tun muss. (3)"
+				"label": "I am so restless or excited that I have to keep moving or doing something all the time. (3)"
 			}
 		],
 		"field_note": "",
@@ -410,22 +410,22 @@
 		"form_name": "bdi_ii",
 		"section_header": "",
 		"field_type": "radio",
-		"field_label": "12. Interessenlosigkeit",
+		"field_label": "12. Disinterest",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "Ich habe das Interesse an andern Menschen oder an Tätigkeiten nicht verloren. (0)"
+				"label": "I have not lost interest in other people or activities. (0)"
 			},
 			{
 				"code": "1",
-				"label": "Ich bin weniger an anderen Menschen oder Dingen interessiert als vorher. (1)"
+				"label": "I am less interested in other people or things than before. (1)"
 			},
 			{
 				"code": "2",
-				"label": "Ich habe mein Interesse an anderen Menschen oder Dingen zum grössten Teil verloren (2)."
+				"label": "I have lost most of my interest in other people or things. (2)"
 			},
 			{
 				"code": "3",
-				"label": "Es ist schwer, für irgendetwas Interesse aufzubringen. (3)"
+				"label": "It is hard to get interested in anything. (3)"
 			}
 		],
 		"field_note": "",
@@ -447,22 +447,22 @@
 		"form_name": "bdi_ii",
 		"section_header": "",
 		"field_type": "radio",
-		"field_label": "13. Entschlussunfähigkeit",
+		"field_label": "13. Decision-incapacity",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "Ich treffe Entscheidungen etwa so leicht wie immer. (0)"
+				"label": "I make decisions about as easily as ever.. (0)"
 			},
 			{
 				"code": "1",
-				"label": "Es fällt mir schwerer als sonst, Entscheidungen zu treffen. (1)"
+				"label": "I find it harder than usual to make decisions. (1)"
 			},
 			{
 				"code": "2",
-				"label": "Ich habe viel grössere Schwierigkeiten, Entscheidungen zu treffen, als früher. (2)"
+				"label": "I have much more difficulty making decisions than before. (2)"
 			},
 			{
 				"code": "3",
-				"label": "Ich habe Mühe, überhaupt Entscheidungen zu treffen. (3)"
+				"label": "I have trouble making decisions at all. (3)"
 			}
 		],
 		"field_note": "",
@@ -484,22 +484,22 @@
 		"form_name": "bdi_ii",
 		"section_header": "",
 		"field_type": "radio",
-		"field_label": "14. Wertlosigkeit",
+		"field_label": "14. Worthlessness",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "Ich fühle mich nicht wertlos. (0)"
+				"label": "I do not feel worthless. (0)"
 			},
 			{
 				"code": "1",
-				"label": "Ich halte mich nicht für so wertvoll und nützlich wie vorher. (1)"
+				"label": "I do not consider myself as valuable and useful as before. (1)"
 			},
 			{
 				"code": "2",
-				"label": "Ich habe das Gefühl, weniger Wert zu sein als andere Menschen. (2)"
+				"label": "I feel I am of less value than other people. (2)"
 			},
 			{
 				"code": "3",
-				"label": "Ich habe das Gefühl, völlig wertlos zu sein. (3)"
+				"label": "I feel like I am completely worthless. (3)"
 			}
 		],
 		"field_note": "",
@@ -521,22 +521,22 @@
 		"form_name": "bdi_ii",
 		"section_header": "",
 		"field_type": "radio",
-		"field_label": "15. Verlust an Energie",
+		"field_label": "15. Loss of energy",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "Ich habe so viel Energie wie immer. (0)"
+				"label": "I have as much energy as ever. (0)"
 			},
 			{
 				"code": "1",
-				"label": "Ich habe weniger Energie als früher. (1)"
+				"label": "I have less energy than before. (1)"
 			},
 			{
 				"code": "2",
-				"label": "Ich habe nicht genügend Energie, sehr viel zu tun. (2)"
+				"label": "I don't have enough energy to do much. (2)"
 			},
 			{
 				"code": "3",
-				"label": "Ich habe nicht genügend Energie, irgendetwas zu tun. (3)"
+				"label": "I don't have enough energy to do anything. (3)"
 			}
 		],
 		"field_note": "",
@@ -558,34 +558,34 @@
 		"form_name": "bdi_ii",
 		"section_header": "",
 		"field_type": "radio",
-		"field_label": "16. Veränderungen der Schlafgewohnheiten\n",
+		"field_label": "16. Changes in sleep habits\n",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "Meine Schlafgewohnheiten haben sich nicht verändert. (0)"
+				"label": "My sleeping habits have not changed. (0)"
 			},
 			{
 				"code": "1",
-				"label": "Ich schlafe etwas mehr als sonst. (1)"
+				"label": "I sleep a little more than usual. (1)"
 			},
 			{
 				"code": "2",
-				"label": "Ich schlafe etwas weniger als sonst. (1)"
+				"label": "I sleep a little less than usual. (1)"
 			},
 			{
 				"code": "3",
-				"label": "Ich schlafe viel mehr als sonst. (2)"
+				"label": "I sleep much more than usual. (2)"
 			},
 			{
 				"code": "4",
-				"label": "Ich schlafe viel weniger als sonst. (2)"
+				"label": "I sleep much less than usual. (2)"
 			},
 			{
 				"code": "5",
-				"label": "Ich schlafe die meiste Zeit des Tages. (3)"
+				"label": "I sleep most of the day. (3)"
 			},
 			{
 				"code": "6",
-				"label": "Ich wache 1-2 Stunden zu früh auf und kann dann nicht mehr einschlafen. (3)"
+				"label": "I wake up 1-2 hours too early and then can't get back to sleep. (3)"
 			}
 		],
 		"field_note": "",
@@ -607,22 +607,22 @@
 		"form_name": "bdi_ii",
 		"section_header": "",
 		"field_type": "radio",
-		"field_label": "17. Reizbarkeit",
+		"field_label": "17. Irritability",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "Ich bin nicht reizbarer als sonst. (0)"
+				"label": "I am no more irritable than usual. (0)"
 			},
 			{
 				"code": "1",
-				"label": "Ich bin reizbarer als sonst. (1)"
+				"label": "I am more irritable than usual. (1)"
 			},
 			{
 				"code": "2",
-				"label": "Ich bin viel reizbarer als sonst. (2)"
+				"label": "I am much more irritable than usual. (2)"
 			},
 			{
 				"code": "3",
-				"label": "Ich bin ständig reizbar. (3)"
+				"label": "I am irritable all the time. (3)"
 			}
 		],
 		"field_note": "",
@@ -644,34 +644,34 @@
 		"form_name": "bdi_ii",
 		"section_header": "",
 		"field_type": "radio",
-		"field_label": "18. Veränderungen des Appetits",
+		"field_label": "18. Changes in appetite",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "Mein Appetit hat sich nicht verändert. (0)"
+				"label": "My appetite has not changed. (0)"
 			},
 			{
 				"code": "1",
-				"label": "Mein Appetit ist etwas kleiner als sonst. (1)"
+				"label": "My appetite is slightly smaller than usual. (1)"
 			},
 			{
 				"code": "2",
-				"label": "Mein Appetit ist etwas grösser als sonst. (1)"
+				"label": "My appetite is a little bigger than usual. (1)"
 			},
 			{
 				"code": "0",
-				"label": "Mein Appetit ist viel kleiner als sonst. (2)"
+				"label": "My appetite is much smaller than usual. (2)"
 			},
 			{
 				"code": "1",
-				"label": "Mein Appetit ist viel grösser als sonst. (2)"
+				"label": "My appetite is much bigger than usual. (2)"
 			},
 			{
 				"code": "2",
-				"label": "Ich habe überhaupt keinen Appetit. (3)"
+				"label": "I have no appetite at all. (3)"
 			},
 			{
 				"code": "3",
-				"label": "Ich habe ständig grossen Hunger. (3)"
+				"label": "I am very hungry all the time. (3)"
 			}
 		],
 		"field_note": "",
@@ -693,22 +693,22 @@
 		"form_name": "bdi_ii",
 		"section_header": "",
 		"field_type": "radio",
-		"field_label": "19. Konzentrationsschwierigkeiten\n",
+		"field_label": "19. Focus difficulties\n",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "Ich kann mich so gut konzentrieren wie immer. (0)"
+				"label": "I can focus as well as ever. (0)"
 			},
 			{
 				"code": "1",
-				"label": "Ich kann mich nicht so gut konzentrieren wie immer. (1)"
+				"label": "I can't focus as well as ever. (1)"
 			},
 			{
 				"code": "2",
-				"label": "Es fällt mir schwer, mich sehr lange auf etwas zu konzentrieren. (2)"
+				"label": "I find it difficult to focus on anything for very long. (2)"
 			},
 			{
 				"code": "3",
-				"label": "Ich kann mich auf gar nichts konzentrieren. (3)"
+				"label": "I can't focus on anything. (3)"
 			}
 		],
 		"field_note": "",
@@ -730,22 +730,22 @@
 		"form_name": "bdi_ii",
 		"section_header": "",
 		"field_type": "radio",
-		"field_label": "20. Müdigkeit",
+		"field_label": "20. Fatigue",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "Ich bin nicht müder als sonst. (0)"
+				"label": "I am not more tired than usual. (0)"
 			},
 			{
 				"code": "1",
-				"label": "Ich werde schneller müde als sonst. (1)"
+				"label": "I get tired faster than usual. (1)"
 			},
 			{
 				"code": "2",
-				"label": "Ich bin für viele Dinge, die ich früher gern getan habe, zu müde. (2)"
+				"label": "I am too tired for many things I used to like to do. (2)"
 			},
 			{
 				"code": "3",
-				"label": "Ich bin für die meisten Dinge, die ich früher getan habe, zu müde. (3)"
+				"label": "I am too tired for most of the things I used to do. (3)"
 			}
 		],
 		"field_note": "",
@@ -767,22 +767,22 @@
 		"form_name": "bdi_ii",
 		"section_header": "",
 		"field_type": "radio",
-		"field_label": "21. Verlust des Interesses an Geschlechtsverkehr\n",
+		"field_label": "21. Loss of interest in sexual intercourse\n",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "Ich habe in letzter Zeit keine Veränderungen meines Interesses an Geschlechtsverkehr bemerkt. (0)"
+				"label": "I have not noticed any changes in my interest in sexual intercourse recently. (0)"
 			},
 			{
 				"code": "1",
-				"label": "Ich habe weniger Interesse an Geschlechtsverkehr als früher. (1)"
+				"label": "I have less interest in sexual intercourse than before. (1)"
 			},
 			{
 				"code": "2",
-				"label": "Ich habe jetzt viel weniger Interesse an Geschlechtsverkehr. (2)"
+				"label": "I have much less interest in sexual intercourse now. (2)"
 			},
 			{
 				"code": "3",
-				"label": "Ich habe das Interesse an Geschlechtsverkehr völlig verloren. (3)"
+				"label": "I have completely lost interest in sexual intercourse. (3)"
 			}
 		],
 		"field_note": "",
