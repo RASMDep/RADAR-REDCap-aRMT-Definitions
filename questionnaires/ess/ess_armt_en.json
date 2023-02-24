@@ -9,7 +9,7 @@
 				"code": ""
 			},
 			{
-				"label": "0 = would never fall asleep 1 = low probability of falling asleep",
+				"label": "0 = would never fall asleep",
 				"code": ""
 			},
 			{
@@ -21,7 +21,7 @@
 				"code": ""
 			},
 			{
-				"label": "2 = 3 = high probability of falling asleep",
+				"label": "3 = high probability of falling asleep",
 				"code": ""
 
 			},
