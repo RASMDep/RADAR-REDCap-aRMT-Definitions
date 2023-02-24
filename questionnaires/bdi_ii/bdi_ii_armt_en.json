@@ -228,7 +228,7 @@
 		"field_label": "7. Dislike of oneself",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "My feelings towards myself have remained the same. (0)"
+				"label": "I feel the same about myself as ever. (0)"
 			},
 			{
 				"code": "1",
@@ -240,7 +240,7 @@
 			},
 			{
 				"code": "3",
-				"label": "I don't like myself. (3)"
+				"label": "I dislike myself. (3)"
 			}
 		],
 		"field_note": "",
@@ -265,15 +265,15 @@
 		"field_label": "8. Self-recrimination",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "I am not more critical of myself than usual and do not blame myself more than usual. (0)"
+				"label": "I don't criticize or blame myself more than usual. (0)"
 			},
 			{
 				"code": "1",
-				"label": "I am more critical of myself than before. (1)"
+				"label": "I  am more critical of myself than I used to be. (1)"
 			},
 			{
 				"code": "2",
-				"label": "I blame myself for all my mistakes. (2)"
+				"label": "I criticize myself for all of my faults. (2)"
 			},
 			{
 				"code": "3",
@@ -302,15 +302,15 @@
 		"field_label": "9. Suicidal thoughts or wishes",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "I never think about killing myself. (0)"
+				"label": "I don't have any thoughts of killing myself. (0)"
 			},
 			{
 				"code": "1",
-				"label": "I have suicidal thoughts, but I would not carry them out. (1)"
+				"label": "I have thoughts of killing myself, but I would not carry them out. (1)"
 			},
 			{
 				"code": "2",
-				"label": "I want to kill myself. (2)"
+				"label": "I would like to kill myself. (2)"
 			},
 			{
 				"code": "3",
@@ -376,19 +376,19 @@
 		"field_label": "11. Irritability",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "I am not more restless or agitated than usual. (0)"
+				"label": "I am not more restless or wound up than usual. (0)"
 			},
 			{
 				"code": "1",
-				"label": "I am more restless or agitated than usual. (1)"
+				"label": "I feel more restless or wound up than usual. (1)"
 			},
 			{
 				"code": "2",
-				"label": "I am so restless or excited that it is hard not to move. (2)"
+				"label": "I feel so restless or agitated that it's hard to stay still. (2)"
 			},
 			{
 				"code": "3",
-				"label": "I am so restless or excited that I have to keep moving or doing something all the time. (3)"
+				"label": "I am so restless or agitated that I have to keep moving or doing something. (3)"
 			}
 		],
 		"field_note": "",
@@ -450,19 +450,19 @@
 		"field_label": "13. Decision-incapacity",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "I make decisions about as easily as ever.. (0)"
+				"label": "I make decisions about as easily as ever. (0)"
 			},
 			{
 				"code": "1",
-				"label": "I find it harder than usual to make decisions. (1)"
+				"label": "I find it more difficult to make decisions than usual. (1)"
 			},
 			{
 				"code": "2",
-				"label": "I have much more difficulty making decisions than before. (2)"
+				"label": "I have much greater difficulty in making decisions than I used to. (2)"
 			},
 			{
 				"code": "3",
-				"label": "I have trouble making decisions at all. (3)"
+				"label": "I have trouble making any decisions. (3)"
 			}
 		],
 		"field_note": "",
@@ -491,15 +491,15 @@
 			},
 			{
 				"code": "1",
-				"label": "I do not consider myself as valuable and useful as before. (1)"
+				"label": "I don't consider myself as worthwhile and useful as I used to. (1)"
 			},
 			{
 				"code": "2",
-				"label": "I feel I am of less value than other people. (2)"
+				"label": "I feel more worthless as compared to other people. (2)"
 			},
 			{
 				"code": "3",
-				"label": "I feel like I am completely worthless. (3)"
+				"label": "I feel utterly worthless. (3)"
 			}
 		],
 		"field_note": "",
@@ -528,11 +528,11 @@
 			},
 			{
 				"code": "1",
-				"label": "I have less energy than before. (1)"
+				"label": "I have less energy than I used to have. (1)"
 			},
 			{
 				"code": "2",
-				"label": "I don't have enough energy to do much. (2)"
+				"label": "I don't have enough energy to do very much. (2)"
 			},
 			{
 				"code": "3",
@@ -561,23 +561,23 @@
 		"field_label": "16. Changes in sleep habits\n",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "My sleeping habits have not changed. (0)"
+				"label": "I have not experienced any change in my sleeping pattern. (0)"
 			},
 			{
 				"code": "1",
-				"label": "I sleep a little more than usual. (1)"
+				"label": "I sleep somewhat more than usual. (1)"
 			},
 			{
 				"code": "2",
-				"label": "I sleep a little less than usual. (1)"
+				"label": "I sleep somewhat less than usual. (1)"
 			},
 			{
 				"code": "3",
-				"label": "I sleep much more than usual. (2)"
+				"label": "I sleep a lot more than usual. (2)"
 			},
 			{
 				"code": "4",
-				"label": "I sleep much less than usual. (2)"
+				"label": "I sleep a lot less than usual. (2)"
 			},
 			{
 				"code": "5",
@@ -585,7 +585,7 @@
 			},
 			{
 				"code": "6",
-				"label": "I wake up 1-2 hours too early and then can't get back to sleep. (3)"
+				"label": "I wake up 1-2 hours early and can't get back to sleep. (3)"
 			}
 		],
 		"field_note": "",
