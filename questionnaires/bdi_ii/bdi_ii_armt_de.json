@@ -585,7 +585,7 @@
 			},
 			{
 				"code": "6",
-				"label": "Ich wache 1-2 Stunden zu früh auf und kann dann nicht mehr einschlafen. (3)"
+				"label": "Ich wache 1-2 Stunden früher auf als gewöhnlich und kann dann nicht mehr einschlafen. (3)"
 			}
 		],
 		"field_note": "",
@@ -651,7 +651,7 @@
 			},
 			{
 				"code": "1",
-				"label": "Mein Appetit ist etwas kleiner als sonst. (1)"
+				"label": "Mein Appetit ist etwas schlechter als sonst. (1)"
 			},
 			{
 				"code": "2",
@@ -659,7 +659,7 @@
 			},
 			{
 				"code": "0",
-				"label": "Mein Appetit ist viel kleiner als sonst. (2)"
+				"label": "Mein Appetit ist viel schlechter als sonst. (2)"
 			},
 			{
 				"code": "1",
