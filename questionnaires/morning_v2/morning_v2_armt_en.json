@@ -927,11 +927,11 @@
 		"field_label": "How are you feeling right now?",
 		"select_choices_or_calculations": [{
 			"code": "0",
-			"label": "worse than ever"
+			"label": "worst eve ever"
 		},
 		{
 			"code": "100",
-			"label": "better than ever"
+			"label": "best ever"
 		}
 		],
 		"field_note": "",
