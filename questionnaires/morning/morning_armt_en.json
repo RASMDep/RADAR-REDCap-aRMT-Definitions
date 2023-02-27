@@ -692,11 +692,11 @@
 		"field_label": "At this moment I feel...",
 		"select_choices_or_calculations": [{
 			"code": "0",
-			"label": "very energetic"
+			"label": "full of energy"
 		},
 		{
 			"code": "6",
-			"label": "very tired"
+			"label": "without energy"
 		}
 		],
 		"field_note": "",
