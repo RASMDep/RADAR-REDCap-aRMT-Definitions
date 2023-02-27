@@ -718,8 +718,8 @@
 	},
 	{
 		"field_name": "imq_1",
-		"form_name": "morning",
-		"section_header": "State of mind",
+		"form_name": "kss_mood",
+		"section_header": "",
 		"field_type": "range",
 		"field_label": "At this moment I feel...",
 		"select_choices_or_calculations": [{
@@ -747,16 +747,16 @@
 	},
 	{
 		"field_name": "imq_2",
-		"form_name": "morning",
-		"section_header": "State of mind",
+		"form_name": "kss_mood",
+		"section_header": "",
 		"field_type": "range",
 		"field_label": "At this moment I feel...",
 		"select_choices_or_calculations": [{
-			"label": "very satisfied",
+			"label": "very content",
 			"code": "0"
 		},
 		{
-			"label": "very unsatisfied",
+			"label": "very discontent",
 			"code": "6"
 		}
 		],
@@ -776,8 +776,8 @@
 	},
 	{
 		"field_name": "imq_3",
-		"form_name": "morning",
-		"section_header": "State of mind",
+		"form_name": "kss_mood",
+		"section_header": "",
 		"field_type": "range",
 		"field_label": "At this moment I feel...",
 		"select_choices_or_calculations": [{
@@ -805,8 +805,8 @@
 	},
 	{
 		"field_name": "imq_4",
-		"form_name": "morning",
-		"section_header": "State of mind",
+		"form_name": "kss_mood",
+		"section_header": "",
 		"field_type": "range",
 		"field_label": "At this moment I feel...",
 		"select_choices_or_calculations": [{
@@ -834,16 +834,16 @@
 	},
 	{
 		"field_name": "imq_5",
-		"form_name": "morning",
-		"section_header": "State of mind",
+		"form_name": "kss_mood",
+		"section_header": "",
 		"field_type": "range",
 		"field_label": "At this moment I feel...",
 		"select_choices_or_calculations": [{
-			"label": "very uncomfortable",
+			"label": "very unwell",
 			"code": "0"
 		},
 		{
-			"label": "very comfortable",
+			"label": "very well",
 			"code": "6"
 		}
 		],
@@ -863,8 +863,8 @@
 	},
 	{
 		"field_name": "imq_6",
-		"form_name": "morning",
-		"section_header": "State of mind",
+		"form_name": "kss_mood",
+		"section_header": "",
 		"field_type": "range",
 		"field_label": "At this moment I feel...",
 		"select_choices_or_calculations": [{
@@ -889,7 +889,7 @@
 		"matrix_ranking": "",
 		"field_annotation": "",
 		"evaluated_logic": ""
-	},
+	},	
 	{
 		"field_name": "mood_1",
 		"form_name": "morning",
