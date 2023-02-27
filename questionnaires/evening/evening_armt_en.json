@@ -809,11 +809,11 @@
 		"field_label": "At this moment I feel...",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "very energetic"
+				"label": "full of energy"
 			},
 			{
 				"code": "6",
-				"label": "very tired"
+				"label": "without energy"
 			}
 		],
 		"field_note": "",
@@ -925,11 +925,11 @@
 		"field_label": "How are you feeling right now?",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "worse than ever"
+				"label": "worst eve"
 			},
 			{
 				"code": "100",
-				"label": "better than ever"
+				"label": "best ever"
 			}
 		],
 		"field_note": "",
