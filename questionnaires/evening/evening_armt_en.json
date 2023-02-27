@@ -716,18 +716,18 @@
 	},
 	{
 		"field_name": "imq_1",
-		"form_name": "evening",
-		"section_header": "State of mind",
+		"form_name": "kss_mood",
+		"section_header": "",
 		"field_type": "range",
 		"field_label": "At this moment I feel...",
 		"select_choices_or_calculations": [{
-				"code": "0",
-				"label": "very tired"
-			},
-			{
-				"code": "6",
-				"label": "very awake"
-			}
+			"code": "0",
+			"label": "very tired"
+		},
+		{
+			"code": "6",
+			"label": "very awake"
+		}
 		],
 		"field_note": "",
 		"text_validation_type_or_show_slider_number": "number",
@@ -745,18 +745,18 @@
 	},
 	{
 		"field_name": "imq_2",
-		"form_name": "evening",
-		"section_header": "State of mind",
+		"form_name": "kss_mood",
+		"section_header": "",
 		"field_type": "range",
 		"field_label": "At this moment I feel...",
 		"select_choices_or_calculations": [{
-				"label": "very satisfied",
-				"code": "0"
-			},
-			{
-				"label": "very unsatisfied",
-				"code": "6"
-			}
+			"label": "very content",
+			"code": "0"
+		},
+		{
+			"label": "very discontent",
+			"code": "6"
+		}
 		],
 		"field_note": "",
 		"text_validation_type_or_show_slider_number": "number",
@@ -774,18 +774,18 @@
 	},
 	{
 		"field_name": "imq_3",
-		"form_name": "evening",
-		"section_header": "State of mind",
+		"form_name": "kss_mood",
+		"section_header": "",
 		"field_type": "range",
 		"field_label": "At this moment I feel...",
 		"select_choices_or_calculations": [{
-				"code": "0",
-				"label": "very restless"
-			},
-			{
-				"code": "6",
-				"label": "very calm"
-			}
+			"code": "0",
+			"label": "very restless"
+		},
+		{
+			"code": "6",
+			"label": "very calm"
+		}
 		],
 		"field_note": "",
 		"text_validation_type_or_show_slider_number": "",
@@ -803,18 +803,18 @@
 	},
 	{
 		"field_name": "imq_4",
-		"form_name": "evening",
-		"section_header": "State of mind",
+		"form_name": "kss_mood",
+		"section_header": "",
 		"field_type": "range",
 		"field_label": "At this moment I feel...",
 		"select_choices_or_calculations": [{
-				"code": "0",
-				"label": "full of energy"
-			},
-			{
-				"code": "6",
-				"label": "without energy"
-			}
+			"code": "0",
+			"label": "full of energy"
+		},
+		{
+			"code": "6",
+			"label": "without energy"
+		}
 		],
 		"field_note": "",
 		"text_validation_type_or_show_slider_number": "number",
@@ -832,18 +832,18 @@
 	},
 	{
 		"field_name": "imq_5",
-		"form_name": "evening",
-		"section_header": "State of mind",
+		"form_name": "kss_mood",
+		"section_header": "",
 		"field_type": "range",
 		"field_label": "At this moment I feel...",
 		"select_choices_or_calculations": [{
-				"label": "very uncomfortable",
-				"code": "0"
-			},
-			{
-				"label": "very comfortable",
-				"code": "6"
-			}
+			"label": "very unwell",
+			"code": "0"
+		},
+		{
+			"label": "very well",
+			"code": "6"
+		}
 		],
 		"field_note": "",
 		"text_validation_type_or_show_slider_number": "number",
@@ -861,18 +861,18 @@
 	},
 	{
 		"field_name": "imq_6",
-		"form_name": "evening",
-		"section_header": "State of mind",
+		"form_name": "kss_mood",
+		"section_header": "",
 		"field_type": "range",
 		"field_label": "At this moment I feel...",
 		"select_choices_or_calculations": [{
-				"code": "0",
-				"label": "very relaxed"
-			},
-			{
-				"code": "6",
-				"label": "very tense"
-			}
+			"code": "0",
+			"label": "very relaxed"
+		},
+		{
+			"code": "6",
+			"label": "very tense"
+		}
 		],
 		"field_note": "",
 		"text_validation_type_or_show_slider_number": "number",
