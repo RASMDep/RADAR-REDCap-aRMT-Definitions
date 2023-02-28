@@ -68,7 +68,7 @@
 		"form_name": "evening",
 		"section_header": "",
 		"field_type": "text",
-		"field_label": "Zu welcher Uhrzeit konsumierten Sie ihr letztes Getränk?",
+		"field_label": "Zu welcher Uhrzeit konsumierten Sie Ihr letztes Getränk?",
 		"select_choices_or_calculations": "",
 		"field_note": "HH:MM",
 		"text_validation_type_or_show_slider_number": "time",
