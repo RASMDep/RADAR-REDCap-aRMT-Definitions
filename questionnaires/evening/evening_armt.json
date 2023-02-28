@@ -1,9 +1,9 @@
 [{
 		"field_name": "diary_q1",
 		"form_name": "evening",
-		"section_header": "Food consumption",
+		"section_header": "Nahrungsaufnahme",
 		"field_type": "range",
-		"field_label": "How many cups/drinks with caffeine did you consume today in the form of coffee or energy drinks? (NUMBER OF CUPS/2.5dl DRINKS)",
+		"field_label": "Wie viele Tassen/Drinks mit Koffein haben Sie heute zu sich genommen in Form von Kaffee oder Energy Drinks? (ANZAHL TASSEN/2.5dl DRINKS)",
 		"select_choices_or_calculations": [{
 				"code": "0",
 				"label": "1 "
@@ -49,7 +49,7 @@
 				"label": "10"
 			}
 		],
-		"field_note": "NUMBER OF CUPS/2.5dl DRINKS",
+		"field_note": "ANZAHL TASSEN/2.5dl DRINKS",
 		"text_validation_type_or_show_slider_number": "integer",
 		"text_validation_min": "0",
 		"text_validation_max": "10",
@@ -68,7 +68,7 @@
 		"form_name": "evening",
 		"section_header": "",
 		"field_type": "text",
-		"field_label": "At what time did you consume your last drink?",
+		"field_label": "Zu welcher Uhrzeit konsumierten Sie Ihr letztes Getränk?",
 		"select_choices_or_calculations": "",
 		"field_note": "HH:MM",
 		"text_validation_type_or_show_slider_number": "time",
@@ -89,7 +89,7 @@
 		"form_name": "evening",
 		"section_header": "",
 		"field_type": "range",
-		"field_label": "How many units of chocolate, black tea, green tea, iced tea, Coca Cola or similar did you consume today? (1 unit = 1 row/bar of chocolate, 1 cup or 2.5dl glass of the drinks)",
+		"field_label": "Wie viele Einheiten Schokolade, Schwarztee, Grüntee, Eistee, Coca Cola oder Ähnliches haben Sie heute zu sich genommen?(1 Einheit = 1 Reihe/Riegel Schokolade, 1 Tasse oder 2.5dl Glas der Getränke)",
 		"select_choices_or_calculations": [{
 				"code": "0",
 				"label": "1 "
@@ -135,7 +135,7 @@
 				"label": "10"
 			}
 		],
-		"field_note": "1 unit = 1 row/bar of chocolate, 1 cup or 2.5dl glass of drinks",
+		"field_note": "1 Einheit = 1 Reihe/Riegel Schokolade, 1 Tasse oder 2.5dl Glas der Getränke",
 		"text_validation_type_or_show_slider_number": "integer",
 		"text_validation_min": "0",
 		"text_validation_max": "50",
@@ -154,7 +154,7 @@
 		"form_name": "evening",
 		"section_header": "",
 		"field_type": "text",
-		"field_label": "At what time did you consume your last unit of chocolate, black tea...? (HH:MM)",
+		"field_label": "Zu welcher Uhrzeit konsumierten Sie Ihre letzte Einheit Schokolade, Schwarztee...? (HH:MM)",
 		"select_choices_or_calculations": "",
 		"field_note": "HH:MM",
 		"text_validation_type_or_show_slider_number": "time",
@@ -175,7 +175,7 @@
 		"form_name": "evening",
 		"section_header": "",
 		"field_type": "range",
-		"field_label": "How many alcoholic drinks did you have today? (One drink equals: 1dL wine, 3dL beer, 2cL liquor).",
+		"field_label": "Wie viele alkoholische Getränke haben Sie heute getrunken?(Ein Getränk entspricht: 1dL Wein, 3dL Bier, 2cL Schnaps.)",
 		"select_choices_or_calculations": [{
 				"code": "0",
 				"label": "1 "
@@ -221,7 +221,7 @@
 				"label": "10"
 			}
 		],
-		"field_note": "One drink equals: 1dL wine, 3dL beer, 2cL liquor",
+		"field_note": "Ein Getränk entspricht: 1dL Wein, 3dL Bier, 2cL Schnaps",
 		"text_validation_type_or_show_slider_number": "integer",
 		"text_validation_min": "0",
 		"text_validation_max": "50",
@@ -240,7 +240,7 @@
 		"form_name": "evening",
 		"section_header": "",
 		"field_type": "text",
-		"field_label": "At what time did you consume your last alcoholic beverage? (HH:MM)",
+		"field_label": "Zu welcher Uhrzeit konsumierten Sie Ihr letztes alkoholisches Getränk? (HH:MM)",
 		"select_choices_or_calculations": "",
 		"field_note": "HH:MM",
 		"text_validation_type_or_show_slider_number": "time",
@@ -261,14 +261,14 @@
 		"form_name": "evening",
 		"section_header": "",
 		"field_type": "radio",
-		"field_label": "Have you taken any medications today other than those discussed with the study doctor?",
+		"field_label": "Haben Sie heute andere Medikamente eingenommen als diejenigen, welche mit dem Studienarzt besprochen wurden?",
 		"select_choices_or_calculations": [{
 				"code": "1",
-				"label": "Yes"
+				"label": "Ja"
 			},
 			{
 				"code": "2",
-				"label": "No"
+				"label": "Nein"
 			}
 		],
 		"field_note": "",
@@ -292,7 +292,7 @@
 		"field_type": "info",
 		"field_label": "",
 		"select_choices_or_calculations": [{
-				"label": "Please contact your contact person and inform him/her about the medication!",
+				"label": "Bitte kontaktieren Sie Ihre Kontakperson und informieren Sie ihn/sie über das Medikament!",
 				"code": ""
 			}
 		],
@@ -313,16 +313,16 @@
 	{
 		"field_name": "diary_q5",
 		"form_name": "evening",
-		"section_header": "Exercise and sport",
+		"section_header": "Bewegung und Sport",
 		"field_type": "radio",
-		"field_label": "Did you engage in sports or other physically demanding activities today (involving increased exertion/sweating, e.g., swimming, jogging, playing soccer, cycling)?",
+		"field_label": "Haben Sie heute Sport oder sonstige körperlich anstrengenden Tätigkeiten betrieben (mit erhöhter Anstrengung/Schwitzen, z.B. Schwimmen, Jogging, Fussball spielen, Velo fahren)?",
 		"select_choices_or_calculations": [{
 				"code": "1",
-				"label": "Yes"
+				"label": "Ja"
 			},
 			{
 				"code": "2",
-				"label": "No"
+				"label": "Nein"
 			}
 		],
 		"field_note": "",
@@ -342,11 +342,11 @@
 	{
 		"field_name": "diary_q5b",
 		"form_name": "evening",
-		"section_header": "Exercise and sport",
+		"section_header": "Bewegung und Sport",
 		"field_type": "text",
-		"field_label": "How long did you exercise/do a physically strenuous activity? (minutes)",
+		"field_label": "Wie lange haben Sie sich sportlich betätigt/eine körperlich anstrengende Tätigkeit betrieben? (Minuten)",
 		"select_choices_or_calculations": "",
-		"field_note": "MINUTES",
+		"field_note": "MINUTEN",
 		"text_validation_type_or_show_slider_number": "integer",
 		"text_validation_min": "",
 		"text_validation_max": "1500",
@@ -363,28 +363,28 @@
 	{
 		"field_name": "diary_q5c",
 		"form_name": "evening",
-		"section_header": "Exercise and sport",
+		"section_header": "Bewegung und Sport",
 		"field_type": "checkbox",
-		"field_label": "Which sports best describe your physical activity?",
+		"field_label": "Welche Sportarten beschreiben Ihre körperliche Aktivität am besten?",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "Strength (weightlifting, weight room, etc.)"
+				"label": "Kraft  (Gewichtheben, Kraftraum, etc.)"
 			},
 			{
 				"code": "1",
-				"label": "Endurance (jogging, swimming, etc.)"
+				"label": "Ausdauer (Joggen, Schwimmen, etc.)"
 			},
 			{
 				"code": "2",
-				"label": "Team (football, basketball, field hockey, etc.)"
+				"label": " Team (Fussball, Basketball, Hockey, etc.)"
 			},
 			{
 				"code": "3",
-				"label": "Sport with racket (tennis, squash, etc.)"
+				"label": "Sportart mit Schläger (Tennis, Squash, etc.)"
 			},
 			{
 				"code": "4",
-				"label": "Gymnastics (ring, aerobics, yoga, etc.)"
+				"label": "Turnen (Manege, Aerobic, Yoga etc.)"
 			}
 		],
 		"field_note": "",
@@ -404,16 +404,16 @@
 	{
 		"field_name": "diary_q6",
 		"form_name": "evening",
-		"section_header": "Exercise and sport",
+		"section_header": "Bewegung und Sport",
 		"field_type": "radio",
-		"field_label": "Did you engage in light physical activities today without increased exertion/sweating (e.g., golf, leisurely walking, fishing)?",
+		"field_label": "Haben Sie heute leichte körperliche Aktivitäten ohne erhöhte Anstrengung/Schwitzen betrieben (z.B. Golf, gemütliches Gehen, Angeln)?",
 		"select_choices_or_calculations": [{
 				"code": "1",
-				"label": "Yes"
+				"label": "Ja"
 			},
 			{
 				"code": "2",
-				"label": "No"
+				"label": "Nein"
 			}
 		],
 		"field_note": "",
@@ -433,11 +433,11 @@
 	{
 		"field_name": "diary_q6b",
 		"form_name": "evening",
-		"section_header": "Exercise and sport",
+		"section_header": "Bewegung und Sport",
 		"field_type": "text",
-		"field_label": "How long did you perform a light physical activity? (minutes)",
+		"field_label": "Wie lange haben Sie eine leichte körperliche Aktivität ausgeführt? (Minuten)",
 		"select_choices_or_calculations": "",
-		"field_note": "MINUTES",
+		"field_note": "MINUTEN",
 		"text_validation_type_or_show_slider_number": "integer",
 		"text_validation_min": "",
 		"text_validation_max": "1500",
@@ -454,12 +454,12 @@
 	{
 		"field_name": "diary_q8",
 		"form_name": "evening",
-		"section_header": "Exercise and sport",
+		"section_header": "Bewegung und Sport",
 		"field_type": "range",
-		"field_label": "How much PHYSICAL, i.e. physically stressful, was your day today? (Physical stress)",
+		"field_label": "Wie stark PHYSISCH, also körperlich belastend war Ihr Tag heute? (Körperliche Belastung)",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "0 - not at all"
+				"label": "0 - überhaupt nicht"
 			},
 			{
 				"code": "1",
@@ -483,10 +483,10 @@
 			},
 			{
 				"code": "6",
-				"label": "6 - very much"
+				"label": "6 - sehr stark"
 			}
 		],
-		"field_note": "Physical stress",
+		"field_note": "Körperliche Belastung",
 		"text_validation_type_or_show_slider_number": "",
 		"text_validation_min": "",
 		"text_validation_max": "",
@@ -503,12 +503,12 @@
 	{
 		"field_name": "diary_q7",
 		"form_name": "evening",
-		"section_header": "Exercise and sport",
+		"section_header": "Bewegung und Sport",
 		"field_type": "range",
-		"field_label": "How much PSYCHICALLY, i.e. mentally stressful, was your day today? (Mental stress)",
+		"field_label": "Wie stark PSYCHISCH, also mental belastend/stressig war Ihr Tag heute? (Mentale Belastung)",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "0 - not at all"
+				"label": "0 - überhaupt nicht"
 			},
 			{
 				"code": "1",
@@ -532,10 +532,10 @@
 			},
 			{
 				"code": "6",
-				"label": "6 - very much"
+				"label": "6 - sehr stark"
 			}
 		],
-		"field_note": "Mental stress",
+		"field_note": "Mentale Belastung",
 		"text_validation_type_or_show_slider_number": "",
 		"text_validation_min": "",
 		"text_validation_max": "",
@@ -552,16 +552,16 @@
 	{
 		"field_name": "diary_q9",
 		"form_name": "evening",
-		"section_header": "Daytime sleep",
+		"section_header": "Tagesschlaf",
 		"field_type": "radio",
-		"field_label": "Did you sleep during the day today?",
+		"field_label": "Haben Sie heute tagsüber geschlafen?",
 		"select_choices_or_calculations": [{
 				"code": "1",
-				"label": "Yes"
+				"label": "Ja"
 			},
 			{
 				"code": "2",
-				"label": "No"
+				"label": "Nein"
 			}
 		],
 		"field_note": "",
@@ -581,9 +581,9 @@
 	{
 		"field_name": "diary_q9b",
 		"form_name": "evening",
-		"section_header": "Daytime sleep",
+		"section_header": "Tagesschlaf",
 		"field_type": "text",
-		"field_label": "At what time? (HH:MM)",
+		"field_label": "Um welche Uhrzeit? (HH:MM)",
 		"select_choices_or_calculations": "",
 		"field_note": "HH:MM",
 		"text_validation_type_or_show_slider_number": "time",
@@ -602,11 +602,11 @@
 	{
 		"field_name": "diary_q9c",
 		"form_name": "evening",
-		"section_header": "Daytime sleep",
+		"section_header": "Tagesschlaf",
 		"field_type": "text",
-		"field_label": "How long (minutes)?",
+		"field_label": "Wie lange (Minuten)?",
 		"select_choices_or_calculations": "",
-		"field_note": "MINUTES",
+		"field_note": "MINUTEN",
 		"text_validation_type_or_show_slider_number": "integer",
 		"text_validation_min": "",
 		"text_validation_max": "2000",
@@ -621,53 +621,53 @@
 		"evaluated_logic": "responses['diary_q9']=='1'"
 	},
 	{
-		"field_name": "kks",
+		"field_name": "kss",
 		"form_name": "evening",
 		"section_header": "",
 		"field_type": "radio",
-		"field_label": "On a scale of 1-10, how sleepy do you feel right now? (This question captures how sleepy you feel. Please rate how you feel at the moment by selecting the appropriate matching description (only one answer is possible)).",
+		"field_label": "Auf einer Skala von 1-10, wie schläfrig fühlen Sie sich im Moment? (Diese Frage erfasst, wie munter Sie sich fühlen. Bitte schätzen Sie ein, wie Sie sich im Moment fühlen, indem Sie die entsprechende, passende Beschreibung auswählen (es ist nur eine Antwort möglich))",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "1 - extremely awake"
+				"label": "1 - äusserst wach"
 			},
 			{
 				"code": "1",
-				"label": "2 - very awake"
+				"label": "2 - sehr wach"
 			},
 			{
 				"code": "2",
-				"label": "3 - normally awake"
+				"label": "3 - normal wach"
 			},
 			{
 				"code": "3",
-				"label": "4 - quite awake"
+				"label": "4 - ziemlich wach"
 			},
 			{
 				"code": "4",
-				"label": "5 - neither awake nor sleepy"
+				"label": "5 - weder wach noch schläfrig"
 			},
 			{
 				"code": "5",
-				"label": "6 - a little sleepy"
+				"label": "6 - etwas schläfrig"
 			},
 			{
 				"code": "6",
-				"label": "7 - sleepy, without difficulty to stay awake"
+				"label": "7 - schläfrig, ohne Mühe wach zu bleiben"
 			},
 			{
 				"code": "7",
-				"label": "8 - sleepy, some difficulty to stay awake"
+				"label": "8 - schläfrig, etwas Mühe wach zu bleiben"
 			},
 			{
 				"code": "8",
-				"label": "9 - very sleepy, great difficulty to stay awake"
+				"label": "9 - sehr schläfrig, grosse Mühe wach zu bleiben"
 			},
 			{
 				"code": "9",
-				"label": "10 - extremely sleepy, cannot stay awake"
+				"label": "10 - äusserst schläfrig, kann nicht wach bleiben"
 			}
 		],
-		"field_note": "This question captures how awake you feel. Please estimate how you feel at the moment by selecting the appropriate matching description (only one answer is possible).",
+		"field_note": "Diese Frage erfasst, wie munter Sie sich fühlen. Bitte schätzen Sie ein, wie Sie sich im Moment fühlen, indem Sie die entsprechende, passende Beschreibung auswählen (es ist nur eine Antwort möglich).",
 		"text_validation_type_or_show_slider_number": "",
 		"text_validation_min": "",
 		"text_validation_max": "",
@@ -684,19 +684,19 @@
         {
 		"field_name": "info_6",
 		"form_name": "evening",
-		"section_header": "State of mind",
+		"section_header": "Befindlichkeit",
 		"field_type": "info",
 		"field_label": "",
 		"select_choices_or_calculations": [{
-				"label": "Below you will see 6 statements about your state of mind.",
+				"label": "Nachfolgend sehen Sie 6 Aussagen zu Ihrer Befindlichkeit.",
 				"code": ""
 			},
 			{
-				"label": "Place the slider in the position that best describes your current state.",
+				"label": "Platzieren Sie den Schieber an die Stelle, die Ihren momentanen Zustand am besten beschreibt.",
 				"code": ""
 			},
 			{
-				"label": "Please note the following points: Assess only how you feel at the moment. If you ever find it difficult to answer, choose the answer that is most likely to apply.",
+				"label": "Bitte beachten Sie folgende Punkte:Beurteilen Sie nur, wie Sie sich augenblicklich fühlen. Wenn Ihnen die Antwort einmal schwerfallen sollte, wählen Sie die am ehesten zutreffende Antwort.",
 				"code": ""
 			}
 		],
@@ -717,16 +717,16 @@
 	{
 		"field_name": "imq_1",
 		"form_name": "evening",
-		"section_header": "State of mind",
+		"section_header": "Befindlichkeit",
 		"field_type": "range",
-		"field_label": "At this moment I feel...",
+		"field_label": "In diesem Moment fühle ich mich...",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "very tired"
+				"label": "sehr müde"
 			},
 			{
 				"code": "6",
-				"label": "very awake"
+				"label": "sehr wach"
 			}
 		],
 		"field_note": "",
@@ -746,15 +746,15 @@
 	{
 		"field_name": "imq_2",
 		"form_name": "evening",
-		"section_header": "State of mind",
+		"section_header": "Befindlichkeit",
 		"field_type": "range",
-		"field_label": "At this moment I feel...",
+		"field_label": "In diesem Moment fühle ich mich...",
 		"select_choices_or_calculations": [{
-				"label": "very satisfied",
+				"label": "sehr zufrieden",
 				"code": "0"
 			},
 			{
-				"label": "very unsatisfied",
+				"label": "sehr unzufrieden",
 				"code": "6"
 			}
 		],
@@ -775,16 +775,16 @@
 	{
 		"field_name": "imq_3",
 		"form_name": "evening",
-		"section_header": "State of mind",
+		"section_header": "Befindlichkeit",
 		"field_type": "range",
-		"field_label": "At this moment I feel...",
+		"field_label": "In diesem Moment fühle ich mich...",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "very restless"
+				"label": "sehr unruhig"
 			},
 			{
 				"code": "6",
-				"label": "very calm"
+				"label": "sehr ruhig"
 			}
 		],
 		"field_note": "",
@@ -804,16 +804,16 @@
 	{
 		"field_name": "imq_4",
 		"form_name": "evening",
-		"section_header": "State of mind",
+		"section_header": "Befindlichkeit",
 		"field_type": "range",
-		"field_label": "At this moment I feel...",
+		"field_label": "In diesem Moment fühle ich mich...",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "very energetic"
+				"label": "sehr energiegeladen"
 			},
 			{
 				"code": "6",
-				"label": "very tired"
+				"label": "sehr energielos"
 			}
 		],
 		"field_note": "",
@@ -833,15 +833,15 @@
 	{
 		"field_name": "imq_5",
 		"form_name": "evening",
-		"section_header": "State of mind",
+		"section_header": "Befindlichkeit",
 		"field_type": "range",
-		"field_label": "At this moment I feel...",
+		"field_label": "In diesem Moment fühle ich mich...",
 		"select_choices_or_calculations": [{
-				"label": "very uncomfortable",
+				"label": "sehr unwohl",
 				"code": "0"
 			},
 			{
-				"label": "very comfortable",
+				"label": "sehr wohl",
 				"code": "6"
 			}
 		],
@@ -862,16 +862,16 @@
 	{
 		"field_name": "imq_6",
 		"form_name": "evening",
-		"section_header": "State of mind",
+		"section_header": "Befindlichkeit",
 		"field_type": "range",
-		"field_label": "At this moment I feel...",
+		"field_label": "In diesem Moment fühle ich mich...",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "very relaxed"
+				"label": "sehr entspannt"
 			},
 			{
 				"code": "6",
-				"label": "very tense"
+				"label": "sehr angespannt"
 			}
 		],
 		"field_note": "",
@@ -893,14 +893,14 @@
 		"form_name": "evening",
 		"section_header": "",
 		"field_type": "slider",
-		"field_label": "What is your mood at the moment?",
+		"field_label": "Wie ist Ihre Stimmung im Moment?",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "depressed mood"
+				"label": "depressive Stimmung"
 			},
 			{
 				"code": "100",
-				"label": "good mood"
+				"label": "gute Stimmung"
 			}
 		],
 		"field_note": "",
@@ -922,14 +922,14 @@
 		"form_name": "evening",
 		"section_header": "",
 		"field_type": "slider",
-		"field_label": "How are you feeling right now?",
+		"field_label": "Wie fühlen Sie sich im Moment?",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "worse than ever"
+				"label": "so schlimm wie noch nie"
 			},
 			{
 				"code": "100",
-				"label": "better than ever"
+				"label": "so gut wie noch nie"
 			}
 		],
 		"field_note": "",
