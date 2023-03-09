@@ -1,16 +1,16 @@
 [{
 		"field_name": "sfm_q1",
 		"form_name": "morning",
-		"section_header": "Bedtime",
+		"section_header": "Schlafengehen",
 		"field_type": "radio",
-		"field_label": "I went to bed at the usual time (plus/minus 15 minutes)",
+		"field_label": "Ich ging zur üblichen Zeit ins Bett (plus/minus 15 Minuten)",
 		"select_choices_or_calculations": [{
 				"code": "1",
-				"label": "Yes"
+				"label": "Ja"
 			},
 			{
 				"code": "2",
-				"label": "No"
+				"label": "Nein"
 			}
 		],
 		"field_note": "",
@@ -30,32 +30,32 @@
 	{
 		"field_name": "sfm_q1a",
 		"form_name": "morning",
-		"section_header": "Bedtime",
+		"section_header": "Schlafengehen",
 		"field_type": "radio",
-		"field_label": "What was the reason for the change in bedtime? (Please choose the most important one.)",
+		"field_label": "Was war der Grund für die geänderte Bettzeit? (Bitte wählen Sie das Wahrscheinlichste.)",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "Tired earlier/later than usual"
+				"label": "Früher/später müde als sonst"
 			},
 			{
 				"code": "1",
-				"label": "Due to an occasion (e.g. party, wedding, dinner with friends)."
+				"label": "Aufgrund eines Anlasses (z.B. Party, Hochzeit, Abendessen mit Freunden)"
 			},
 			{
 				"code": "2",
-				"label": "Prolonged work that kept me from sleeping"
+				"label": "Längeres Arbeiten, das mich vom Schlafen abgehalten hat"
 			},
 			{
 				"code": "3",
-				"label": "Watching TV/reading/hobbies that kept me from sleeping"
+				"label": "Fernsehen/Lesen/Hobbies, die mich vom Schlafen abgehalten haben"
 			},
 			{
 				"code": "4",
-				"label": "Unclear"
+				"label": "Unklar"
 			},
 			{
 				"code": "5",
-				"label": "Other reason"
+				"label": "Anderer Grund"
 			}
 		],
 		"field_note": "",
@@ -75,31 +75,31 @@
 	{
 		"field_name": "sfm_q5",
 		"form_name": "morning",
-		"section_header": "Bedtime",
+		"section_header": "Schlafengehen",
 		"field_type": "radio",
-		"field_label": "Compared to my usual time to fall asleep, my time to fall asleep last night was ...(The time to fall asleep is the time from going to bed to falling asleep).",
+		"field_label": "Im Vergleich zu meiner üblichen Einschlafdauer war meine Einschlafdauer gestern Abend ...(Die Einschlafdauer ist die Zeit vom Zubettgehen bis zum Einschlafen.)",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "Much longer"
+				"label": "Viel länger"
 			},
 			{
 				"code": "1",
-				"label": "A bit longer"
+				"label": "Etwas länger"
 			},
 			{
 				"code": "2",
-				"label": "About the same"
+				"label": "Etwa gleich"
 			},
 			{
 				"code": "3",
-				"label": "A bit shorter"
+				"label": "Etwas kürzer"
 			},
 			{
 				"code": "4",
-				"label": "Much shorter"
+				"label": "Viel kürzer"
 			}
 		],
-		"field_note": "Sleep duration is the time from going to bed to falling asleep.",
+		"field_note": "Die Einschlafdauer ist die Zeit vom Zubettgehen bis zum Einschlafen.",
 		"text_validation_type_or_show_slider_number": "",
 		"text_validation_min": "",
 		"text_validation_max": "",
@@ -116,43 +116,43 @@
 	{
 		"field_name": "sfm_q5b",
 		"form_name": "morning",
-		"section_header": "Bedtime",
+		"section_header": "Schlafengehen",
 		"field_type": "checkbox",
-		"field_label": "What was the reason for the change in the duration of falling asleep? (Multiple answers possible)",
+		"field_label": "Was war der Grund für die geänderte Einschlafdauer? (Mehrere Antworten möglich)",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "More/less tired than usual"
+				"label": "Mehr/weniger müde als sonst"
 			},
 			{
 				"code": "1",
-				"label": "Thoughts / worries / nervousness kept me awake"
+				"label": "Gedanken / Sorgen / Nervosität hielten mich wach"
 			},
 			{
 				"code": "2",
-				"label": "Pain kept me awake"
+				"label": "Schmerzen hielten mich wach"
 			},
 			{
 				"code": "3",
-				"label": "Disturbing noises (e.g. construction noise, bed partner) kept me awake"
+				"label": "Störende Geräusche (z.B. Baulärm, Bettpartner) hielten mich wach"
 			},
 			{
 				"code": "4",
-				"label": "Sleeping device was uncomfortable and made it difficult to fall asleep"
+				"label": "Schlafgerät war unbequem und machte das Einschlafen schwierig"
 			},
 			{
 				"code": "5",
-				"label": "Certain foods/drinks before bedtime kept me awake"
+				"label": "Bestimmte Speisen / Getränke vor dem Schlafengehen hielten mich wach"
 			},
 			{
 				"code": "6",
-				"label": "Unclear"
+				"label": "Unklar"
 			},
 			{
 				"code": "7",
-				"label": "Other reason"
+				"label": "Anderer Grund"
 			}
 		],
-		"field_note": "multiple answers possible",
+		"field_note": "mehrere Antworten möglich",
 		"text_validation_type_or_show_slider_number": "",
 		"text_validation_min": "",
 		"text_validation_max": "",
@@ -169,19 +169,19 @@
 	{
 		"field_name": "sfm_q2",
 		"form_name": "morning",
-		"section_header": "Getting up",
+		"section_header": "Aufstehen",
 		"field_type": "radio",
-		"field_label": "I got up at the usual time (plus/minus 15 minutes)",
+		"field_label": "Ich bin zur üblichen Zeit aufgestanden (plus/minus 15 Minuten)",
 		"select_choices_or_calculations": [{
 				"code": "1",
-				"label": "Yes"
+				"label": "Ja"
 			},
 			{
 				"code": "2",
-				"label": "No"
+				"label": "Nein"
 			}
 		],
-		"field_note": "plus/minus 15 minutes",
+		"field_note": "plus/minus 15 Minuten",
 		"text_validation_type_or_show_slider_number": "",
 		"text_validation_min": "",
 		"text_validation_max": "",
@@ -198,36 +198,36 @@
 	{
 		"field_name": "sfm_q2a",
 		"form_name": "morning",
-		"section_header": "Getting up",
+		"section_header": "Aufstehen",
 		"field_type": "radio",
-		"field_label": "What was the reason for the change in the time you got up? (Please choose the most probable.)",
+		"field_label": "Was war der Grund für die geänderte Aufstehzeit? (Bitte wählen Sie das Wahrscheinlichste.)",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "Due to the change in bedtime, the time of getting up was adjusted"
+				"label": "Aufgrund der geänderten Bettzeit wurde die Aufstehzeit angepasst"
 			},
 			{
 				"code": "1",
-				"label": "Due to an external event (e.g. meeting)"
+				"label": "Aufgrund eines externen Events (z.B. Treffen, Meeting)"
 			},
 			{
 				"code": "2",
-				"label": "More/less tired in the morning"
+				"label": "Mehr/weniger müde am Morgen"
 			},
 			{
 				"code": "3",
-				"label": "Alarm clock did not ring/slept in"
+				"label": "Wecker hat nicht geklingelt/verschlafen"
 			},
 			{
 				"code": "4",
-				"label": "Disturbing noises (e.g. construction noise, bed partner) woke me up and sleeping was no longer possible"
+				"label": "Störende Geräusche (z.B. Baulärm, Bettpartner) haben mich geweckt und Schlafen war nicht mehr möglich"
 			},
 			{
 				"code": "5",
-				"label": "Unclear"
+				"label": "Unklar"
 			},
 			{
 				"code": "6",
-				"label": "Other reason"
+				"label": "Anderer Grund"
 			}
 		],
 		"field_note": "Bitte wählen Sie das Wahrscheinlichste.",
@@ -247,28 +247,28 @@
 	{
 		"field_name": "sfm_q6",
 		"form_name": "morning",
-		"section_header": "Sleep quality",
+		"section_header": "Schlafqualität",
 		"field_type": "radio",
-		"field_label": "Number of awakenings last night: ",
+		"field_label": "Anzahl Erwachen letzte Nacht: ",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "none"
+				"label": "Nie"
 			},
 			{
 				"code": "1",
-				"label": "once"
+				"label": "1 mal"
 			},
 			{
 				"code": "2",
-				"label": "twice"
+				"label": "2 mal"
 			},
 			{
 				"code": "3",
-				"label": "three times"
+				"label": "3 mal "
 			},
 			{
 				"code": "4",
-				"label": "more than 4 times"
+				"label": "mehr als 4 mal"
 			}
 		],
 		"field_note": "",
@@ -288,43 +288,43 @@
 	{
 		"field_name": "sfm_q6b",
 		"form_name": "morning",
-		"section_header": "Sleep quality",
+		"section_header": "Schlafqualität",
 		"field_type": "checkbox",
-		"field_label": "What were the reasons for the night awakening?",
+		"field_label": "Was waren die Gründe für das nächtliche Erwachen?(Mehrere Antworten möglich)",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "The sleeping device woke me up"
+				"label": "Das Schlafgerät hat mich geweckt"
 			},
 			{
 				"code": "1",
-				"label": "Pain woke me up"
+				"label": "Schmerzen haben mich aufgeweckt"
 			},
 			{
 				"code": "2",
-				"label": "Disturbing noises (e.g. construction noise, bed partner) woke me up"
+				"label": "Störende Geräusche (z.B. Baulärm, Bettpartner) haben mich aufgeweckt"
 			},
 			{
 				"code": "3",
-				"label": "Toilet visits"
+				"label": "Toilettenbesuche"
 			},
 			{
 				"code": "4",
-				"label": "Nightmares/unpleasant dreams"
+				"label": "Albträume/unangenehme Träume"
 			},
 			{
 				"code": "5",
-				"label": "Unclear"
+				"label": "Unklar"
 			},
 			{
 				"code": "6",
-				"label": "Other study devices or study-related items"
+				"label": "Andere Studiengeräte oder studienbedingte Elemente"
 			},
 			{
 				"code": "7",
-				"label": "Other reason"
+				"label": "Anderer Grund"
 			}
 		],
-		"field_note": "multiple answers possible",
+		"field_note": "mehrere Antworten möglich",
 		"text_validation_type_or_show_slider_number": "",
 		"text_validation_min": "",
 		"text_validation_max": "",
@@ -341,32 +341,32 @@
 	{
 		"field_name": "sfm_q7",
 		"form_name": "morning",
-		"section_header": "Sleep quality",
+		"section_header": "Schlafqualität",
 		"field_type": "radio",
-		"field_label": "My depth of sleep was ... (During a deep sleep phase it is more difficult to wake you up).",
+		"field_label": "Meine Schlaftiefe war ... (Während einer tiefen Schlafphase ist es schwieriger Sie aufzuwecken.)",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "Very superficial"
+				"label": "Sehr oberflächlich"
 			},
 			{
 				"code": "1",
-				"label": "Rather superficial"
+				"label": "Eher oberflächlich"
 			},
 			{
 
 				"code": "2",
-				"label": "Mediocre"
+				"label": "Mittelmässig"
 			},
 			{
 				"code": "3",
-				"label": "Rather deep"
+				"label": "Eher tief"
 			},
 			{
 				"code": "4",
-				"label": "Very deep"
+				"label": "Sehr tief"
 			}
 		],
-		"field_note": "During a deep sleep phase, it is more difficult to wake you up.",
+		"field_note": "Während einer tiefen Schlafphase ist es schwieriger Sie aufzuwecken.",
 		"text_validation_type_or_show_slider_number": "",
 		"text_validation_min": "",
 		"text_validation_max": "",
@@ -383,31 +383,31 @@
 	{
 		"field_name": "sfm_q8",
 		"form_name": "morning",
-		"section_header": "Sleep quality",
+		"section_header": "Schlafqualität",
 		"field_type": "radio",
-		"field_label": "Compared to my average depth of sleep, I ...  slept. (... compared to before the experiment).",
+		"field_label": "Im Vergleich zu meiner durchschnittlichen Schlaftiefe habe ich ...  geschlafen. (... verglichen mit vor dem Experiment)",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "Clearly more superficial"
+				"label": "Klar oberflächlicher"
 			},
 			{
 				"code": "1",
-				"label": "Rather superficial"
+				"label": "Eher oberflächlich"
 			},
 			{
 				"code": "2",
-				"label": "About the same"
+				"label": "Etwa gleich"
 			},
 			{
 				"code": "3",
-				"label": "Rather deeper"
+				"label": "Eher tiefer"
 			},
 			{
 				"code": "4",
-				"label": "Celarly deeper"
+				"label": "Klar tiefer"
 			}
 		],
-		"field_note": "... compared with before the experiment",
+		"field_note": "... verglichen mit vor dem Experiment",
 		"text_validation_type_or_show_slider_number": "",
 		"text_validation_min": "",
 		"text_validation_max": "",
@@ -424,36 +424,36 @@
 	{
 		"field_name": "sfm_q12",
 		"form_name": "morning",
-		"section_header": "Sleep quality",
+		"section_header": "Schlafqualität",
 		"field_type": "radio",
-		"field_label": "My overall sleep quality last night was ...",
+		"field_label": "Meine allgemeine Schlafqualität  war in der letzten Nacht ...",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "Very good"
+				"label": "Sehr gut"
 			},
 			{
 				"code": "1",
-				"label": "Good"
+				"label": "Gut"
 			},
 			{
 				"code": "2",
-				"label": "Rather good"
+				"label": "Eher gut"
 			},
 			{
 				"code": "3",
-				"label": "Mediocre"
+				"label": "Mittelmässig"
 			},
 			{
 				"code": "4",
-				"label": "Rather bad"
+				"label": "Eher schlecht"
 			},
 			{
 				"code": "5",
-				"label": "Bad"
+				"label": "Schlecht"
 			},
 			{
 				"code": "6",
-				"label": "Very bad"
+				"label": "Sehr schlecht"
 			}
 		],
 		"field_note": "",
@@ -473,31 +473,31 @@
 	{
 		"field_name": "sfm_q9",
 		"form_name": "morning",
-		"section_header": "Sleep quality",
+		"section_header": "Schlafqualität",
 		"field_type": "radio",
-		"field_label": "Compared to my average sleep quality last night (... compared to before the experiment).",
+		"field_label": "Im Vergleich zu meiner durchschnittlichen Schlafqualität war die letzte Nacht (... verglichen mit vor dem Experiment)",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "Clearly better"
+				"label": "Klar besser"
 			},
 			{
 				"code": "1",
-				"label": "Rather better"
+				"label": "Eher besser"
 			},
 			{
 				"code": "2",
-				"label": "About the same"
+				"label": "Etwa gleich"
 			},
 			{
 				"code": "3",
-				"label": "Rather worse"
+				"label": "Eher schlechter"
 			},
 			{
 				"code": "4",
-				"label": "Clearly worse"
+				"label": "Klar schlechter"
 			}
 		],
-		"field_note": "... compared with before the experiment",
+		"field_note": "... verglichen mit vor dem Experiment",
 		"text_validation_type_or_show_slider_number": "",
 		"text_validation_min": "",
 		"text_validation_max": "",
@@ -514,20 +514,20 @@
 	{
 		"field_name": "sfm_q9b",
 		"form_name": "morning",
-		"section_header": "Sleep quality",
+		"section_header": "Schlafqualität",
 		"field_type": "radio",
-		"field_label": "Was the poor sleep due to the intervention device?",
+		"field_label": "War der schlechte Schlaf aufgrund des Interventionsgerätes?",
 		"select_choices_or_calculations": [{
 				"code": "1",
-				"label": "Yes"
+				"label": "Ja"
 			},
 			{
 				"code": "2",
-				"label": "No"
+				"label": "Nein"
 			},
 			{
 				"code": "3",
-				"label": "Unclear"
+				"label": "Unklar"
 			}
 		],
 		"field_note": "",
@@ -547,32 +547,32 @@
 	{
 		"field_name": "sfm_q10",
 		"form_name": "morning",
-		"section_header": "Sleep quality",
+		"section_header": "Schlafqualität",
 		"field_type": "radio",
-		"field_label": "The sleep device has improved my sleep quality...",
+		"field_label": "Das Schlafgerät hat meine Schlafqualität...",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "Clearly improved"
+				"label": "Eindeutig verbessert"
 			},
 			{
 				"code": "1",
-				"label": "Rather improved"
+				"label": "Eher verbessert"
 			},
 			{
 				"code": "2",
-				"label": "Not changed"
+				"label": "Nicht verändert"
 			},
 			{
 				"code": "3",
-				"label": "Rather worsened"
+				"label": "Eher verschlechtert"
 			},
 			{
 				"code": "4",
-				"label": "Clearly deteriorated"
+				"label": "Eindeutig verschlechtert"
 			},
 			{
 				"code": "5",
-				"label": "Maybe changed, but unsure if this is because of the sleeping device"
+				"label": "Vielleicht verändert, aber unsicher ob dies wegen dem Schlafgerät ist"
 			}
 		],
 		"field_note": "",
@@ -592,23 +592,23 @@
 	{
 		"field_name": "sfm_q11",
 		"form_name": "morning",
-		"section_header": "Sleep quality",
+		"section_header": "Schlafqualität",
 		"field_type": "radio",
-		"field_label": "I heard the device playing sounds last night: (after falling asleep).",
+		"field_label": "Ich habe letzte Nacht gehört, wie das Gerät Töne gespielt hat: (nach dem Einschlafen)",
 		"select_choices_or_calculations": [{
 				"code": "1",
-				"label": "Yes"
+				"label": "Ja"
 			},
 			{
 				"code": "2",
-				"label": "No"
+				"label": "Nein"
 			},
 			{
 				"code": "3",
-				"label": "I have heard sounds, may not be from the sleep device."
+				"label": "Ich habe Töne gehört, stammen möglicherweise nicht vom Schlafgerät"
 			}
 		],
-		"field_note": "after falling asleep",
+		"field_note": "nach dem Einschlafen",
 		"text_validation_type_or_show_slider_number": "",
 		"text_validation_min": "",
 		"text_validation_max": "",
@@ -625,51 +625,51 @@
 	{
 		"field_name": "kss",
 		"form_name": "morning",
-		"section_header": "Sleepiness",
+		"section_header": "Schläftrigkeit",
 		"field_type": "radio",
-		"field_label": "On a scale of 1-10, how sleepy do you feel right now? (This question captures how sleepy you feel. Please rate how you feel at the moment by selecting the appropriate matching description (only one answer is possible)).",
+		"field_label": "Auf einer Skala von 1-10, wie schläfrig fühlen Sie sich im Moment? (Diese Frage erfasst, wie munter Sie sich fühlen. Bitte schätzen Sie ein, wie Sie sich im Moment fühlen, indem Sie die entsprechende, passende Beschreibung auswählen (es ist nur eine Antwort möglich))",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "1 - extremely awake"
+				"label": "1 - äusserst wach"
 			},
 			{
 				"code": "1",
-				"label": "2 - very awake"
+				"label": "2 - sehr wach"
 			},
 			{
 				"code": "2",
-				"label": "3 - normally awake"
+				"label": "3 - normal wach"
 			},
 			{
 				"code": "3",
-				"label": "4 - quite awake"
+				"label": "4 - ziemlich wach"
 			},
 			{
 				"code": "4",
-				"label": "5 - neither awake nor sleepy"
+				"label": "5 - weder wach noch schläfrig"
 			},
 			{
 				"code": "5",
-				"label": "6 - a little sleepy"
+				"label": "6 - etwas schläfrig"
 			},
 			{
 				"code": "6",
-				"label": "7 - sleepy, without difficulty to stay awake"
+				"label": "7 - schläfrig, ohne Mühe wach zu bleiben"
 			},
 			{
 				"code": "7",
-				"label": "8 - sleepy, some difficulty to stay awake"
+				"label": "8 - schläfrig, etwas Mühe wach zu bleiben"
 			},
 			{
 				"code": "8",
-				"label": "9 - very sleepy, great difficulty to stay awake"
+				"label": "9 - sehr schläfrig, grosse Mühe wach zu bleiben"
 			},
 			{
 				"code": "9",
-				"label": "10 - extremely sleepy, cannot stay awake"
+				"label": "10 - äusserst schläfrig, kann nicht wach bleiben"
 			}
 		],
-		"field_note": "This question captures how awake you feel. Please estimate how you feel at the moment by selecting the appropriate matching description (only one answer is possible).",
+		"field_note": "Diese Frage erfasst, wie munter Sie sich fühlen. Bitte schätzen Sie ein, wie Sie sich im Moment fühlen, indem Sie die entsprechende, passende Beschreibung auswählen (es ist nur eine Antwort möglich)",
 		"text_validation_type_or_show_slider_number": "",
 		"text_validation_min": "",
 		"text_validation_max": "",
@@ -686,19 +686,19 @@
 	{
 		"field_name": "info_6",
 		"form_name": "morning",
-		"section_header": "State of mind",
+		"section_header": "Befindlichkeit",
 		"field_type": "info",
 		"field_label": "",
 		"select_choices_or_calculations": [{
-				"label": "Below you will see 6 statements about your state of mind.",
+				"label": "Nachfolgend sehen Sie 6 Aussagen zu Ihrer Befindlichkeit.",
 				"code": ""
 			},
 			{
-				"label": "Place the slider in the position that best describes your current state.",
+				"label": "Platzieren Sie den Schieber an die Stelle, die Ihren momentanen Zustand am besten beschreibt.",
 				"code": ""
 			},
 			{
-				"label": "Please note the following points: Assess only how you feel at the moment. If you ever find it difficult to answer, choose the answer that is most likely to apply.",
+				"label": "Bitte beachten Sie folgende Punkte: Beurteilen Sie nur, wie Sie sich augenblicklich fühlen. Wenn Ihnen die Antwort einmal schwerfallen sollte, wählen Sie die am ehesten zutreffende Antwort.",
 				"code": ""
 			}
 		],
@@ -719,17 +719,17 @@
 	{
 		"field_name": "imq_1",
 		"form_name": "morning",
-		"section_header": "State of mind",
+		"section_header": "Befindlichkeit",
 		"field_type": "range",
-		"field_label": "At this moment I feel...",
+		"field_label": "In diesem Moment fühle ich mich...",
 		"select_choices_or_calculations": [{
-			"code": "0",
-			"label": "very tired"
-		},
-		{
-			"code": "6",
-			"label": "very awake"
-		}
+				"code": "0",
+				"label": "sehr müde"
+			},
+			{
+				"code": "6",
+				"label": "sehr wach"
+			}
 		],
 		"field_note": "",
 		"text_validation_type_or_show_slider_number": "number",
@@ -748,17 +748,17 @@
 	{
 		"field_name": "imq_2",
 		"form_name": "morning",
-		"section_header": "State of mind",
+		"section_header": "Befindlichkeit",
 		"field_type": "range",
-		"field_label": "At this moment I feel...",
+		"field_label": "In diesem Moment fühle ich mich...",
 		"select_choices_or_calculations": [{
-			"label": "very satisfied",
-			"code": "0"
-		},
-		{
-			"label": "very unsatisfied",
-			"code": "6"
-		}
+				"label": "sehr zufrieden",
+				"code": "0"
+			},
+			{
+				"label": "sehr unzufrieden",
+				"code": "6"
+			}
 		],
 		"field_note": "",
 		"text_validation_type_or_show_slider_number": "number",
@@ -777,17 +777,17 @@
 	{
 		"field_name": "imq_3",
 		"form_name": "morning",
-		"section_header": "State of mind",
+		"section_header": "Befindlichkeit",
 		"field_type": "range",
-		"field_label": "At this moment I feel...",
+		"field_label": "In diesem Moment fühle ich mich...",
 		"select_choices_or_calculations": [{
-			"code": "0",
-			"label": "very restless"
-		},
-		{
-			"code": "6",
-			"label": "very calm"
-		}
+				"code": "0",
+				"label": "sehr unruhig"
+			},
+			{
+				"code": "6",
+				"label": "sehr ruhig"
+			}
 		],
 		"field_note": "",
 		"text_validation_type_or_show_slider_number": "",
@@ -806,17 +806,17 @@
 	{
 		"field_name": "imq_4",
 		"form_name": "morning",
-		"section_header": "State of mind",
+		"section_header": "Befindlichkeit",
 		"field_type": "range",
-		"field_label": "At this moment I feel...",
+		"field_label": "In diesem Moment fühle ich mich...",
 		"select_choices_or_calculations": [{
-			"code": "0",
-			"label": "very energetic"
-		},
-		{
-			"code": "6",
-			"label": "very tired"
-		}
+				"code": "0",
+				"label": "sehr energiegeladen"
+			},
+			{
+				"code": "6",
+				"label": "sehr energielos"
+			}
 		],
 		"field_note": "",
 		"text_validation_type_or_show_slider_number": "number",
@@ -835,17 +835,17 @@
 	{
 		"field_name": "imq_5",
 		"form_name": "morning",
-		"section_header": "State of mind",
+		"section_header": "Befindlichkeit",
 		"field_type": "range",
-		"field_label": "At this moment I feel...",
+		"field_label": "In diesem Moment fühle ich mich...",
 		"select_choices_or_calculations": [{
-			"label": "very uncomfortable",
-			"code": "0"
-		},
-		{
-			"label": "very comfortable",
-			"code": "6"
-		}
+				"label": "sehr unwohl",
+				"code": "0"
+			},
+			{
+				"label": "sehr wohl",
+				"code": "6"
+			}
 		],
 		"field_note": "",
 		"text_validation_type_or_show_slider_number": "number",
@@ -864,17 +864,17 @@
 	{
 		"field_name": "imq_6",
 		"form_name": "morning",
-		"section_header": "State of mind",
+		"section_header": "Befindlichkeit",
 		"field_type": "range",
-		"field_label": "At this moment I feel...",
+		"field_label": "In diesem Moment fühle ich mich...",
 		"select_choices_or_calculations": [{
-			"code": "0",
-			"label": "very relaxed"
-		},
-		{
-			"code": "6",
-			"label": "very tense"
-		}
+				"code": "0",
+				"label": "sehr entspannt"
+			},
+			{
+				"code": "6",
+				"label": "sehr angespannt"
+			}
 		],
 		"field_note": "",
 		"text_validation_type_or_show_slider_number": "number",
@@ -893,17 +893,17 @@
 	{
 		"field_name": "mood_1",
 		"form_name": "morning",
-		"section_header": "State of mind",
+		"section_header": "Befindlichkeit",
 		"field_type": "slider",
-		"field_label": "What is your mood at the moment?",
+		"field_label": "Wie ist Ihre Stimmung im Moment?",
 		"select_choices_or_calculations": [{
-			"code": "0",
-			"label": "depressed mood"
-		},
-		{
-			"code": "100",
-			"label": "good mood"
-		}
+				"code": "0",
+				"label": "depressive Stimmung"
+			},
+			{
+				"code": "100",
+				"label": "gute Stimmung"
+			}
 		],
 		"field_note": "",
 		"text_validation_type_or_show_slider_number": "",
@@ -922,17 +922,17 @@
 	{
 		"field_name": "mood_2",
 		"form_name": "morning",
-		"section_header": "State of mind",
+		"section_header": "Befindlichkeit",
 		"field_type": "slider",
-		"field_label": "How are you feeling right now?",
+		"field_label": "Wie fühlen Sie sich im Moment?",
 		"select_choices_or_calculations": [{
-			"code": "0",
-			"label": "worse than ever"
-		},
-		{
-			"code": "100",
-			"label": "better than ever"
-		}
+				"code": "0",
+				"label": "so schlimm wie noch nie"
+			},
+			{
+				"code": "100",
+				"label": "so gut wie noch nie"
+			}
 		],
 		"field_note": "",
 		"text_validation_type_or_show_slider_number": "",
@@ -951,16 +951,16 @@
 	{
 		"field_name": "gfm_q2",
 		"form_name": "morning",
-		"section_header": "Device usage",
+		"section_header": "Gerätebenutzung",
 		"field_type": "radio",
-		"field_label": "Did you put on the sleep device last night?",
+		"field_label": "Haben Sie letzte Nacht das Schlafgerät angezogen?",
 		"select_choices_or_calculations": [{
 				"code": "1",
-				"label": "Yes"
+				"label": "Ja"
 			},
 			{
 				"code": "2",
-				"label": "No"
+				"label": "Nein"
 			}
 		],
 		"field_note": "",
@@ -980,16 +980,16 @@
 	{
 		"field_name": "gfm_q3",
 		"form_name": "morning",
-		"section_header": "Device usage",
+		"section_header": "Gerätebenutzung",
 		"field_type": "radio",
-		"field_label": "Did the electrodes hold all night?",
+		"field_label": "Haben die Elektroden die ganze Nacht gehalten?",
 		"select_choices_or_calculations": [{
 				"code": "1",
-				"label": "Yes"
+				"label": "Ja"
 			},
 			{
 				"code": "2",
-				"label": "No"
+				"label": "Nein"
 			}
 		],
 		"field_note": "",
@@ -1009,37 +1009,38 @@
 	{
 		"field_name": "gfm_q3b",
 		"form_name": "morning",
-		"section_header": "Device usage",
+		"section_header": "Gerätebenutzung",
 		"field_type": "checkbox",
-		"field_label": "Which electrode/s was/were affected?",
+		"field_label": "Welche Elektrode/n war/waren betroffen?",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "Forehead middle"
+				"label": "Stirn Mitte"
 			},
 			{
 				"code": "1",
-				"label": "Eye right"
+				"label": "Auge rechts"
 			},
 			{
 				"code": "2",
-				"label": "Eye left"
+				"label": "Auge links"
 			},
 			{
 				"code": "3",
-				"label": "Behind right ear"
+				"label": "Hinter rechtem Ohr"
 			},
 			{
 				"code": "4",
-				"label": "Behind left ear"
+				"label": "Hinter linkem Ohr"
 			},
 			{
 				"code": "5",
-				"label": "Chin right"
+				"label": "Kinn rechts"
 			},
 			{
 				"code": "6",
-				"label": "Chin left"
+				"label": "Kinn links"
 			}
+
 		],
 		"field_note": "",
 		"text_validation_type_or_show_slider_number": "",
@@ -1058,24 +1059,24 @@
 	{
 		"field_name": "gfm_q4",
 		"form_name": "morning",
-		"section_header": "Device usage",
+		"section_header": "Gerätebenutzung",
 		"field_type": "radio",
-		"field_label": "Position of the headband when waking up",
+		"field_label": "Position des Stirnbandes beim Aufwachen",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "Same position as in the evening"
+				"label": "Gleiche Position wie am Abend"
 			},
 			{
 				"code": "1",
-				"label": "Only slightly shifted"
+				"label": "Nur leicht verschoben"
 			},
 			{
 				"code": "2",
-				"label": "Completely shifted (completely different position)"
+				"label": "Vollkommen verschoben (ganz andere Position)"
 			},
 			{
 				"code": "3",
-				"label": "No longer upside down"
+				"label": "Nicht mehr auf dem Kopf"
 			}
 		],
 		"field_note": "",
@@ -1083,28 +1084,28 @@
 		"text_validation_min": "",
 		"text_validation_max": "",
 		"identifier": "",
-		"branching_logic": "",
+		"branching_logic": "[gfm_q2]='1'",
 		"required_field": "y",
-		"custom_alignment": "",
+		"custom_alignment": "RH",
 		"question_number": "",
 		"matrix_group_name": "",
 		"matrix_ranking": "",
 		"field_annotation": "",
-		"evaluated_logic": ""
+		"evaluated_logic": "responses['gfm_q2']=='1'"
 	},
 	{
 		"field_name": "gfm_q5",
 		"form_name": "morning",
-		"section_header": "Preparations for the day",
+		"section_header": "Vorbereitungen für den Tag",
 		"field_type": "radio",
-		"field_label": "Is the gateway device plugged into a power source?",
+		"field_label": "Ist das Gateway-Gerät an einer Stromquelle eingesteckt?",
 		"select_choices_or_calculations": [{
 				"code": "1",
-				"label": "Yes"
+				"label": "Ja"
 			},
 			{
 				"code": "2",
-				"label": "No"
+				"label": "Nein"
 			}
 		],
 		"field_note": "",
@@ -1124,9 +1125,9 @@
 	{
 		"field_name": "gfm_q11",
 		"form_name": "morning",
-		"section_header": "Preparations for the day",
+		"section_header": "Vorbereitungen für den Tag",
 		"field_type": "descriptive",
-		"field_label": "Please keep the gateway with charging station always plugged in and in a place with good internet reception.",
+		"field_label": "Bitte behalten Sie das Gateway mit Ladestation immer eingesteckt und an einem Ort mit gutem Internet-Empfang.",
 		"select_choices_or_calculations": "",
 		"field_note": "",
 		"text_validation_type_or_show_slider_number": "",
@@ -1147,14 +1148,14 @@
 		"form_name": "morning",
 		"section_header": "Vorbereitungen für den Tag",
 		"field_type": "radio",
-		"field_label": "Have you connected the sleep device to charge?",
+		"field_label": "Haben Sie das Schlafgerät zum Aufladen angeschlossen?",
 		"select_choices_or_calculations": [{
 				"code": "1",
-				"label": "Yes"
+				"label": "Ja"
 			},
 			{
 				"code": "2",
-				"label": "No"
+				"label": "Nein"
 			}
 		],
 		"field_note": "",
@@ -1174,9 +1175,9 @@
 	{
 		"field_name": "gfm_chargingmess",
 		"form_name": "morning",
-		"section_header": "Preparations for the day",
+		"section_header": "Vorbereitungen für den Tag",
 		"field_type": "descriptive",
-		"field_label": "Please always charge all devices during the day and stop this process only at bedtime.",
+		"field_label": "Bitte laden Sie alle Geräte immer während dem Tag auf und stoppen diesen Vorgang erst beim Schlafengehen.",
 		"select_choices_or_calculations": "",
 		"field_note": "",
 		"text_validation_type_or_show_slider_number": "",
@@ -1195,16 +1196,16 @@
 	{
 		"field_name": "gfm_q9",
 		"form_name": "morning",
-		"section_header": "Preparations for the day",
+		"section_header": "Vorbereitungen für den Tag",
 		"field_type": "radio",
-		"field_label": "Is the red light on the sleep device flashing?",
+		"field_label": "Blinkt das rote Licht am Schlafgerät?",
 		"select_choices_or_calculations": [{
 				"code": "1",
-				"label": "Yes"
+				"label": "Ja"
 			},
 			{
 				"code": "2",
-				"label": "No"
+				"label": "Nein"
 			}
 		],
 		"field_note": "",
