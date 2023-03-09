@@ -1084,14 +1084,14 @@
 		"text_validation_min": "",
 		"text_validation_max": "",
 		"identifier": "",
-		"branching_logic": "",
+		"branching_logic": "[gfm_q2]='1'",
 		"required_field": "y",
-		"custom_alignment": "",
+		"custom_alignment": "RH",
 		"question_number": "",
 		"matrix_group_name": "",
 		"matrix_ranking": "",
 		"field_annotation": "",
-		"evaluated_logic": ""
+		"evaluated_logic": "responses['gfm_q2']=='1'"
 	},
 	{
 		"field_name": "gfm_q5",
