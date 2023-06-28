@@ -658,19 +658,19 @@
 				"label": "My appetite is somewhat greater than usual. (1)"
 			},
 			{
-				"code": "0",
+				"code": "3",
 				"label": "My appetite is much less than usual. (2)"
 			},
 			{
-				"code": "1",
+				"code": "4",
 				"label": "My appetite is much greater than usual. (2)"
 			},
 			{
-				"code": "2",
+				"code": "5",
 				"label": "I have no appetite at all. (3)"
 			},
 			{
-				"code": "3",
+				"code": "6",
 				"label": "I crave food all the time. (3)"
 			}
 		],
