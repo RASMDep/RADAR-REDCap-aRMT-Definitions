@@ -329,18 +329,14 @@
 		"form_name": "kss_mood",
 		"section_header": "",
 		"field_type": "radio",
-		"field_label": "How did you answer?",
+		"field_label": "Did you answer at random?",
 		"select_choices_or_calculations": [{
 				"code": "0",
-				"label": "1 - random"
+				"label": "1 - yes"
 			},
 			{
 				"code": "1",
-				"label": "2 - kept the answer as displayed"
-			},
-			{
-				"code": "2",
-				"label": "3 - read and answered"
+				"label": "2 - no"
 			}
 		],
 		"field_note": "",
