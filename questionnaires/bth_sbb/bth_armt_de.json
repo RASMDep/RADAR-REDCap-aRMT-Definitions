@@ -1,0 +1,131 @@
+[{
+		"field_name": "rpe",
+		"form_name": "bth",
+		"section_header": "Empfundene Anstrengung",
+		"field_type": "range",
+		"field_label": "Wie stark empfinden Sie, dass Ihr Körper arbeitet, basierend auf Ihrer Herzfrequenz, Atemfrequenz, Schweißbildung und Muskelermüdung?",
+		"select_choices_or_calculations": [
+			{
+				"label": " 0 = Ruhe (z. B.: im Bett liegen)",
+				"code": ""
+			},
+			{
+				"label": "1 = überhaupt nicht anstrengend (z. B.: stehen, sitzen)",
+				"code": ""
+			},
+			{
+				"label": "2 = nicht anstrengend (z. B.: gehen)",
+				"code": ""
+			},
+			{
+				"label": "3 = sehr wenig anstrengend",
+				"code": ""
+
+			},
+			{
+				"label": "4 = wenig anstrengend",
+				"code": ""
+
+			},			
+			{
+				"label": "5 = mässig anstrengend",
+				"code": ""
+
+			},
+			{
+				"label": "6 = anstrengend",
+				"code": ""
+
+			},
+			{
+				"label": "7 = anstrengender",
+				"code": ""
+
+			},
+			{
+				"label": "8 = sehr anstrengend",
+				"code": ""
+
+			},
+			{
+				"label": "9 =  extrem anstrengend",
+				"code": ""
+
+			},
+			{
+				"label": "10 = maximal anstrengend",
+				"code": ""
+
+			}
+		],
+		"field_note": "",
+		"text_validation_type_or_show_slider_number": "",
+		"text_validation_min": "",
+		"text_validation_max": "",
+		"identifier": "",
+		"branching_logic": "",
+		"required_field": "y",
+		"custom_alignment": "",
+		"question_number": "",
+		"matrix_group_name": "",
+		"matrix_ranking": "",
+		"field_annotation": "",
+		"evaluated_logic": ""
+	},
+	{
+
+	"field_name": "ts",
+	"form_name": "bth",
+	"section_header": "Wärmeempfinden",
+	"field_type": "range",
+	"field_label": "",
+	"select_choices_or_calculations": [
+		{
+			"label": " 0 = kalt",
+			"code": ""
+		},
+		{
+			"label": "1 = kühl",
+			"code": ""
+		},
+		{
+			"label": "2 = etwas kühl",
+			"code": ""
+		},
+		{
+			"label": "3 = angenehm",
+			"code": ""
+
+		},
+		{
+			"label": "4 = etwas warm",
+			"code": ""
+
+		},			
+		{
+			"label": "5 = warm",
+			"code": ""
+
+		},
+		{
+			"label": "6 = heiss",
+			"code": ""
+
+		}
+	],
+	"field_note": "",
+	"text_validation_type_or_show_slider_number": "",
+	"text_validation_min": "",
+	"text_validation_max": "",
+	"identifier": "",
+	"branching_logic": "",
+	"required_field": "y",
+	"custom_alignment": "",
+	"question_number": "",
+	"matrix_group_name": "",
+	"matrix_ranking": "",
+	"field_annotation": "",
+	"evaluated_logic": ""
+}
+
+]
