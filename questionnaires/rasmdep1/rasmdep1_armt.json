@@ -1,342 +1,61 @@
 [{
-		"field_name": "kss",
-		"form_name": "kss_mood",
-		"section_header": "",
-		"field_type": "radio",
-		"field_label": "Auf einer Skala von 1-10, wie schläfrig fühlen Sie sich im Moment? Diese Frage erfasst, wie munter Sie sich fühlen. Bitte schätzen Sie ein, wie Sie sich im Moment fühlen, indem Sie die entsprechende, passende Beschreibung auswählen (es ist nur eine Antwort möglich).",
-		"select_choices_or_calculations": [{
-				"code": "0",
-				"label": "1 - äusserst wach"
-			},
+		"field_name": "rpe",
+		"form_name": "bth",
+		"section_header": "Empfundene Anstrengung",
+		"field_type": "range",
+		"field_label": "Wie stark empfinden Sie, dass Ihr Körper arbeitet, basierend auf Ihrer Herzfrequenz, Atemfrequenz, Schweißbildung und Muskelermüdung?",
+		"select_choices_or_calculations": [
 			{
-				"code": "1",
-				"label": "2 - sehr wach"
-			},
-			{
-				"code": "2",
-				"label": "3 - normal wach"
-			},
-			{
-				"code": "3",
-				"label": "4 - ziemlich wach"
-			},
-			{
-				"code": "4",
-				"label": "5 - weder wach noch schläfrig"
-			},
-			{
-				"code": "5",
-				"label": "6 - etwas schläfrig"
-			},
-			{
-				"code": "6",
-				"label": "7 - schläfrig, ohne Mühe wach zu bleiben"
-			},
-			{
-				"code": "7",
-				"label": "8 - schläfrig, etwas Mühe wach zu bleiben"
-			},
-			{
-				"code": "8",
-				"label": "9 - sehr schläfrig, grosse Mühe wach zu bleiben"
-			},
-			{
-				"code": "9",
-				"label": "10 - äusserst schläfrig, kann nicht wach bleiben"
-			}
-		],
-		"field_note": "Diese Frage erfasst, wie munter Sie sich fühlen. Bitte schätzen Sie ein, wie Sie sich im Moment fühlen, indem Sie die entsprechende, passende Beschreibung auswählen (es ist nur eine Antwort möglich).",
-		"text_validation_type_or_show_slider_number": "",
-		"text_validation_min": "",
-		"text_validation_max": "",
-		"identifier": "",
-		"branching_logic": "",
-		"required_field": "y",
-		"custom_alignment": "",
-		"question_number": "",
-		"matrix_group_name": "",
-		"matrix_ranking": "",
-		"field_annotation": "",
-		"evaluated_logic": ""
-	},
-	{
-		"field_name": "info_6",
-		"form_name": "kss_mood",
-		"section_header": "Befindlichkeit",
-		"field_type": "info",
-		"field_label": "",
-		"select_choices_or_calculations": [{
-				"label": "Nachfolgend sehen Sie 6 Aussagen zu Ihrer Befindlichkeit.",
+				"label": " 0 = Ruhe (z. B.: im Bett liegen)",
 				"code": ""
 			},
 			{
-				"label": "Platzieren Sie den Schieber an die Stelle, die Ihren momentanen Zustand am besten beschreibt.",
+				"label": "1 = überhaupt nicht anstrengend (z. B.: stehen, sitzen)",
 				"code": ""
 			},
 			{
-				"label": "Bitte beachten Sie folgende Punkte:Beurteilen Sie nur, wie Sie sich augenblicklich fühlen. Wenn Ihnen die Antwort einmal schwerfallen sollte, wählen Sie die am ehesten zutreffende Antwort.",
+				"label": "2 = nicht anstrengend (z. B.: gehen)",
 				"code": ""
-			}
-		],
-		"field_note": "",
-		"text_validation_type_or_show_slider_number": "",
-		"text_validation_min": "",
-		"text_validation_max": "",
-		"identifier": "",
-		"branching_logic": "",
-		"required_field": "",
-		"custom_alignment": "",
-		"question_number": "",
-		"matrix_group_name": "",
-		"matrix_ranking": "",
-		"field_annotation": "",
-		"evaluated_logic": ""
-	},
-	{
-		"field_name": "imq_1",
-		"form_name": "kss_mood",
-		"section_header": "",
-		"field_type": "range",
-		"field_label": "In diesem Moment fühle ich mich...",
-		"select_choices_or_calculations": [{
-				"code": "0",
-				"label": "sehr müde"
 			},
 			{
-				"code": "6",
-				"label": "sehr wach"
-			}
-		],
-		"field_note": "",
-		"text_validation_type_or_show_slider_number": "number",
-		"text_validation_min": "",
-		"text_validation_max": "6",
-		"identifier": "",
-		"branching_logic": "",
-		"required_field": "y",
-		"custom_alignment": "RH",
-		"question_number": "",
-		"matrix_group_name": "",
-		"matrix_ranking": "",
-		"field_annotation": "",
-		"evaluated_logic": ""
-	},
-	{
-		"field_name": "imq_2",
-		"form_name": "kss_mood",
-		"section_header": "",
-		"field_type": "range",
-		"field_label": "In diesem Moment fühle ich mich...",
-		"select_choices_or_calculations": [{
-				"label": "sehr zufrieden",
-				"code": "0"
+				"label": "3 = sehr wenig anstrengend",
+				"code": ""
+
 			},
 			{
-				"label": "sehr unzufrieden",
-				"code": "6"
-			}
-		],
-		"field_note": "",
-		"text_validation_type_or_show_slider_number": "number",
-		"text_validation_min": "",
-		"text_validation_max": "6",
-		"identifier": "",
-		"branching_logic": "",
-		"required_field": "y",
-		"custom_alignment": "RH",
-		"question_number": "",
-		"matrix_group_name": "",
-		"matrix_ranking": "",
-		"field_annotation": "",
-		"evaluated_logic": ""
-	},
-	{
-		"field_name": "imq_3",
-		"form_name": "kss_mood",
-		"section_header": "",
-		"field_type": "range",
-		"field_label": "In diesem Moment fühle ich mich...",
-		"select_choices_or_calculations": [{
-				"code": "0",
-				"label": "sehr unruhig"
+				"label": "4 = wenig anstrengend",
+				"code": ""
+
+			},			
+			{
+				"label": "5 = mässig anstrengend",
+				"code": ""
+
 			},
 			{
-				"code": "6",
-				"label": "sehr ruhig"
-			}
-		],
-		"field_note": "",
-		"text_validation_type_or_show_slider_number": "",
-		"text_validation_min": "",
-		"text_validation_max": "6",
-		"identifier": "",
-		"branching_logic": "",
-		"required_field": "",
-		"custom_alignment": "RH",
-		"question_number": "",
-		"matrix_group_name": "",
-		"matrix_ranking": "",
-		"field_annotation": "",
-		"evaluated_logic": ""
-	},
-	{
-		"field_name": "imq_4",
-		"form_name": "kss_mood",
-		"section_header": "",
-		"field_type": "range",
-		"field_label": "In diesem Moment fühle ich mich...",
-		"select_choices_or_calculations": [{
-				"code": "0",
-				"label": "sehr energiegeladen"
+				"label": "6 = anstrengend",
+				"code": ""
+
 			},
 			{
-				"code": "6",
-				"label": "sehr energielos"
-			}
-		],
-		"field_note": "",
-		"text_validation_type_or_show_slider_number": "number",
-		"text_validation_min": "",
-		"text_validation_max": "6",
-		"identifier": "",
-		"branching_logic": "",
-		"required_field": "y",
-		"custom_alignment": "RH",
-		"question_number": "",
-		"matrix_group_name": "",
-		"matrix_ranking": "",
-		"field_annotation": "",
-		"evaluated_logic": ""
-	},
-	{
-		"field_name": "imq_5",
-		"form_name": "kss_mood",
-		"section_header": "",
-		"field_type": "range",
-		"field_label": "In diesem Moment fühle ich mich...",
-		"select_choices_or_calculations": [{
-				"label": "sehr unwohl",
-				"code": "0"
+				"label": "7 = anstrengender",
+				"code": ""
+
 			},
 			{
-				"label": "sehr wohl",
-				"code": "6"
-			}
-		],
-		"field_note": "",
-		"text_validation_type_or_show_slider_number": "number",
-		"text_validation_min": "",
-		"text_validation_max": "6",
-		"identifier": "",
-		"branching_logic": "",
-		"required_field": "y",
-		"custom_alignment": "RH",
-		"question_number": "",
-		"matrix_group_name": "",
-		"matrix_ranking": "",
-		"field_annotation": "",
-		"evaluated_logic": ""
-	},
-	{
-		"field_name": "imq_6",
-		"form_name": "kss_mood",
-		"section_header": "",
-		"field_type": "range",
-		"field_label": "In diesem Moment fühle ich mich...",
-		"select_choices_or_calculations": [{
-				"code": "0",
-				"label": "sehr entspannt"
+				"label": "8 = sehr anstrengend",
+				"code": ""
+
 			},
 			{
-				"code": "6",
-				"label": "sehr angespannt"
-			}
-		],
-		"field_note": "",
-		"text_validation_type_or_show_slider_number": "number",
-		"text_validation_min": "",
-		"text_validation_max": "6",
-		"identifier": "",
-		"branching_logic": "",
-		"required_field": "y",
-		"custom_alignment": "RH",
-		"question_number": "",
-		"matrix_group_name": "",
-		"matrix_ranking": "",
-		"field_annotation": "",
-		"evaluated_logic": ""
-	},
-	{
-		"field_name": "mood_1",
-		"form_name": "kss_mood",
-		"section_header": "",
-		"field_type": "slider",
-		"field_label": "Wie ist Ihre Stimmung im Moment?",
-		"select_choices_or_calculations": [{
-				"code": "0",
-				"label": "depressive Stimmung"
+				"label": "9 =  extrem anstrengend",
+				"code": ""
+
 			},
 			{
-				"code": "100",
-				"label": "gute Stimmung"
-			}
-		],
-		"field_note": "",
-		"text_validation_type_or_show_slider_number": "",
-		"text_validation_min": "",
-		"text_validation_max": "",
-		"identifier": "",
-		"branching_logic": "",
-		"required_field": "",
-		"custom_alignment": "RH",
-		"question_number": "",
-		"matrix_group_name": "",
-		"matrix_ranking": "",
-		"field_annotation": "",
-		"evaluated_logic": ""
-	},
-	{
-		"field_name": "mood_2",
-		"form_name": "kss_mood",
-		"section_header": "",
-		"field_type": "slider",
-		"field_label": "Wie fühlen Sie sich im Moment?",
-		"select_choices_or_calculations": [{
-				"code": "0",
-				"label": "so schlimm wie noch nie"
-			},
-			{
-				"code": "100",
-				"label": "so gut wie noch nie"
-			}
-		],
-		"field_note": "",
-		"text_validation_type_or_show_slider_number": "",
-		"text_validation_min": "",
-		"text_validation_max": "",
-		"identifier": "",
-		"branching_logic": "",
-		"required_field": "",
-		"custom_alignment": "RH",
-		"question_number": "",
-		"matrix_group_name": "",
-		"matrix_ranking": "",
-		"field_annotation": "",
-		"evaluated_logic": ""
-	},
-	{
-		"field_name": "quets_type",
-		"form_name": "kss_mood",
-		"section_header": "",
-		"field_type": "radio",
-		"field_label": "Did you answer at random?",
-		"select_choices_or_calculations": [{
-				"code": "0",
-				"label": "1 - yes"
-			},
-			{
-				"code": "1",
-				"label": "2 - no"
+				"label": "10 = maximal anstrengend",
+				"code": ""
+
 			}
 		],
 		"field_note": "",
@@ -352,5 +71,61 @@
 		"matrix_ranking": "",
 		"field_annotation": "",
 		"evaluated_logic": ""
-	}
+	},
+	{
+
+	"field_name": "ts",
+	"form_name": "bth",
+	"section_header": "Wärmeempfinden",
+	"field_type": "range",
+	"field_label": "",
+	"select_choices_or_calculations": [
+		{
+			"label": " 0 = kalt",
+			"code": ""
+		},
+		{
+			"label": "1 = kühl",
+			"code": ""
+		},
+		{
+			"label": "2 = etwas kühl",
+			"code": ""
+		},
+		{
+			"label": "3 = angenehm",
+			"code": ""
+
+		},
+		{
+			"label": "4 = etwas warm",
+			"code": ""
+
+		},			
+		{
+			"label": "5 = warm",
+			"code": ""
+
+		},
+		{
+			"label": "6 = heiss",
+			"code": ""
+
+		}
+	],
+	"field_note": "",
+	"text_validation_type_or_show_slider_number": "",
+	"text_validation_min": "",
+	"text_validation_max": "",
+	"identifier": "",
+	"branching_logic": "",
+	"required_field": "y",
+	"custom_alignment": "",
+	"question_number": "",
+	"matrix_group_name": "",
+	"matrix_ranking": "",
+	"field_annotation": "",
+	"evaluated_logic": ""
+}
+
 ]
