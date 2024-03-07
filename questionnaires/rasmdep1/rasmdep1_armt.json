@@ -7,54 +7,54 @@
 		"select_choices_or_calculations": [
 			{
 				"label": " 0 = Ruhe (z. B.: im Bett liegen)",
-				"code": ""
+				"code": "0"
 			},
 			{
 				"label": "1 = überhaupt nicht anstrengend (z. B.: stehen, sitzen)",
-				"code": ""
+				"code": "1"
 			},
 			{
 				"label": "2 = nicht anstrengend (z. B.: gehen)",
-				"code": ""
+				"code": "2"
 			},
 			{
 				"label": "3 = sehr wenig anstrengend",
-				"code": ""
+				"code": "3"
 
 			},
 			{
 				"label": "4 = wenig anstrengend",
-				"code": ""
+				"code": "4"
 
 			},			
 			{
 				"label": "5 = mässig anstrengend",
-				"code": ""
+				"code": "5"
 
 			},
 			{
 				"label": "6 = anstrengend",
-				"code": ""
+				"code": "6"
 
 			},
 			{
 				"label": "7 = anstrengender",
-				"code": ""
+				"code": "7"
 
 			},
 			{
 				"label": "8 = sehr anstrengend",
-				"code": ""
+				"code": "8"
 
 			},
 			{
 				"label": "9 =  extrem anstrengend",
-				"code": ""
+				"code": "9"
 
 			},
 			{
 				"label": "10 = maximal anstrengend",
-				"code": ""
+				"code": "10"
 
 			}
 		],
@@ -82,34 +82,34 @@
 	"select_choices_or_calculations": [
 		{
 			"label": " 0 = kalt",
-			"code": ""
+			"code": "0"
 		},
 		{
 			"label": "1 = kühl",
-			"code": ""
+			"code": "1"
 		},
 		{
 			"label": "2 = etwas kühl",
-			"code": ""
+			"code": "2"
 		},
 		{
 			"label": "3 = angenehm",
-			"code": ""
+			"code": "3"
 
 		},
 		{
 			"label": "4 = etwas warm",
-			"code": ""
+			"code": "4"
 
 		},			
 		{
 			"label": "5 = warm",
-			"code": ""
+			"code": "5"
 
 		},
 		{
 			"label": "6 = heiss",
-			"code": ""
+			"code": "6"
 
 		}
 	],
