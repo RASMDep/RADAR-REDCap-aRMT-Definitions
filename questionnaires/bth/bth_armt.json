@@ -3,7 +3,7 @@
 		"form_name": "bth",
 		"section_header": "Empfundene Anstrengung",
 		"field_type": "range",
-		"field_label": "Wie stark empfinden Sie, dass Ihr Körper arbeitet, basierend auf Ihrer Herzfrequenz, Atemfrequenz, Schweißbildung und Muskelermüdung?",
+		"field_label": "Geben Sie den Grad der empfundenen Anstrengung an.",
 		"select_choices_or_calculations": [
 			{
 				"label": " 0 = Ruhe (z. B.: im Bett liegen)",
