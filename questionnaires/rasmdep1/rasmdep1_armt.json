@@ -77,7 +77,7 @@
 	"field_name": "ts",
 	"form_name": "bth",
 	"section_header": "Wärmeempfinden",
-	"field_type": "range",
+	"field_type": "radio",
 	"field_label": "",
 	"select_choices_or_calculations": [
 		{
