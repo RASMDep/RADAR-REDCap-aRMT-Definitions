@@ -2,9 +2,9 @@
 		"field_name": "rpe",
 		"form_name": "bth",
 		"section_header": "Empfundene Anstrengung",
-		"field_type": "range",
-		"field_label": "Wie stark empfinden Sie, dass Ihr Körper arbeitet, basierend auf Ihrer Herzfrequenz, Atemfrequenz, Schweißbildung und Muskelermüdung?",
-		"select_choices_or_calculations": [
+		"field_type": "radio",
+                "field_label": "Geben Sie den Grad der empfundenen Anstrengung an.",		
+	        "select_choices_or_calculations": [
 			{
 				"label": " 0 = Ruhe (z. B.: im Bett liegen)",
 				"code": "0"
